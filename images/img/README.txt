@@ -14,7 +14,7 @@ Where every file appears (also in instructions/BGI_Solutions_Image_Prompts_v1.0.
 
 FILE          PAGE                                          WHERE
 --------------------------------------------------------------------------------------------------------------
-img_01.png    Home                                          top of page (behind the headline)
+img_01.webp   Home                                          top of page (behind the headline)
 img_02.png    Home                                          next to the five service areas
 img_02.svg    How We Work                                   diagram (shown whole): Proposed project flow
 img_03.svg    Diagnose, Prioritize & Strategize             diagram (shown whole): Choose the question you need answered
