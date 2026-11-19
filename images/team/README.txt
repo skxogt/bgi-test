@@ -8,7 +8,7 @@ Put these in THIS folder:  images/team/
                 (dimitry.jpg or dmitry.jpg also work)
   masud.jpg     Leadership: Masud, Operations Lead. Portrait, 4:5.
 
-Any of .jpg .jpeg .png .webp works, upper or lower case.
+Any of .jpg .jpeg .png .webp .svg works, upper or lower case.
 Portraits are cropped from the top, so keep heads near the top of the frame.
 
 The team.png and dmitriy.jpg here now are small preview copies (320 px and

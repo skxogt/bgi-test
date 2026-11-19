@@ -4,7 +4,8 @@ IMAGES AND VIDEO FOR THE BGI SOLUTIONS WEBSITE
 Put every image (and the Home page video) in THIS folder:  images/img/
 
 Name each file exactly after its slot id, for example  img_05.jpg
-Any of these work, upper or lower case:  .jpg  .jpeg  .png  .webp
+Any of these work, upper or lower case:  .jpg  .jpeg  .png  .webp  .svg
+If a slot has both a photo and an .svg, the photo is shown.
 Nothing else needs changing: a file with the right name replaces its
 placeholder automatically. Remove it and the placeholder comes back.
 

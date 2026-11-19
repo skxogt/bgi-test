@@ -30,7 +30,7 @@ All images and the Home page video go in **`images/img/`**, named after their sl
 `instructions/BGI_Solutions_Image_Prompts_v1.0.json` (for example `img_05.jpg`, `hero_video.mp4`).
 Team photos go in **`images/team/`**: `team.jpg`, `dmitriy.jpg` and `masud.jpg`.
 
-- `.jpg`, `.jpeg`, `.png` and `.webp` all work, upper or lower case.
+- `.jpg`, `.jpeg`, `.png`, `.webp` and `.svg` all work, upper or lower case. If a slot has both a photo and an `.svg`, the photo is shown.
 - A file with the right name replaces its placeholder automatically. Each placeholder shows the exact path it expects.
 - `images/img/README.txt` lists every slot with its page and recommended size.
 
