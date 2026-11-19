@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="img15-title img15-description">
+  <title id="img15-title">Content production map from a real customer question to conditional publication</title>
+  <desc id="img15-description">A real customer question leads to approved expertise and sources. The work branches to three draft formats: website answer, guide, and sales explainer. All formats pass through an editorial review and ownership check before a conditional step, publish when approved. Dashed borders indicate drafts, and solid borders indicate review or permission checkpoints. This is an illustrative workflow, not proof of published content.</desc>
+  <defs>
+    <filter id="shadow" x="-25%" y="-35%" width="160%" height="185%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#15324B" flood-opacity="0.075"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9" stroke="#08717C" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .font {font-family: Inter, 'Segoe UI', Arial, Helvetica, sans-serif;}
+      .dark {fill:#15324B;}
+      .muted {fill:#496270;}
+      .teal {fill:#08717C;}
+      .overline {font-size:17px; font-weight:700; letter-spacing:1.6px;}
+      .cardhead {font-size:16px; font-weight:700; letter-spacing:1.05px;}
+      .ctitle {font-size:26px; font-weight:700;}
+      .csub {font-size:17px; font-weight:500;}
+      .connector {stroke:#08717C; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round;}
+      .card {fill:#FFFFFF; stroke:#D6E1E6; stroke-width:2; filter:url(#shadow);}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#F7F9FA"/>
+  <path d="M0 0 H1600 V14 H0Z" fill="#15324B"/>
+  <rect x="92" y="74" width="6" height="27" rx="3" fill="#08717C"/>
+  <text class="font overline teal" x="116" y="96">SVC-11  /  CONTENT PRODUCTION MAP</text>
+  <text class="font dark" x="92" y="165" font-size="49" font-weight="750" letter-spacing="-1.6">From one question to useful content</text>
+  <text class="font muted" x="94" y="211" font-size="23">Each resource needs approved sources, editorial review and permission before publication.</text>
+  <path d="M 94 248 H1506" stroke="#DCE6EA" stroke-width="2"/>
+
+  <!-- Directed flow lines drawn behind cards -->
+  <path class="connector" d="M335 466 H377" marker-end="url(#arrow)"/>
+  <path class="connector" d="M634 466 H666 M666 374 V576 M666 374 H690 M666 475 H690 M666 576 H690"/>
+  <path class="connector" d="M948 374 H979 M948 475 H979 M948 576 H979 M979 374 V576 M979 466 H1012" marker-end="url(#arrow)"/>
+  <path class="connector" d="M1271 466 H1318" marker-end="url(#arrow)"/>
+  <!-- Tiny branch and reunification indicators -->
+  <circle cx="666" cy="466" r="6" fill="#08717C" stroke="#F7F9FA" stroke-width="2"/>
+  <circle cx="979" cy="466" r="6" fill="#08717C" stroke="#F7F9FA" stroke-width="2"/>
+  <g stroke="#08717C" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M683 370 L690 374 L683 378 M683 471 L690 475 L683 479 M683 572 L690 576 L683 580"/>
+  </g>
+
+  <!-- Step 1 -->
+  <rect class="card" x="90" y="376" width="245" height="178" rx="19"/>
+  <rect x="91" y="377" width="243" height="7" rx="3" fill="#15324B"/>
+  <text class="font cardhead muted" x="120" y="414">01  /  QUESTION</text>
+  <g transform="translate(121 440)">
+    <circle cx="15" cy="16" r="14" fill="#E6F2F3" stroke="#08717C" stroke-width="1.8"/>
+    <text class="font teal" x="15" y="23" text-anchor="middle" font-weight="800" font-size="19">?</text>
+  </g>
+  <text class="font ctitle dark" x="120" y="499">Real customer</text>
+  <text class="font ctitle dark" x="120" y="531">question</text>
+
+  <!-- Step 2 -->
+  <rect class="card" x="379" y="376" width="255" height="178" rx="19"/>
+  <rect x="380" y="377" width="253" height="7" rx="3" fill="#08717C"/>
+  <text class="font cardhead muted" x="404" y="414">02  /  SOURCES</text>
+  <g transform="translate(403 439)" stroke="#08717C" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="2" y="1" width="25" height="30" rx="4" fill="#E6F2F3"/>
+    <path d="M8 10 H21 M8 16 H21 M8 22 H17"/>
+  </g>
+  <text class="font dark" font-size="21.2" font-weight="700" x="404" y="498">Approved expertise</text>
+  <text class="font dark" font-size="21.2" font-weight="700" x="404" y="528">and sources</text>
+
+  <!-- Step 3 section header -->
+  <text class="font cardhead muted" x="698" y="304">03  /  DRAFT FORMATS</text>
+
+  <!-- Dashed draft cards, explicitly distinguish from approved output -->
+  <rect x="692" y="329" width="256" height="90" rx="17" fill="#FFFFFF" stroke="#8299A6" stroke-width="2.3" stroke-dasharray="8 6"/>
+  <rect x="713" y="349" width="49" height="49" rx="12" fill="#E6F2F3"/>
+  <g transform="translate(725 361)" fill="none" stroke="#08717C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="0" y="0" width="25" height="24" rx="4"/><path d="M0 7 H25 M6 13 H19 M6 18 H14"/></g>
+  <text class="font dark" x="775" y="380" font-size="20" font-weight="700">Website answer</text>
+
+  <rect x="692" y="430" width="256" height="90" rx="17" fill="#FFFFFF" stroke="#8299A6" stroke-width="2.3" stroke-dasharray="8 6"/>
+  <rect x="713" y="450" width="49" height="49" rx="12" fill="#E6F2F3"/>
+  <g transform="translate(726 460)" fill="none" stroke="#08717C" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0 3 C8 1 12 3 13 5 C16 3 21 1 26 3 V28 C20 26 16 27 13 29 C9 27 4 26 0 28 Z"/><path d="M13 5 V29"/></g>
+  <text class="font dark" x="775" y="481" font-size="22" font-weight="700">Guide</text>
+
+  <rect x="692" y="531" width="256" height="90" rx="17" fill="#FFFFFF" stroke="#8299A6" stroke-width="2.3" stroke-dasharray="8 6"/>
+  <rect x="713" y="551" width="49" height="49" rx="12" fill="#E6F2F3"/>
+  <g transform="translate(724 561)" fill="none" stroke="#08717C" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="1" width="27" height="22" rx="3"/><path d="M8 30 L14 23 L20 30 M7 9 H21 M7 15 H18"/></g>
+  <text class="font dark" x="775" y="583" font-size="20" font-weight="700">Sales explainer</text>
+
+  <!-- Step 4 editorial gate -->
+  <rect x="1013" y="376" width="258" height="178" rx="19" fill="#FFFFFF" stroke="#C77926" stroke-width="2.8" filter="url(#shadow)"/>
+  <rect x="1014.5" y="377.5" width="255" height="7" rx="3" fill="#C77926"/>
+  <text class="font cardhead muted" x="1039" y="414">04  /  REVIEW GATE</text>
+  <g transform="translate(1039 437)" stroke="#985714" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 0 L26 6 V17 C26 25 19 31 13 34 C7 31 0 25 0 17 V6 Z" fill="#FFF5E8"/>
+    <path d="M7 16 L12 21 L21 11"/>
+  </g>
+  <text class="font dark" x="1039" y="495" font-size="23" font-weight="700">Editorial review</text>
+  <text class="font dark" x="1039" y="526" font-size="19.2" font-weight="700">and ownership check</text>
+
+  <!-- Step 5 conditional, not actual publication -->
+  <rect x="1320" y="376" width="224" height="178" rx="19" fill="#F1F5F6" stroke="#15324B" stroke-width="2.6" filter="url(#shadow)"/>
+  <rect x="1321.5" y="377.5" width="221" height="7" rx="3" fill="#15324B"/>
+  <text class="font" x="1340" y="414" font-size="15.3" font-weight="700" letter-spacing="0.55" fill="#496270">05  /  IF APPROVED</text>
+  <g transform="translate(1340 440)" fill="none" stroke="#08717C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="6" width="29" height="23" rx="4"/>
+    <path d="M9 15 H21 M9 21 H18 M7 6 V1 H22 V6"/>
+  </g>
+  <text class="font dark" x="1340" y="498" font-size="26" font-weight="700">Publish when</text>
+  <text class="font dark" x="1340" y="529" font-size="26" font-weight="700">approved</text>
+
+  <!-- Purposeful design legend and disclosure -->
+  <rect x="92" y="689" width="1412" height="124" rx="20" fill="#FFFFFF" stroke="#DCE6EA" stroke-width="2"/>
+  <text class="font overline muted" x="122" y="731">HOW TO READ THE MAP</text>
+  <rect x="126" y="752" width="43" height="20" rx="5" fill="#FFFFFF" stroke="#8299A6" stroke-width="2.4" stroke-dasharray="6 4"/>
+  <text class="font dark" x="184" y="770" font-size="19">Dashed = draft format</text>
+  <rect x="527" y="752" width="43" height="20" rx="5" fill="#FFFFFF" stroke="#C77926" stroke-width="2.4"/>
+  <text class="font dark" x="585" y="770" font-size="19">Solid gate = review and permission check</text>
+  <text class="font muted" x="122" y="796" font-size="16.5">Illustrative workflow only — no named publication, client asset or completed project is represented.</text>
+
+  <text class="font" x="1506" y="856" text-anchor="end" font-size="16.5" fill="#6B7F89">BGI SOLUTIONS  /  SVC-11  /  EXPLANATORY VISUAL</text>
+</svg>

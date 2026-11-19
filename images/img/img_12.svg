@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">SVC-04 - Business capability blueprint</title>
+<desc id="svg-desc">An illustrative business capability model. The business goal is supported by four capability layers: people and responsibilities, day-to-day process, tools and information, and checks and ownership. Upward arrows indicate dependencies from readiness checks toward the goal, with a dotted feedback loop. A separate panel named Gaps to investigate contains three empty lines, not completed findings.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#F1F6F8"/></linearGradient>
+ <filter id="cardshadow" x="-10%" y="-30%" width="120%" height="170%"><feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#17364B" flood-opacity="0.07"/></filter>
+ <marker id="arrow-up" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 10 L6 2 L11 10" fill="none" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <marker id="arrow-right" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto"><path d="M2 2 L10 6 L2 10" fill="none" stroke="#08717C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#F7F9FA"/>
+<rect x="42" y="35" width="1516" height="830" rx="30" fill="url(#bg)" stroke="#E6EEF1" stroke-width="2"/>
+<g font-family="Inter, Arial, Helvetica, sans-serif">
+
+<rect x="84" y="73" width="8" height="35" rx="4" fill="#08717C" stroke="#08717C" stroke-width="0" />
+<text x="112" y="96" fill="#08717C" font-size="17" font-weight="700" text-anchor="start" letter-spacing="2.2">BGI SOLUTIONS  /  SVC-04</text>
+<text x="85" y="166" fill="#15324B" font-size="49" font-weight="750" text-anchor="start" >Business capability blueprint</text>
+<text x="87" y="210" fill="#627783" font-size="22" font-weight="400" text-anchor="start" >An illustrative structure for connecting roles, routine work, tools, and review controls.</text>
+<line x1="85" y1="239" x2="1512" y2="239" stroke="#DAE5E8" stroke-width="2"/>
+<rect x="76" y="270" width="1000" height="512" rx="24" fill="#FFFFFF" stroke="#DAE5E8" stroke-width="2" />
+<rect x="1096" y="270" width="425" height="512" rx="24" fill="#FFFFFF" stroke="#DAE5E8" stroke-width="2" />
+<text x="108" y="306" fill="#08717C" font-size="16" font-weight="720" text-anchor="start" letter-spacing="2">CAPABILITY ELEMENTS</text>
+<rect x="321" y="327" width="648" height="76" rx="17" fill="#15324B" stroke="#15324B" stroke-width="0" filter="url(#cardshadow)"/>
+<rect x="338" y="342" width="5" height="46" rx="2" fill="#C77926" stroke="#C77926" stroke-width="0" />
+<circle cx="385" cy="365" r="20" stroke="#D1E5E9" stroke-width="2.5" fill="none"/>
+<circle cx="385" cy="365" r="9" stroke="#D1E5E9" stroke-width="2.5" fill="none"/>
+<circle cx="385" cy="365" r="2.5" fill="#FFFFFF"/>
+<text x="434" y="374" fill="#FFFFFF" font-size="29" font-weight="720" text-anchor="start" >Business goal to support</text>
+<rect x="238" y="440" width="780" height="66" rx="15" fill="#FFFFFF" stroke="#DAE5E8" stroke-width="2" filter="url(#cardshadow)"/>
+<rect x="239" y="441" width="7" height="64" rx="2" fill="#08717C" stroke="#08717C" stroke-width="0" />
+<circle cx="292" cy="473" r="23" fill="#E1F0F0"/>
+<circle cx="286" cy="468" r="5" stroke="#08717C" stroke-width="2.5" fill="none"/>
+<circle cx="299" cy="470" r="4.5" stroke="#08717C" stroke-width="2.4" fill="none"/>
+<path d="M279 484 C279 475 292 475 292 484 M293 483 C293 477 305 477 305 483" stroke="#08717C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<text x="339" y="483" fill="#15324B" font-size="27" font-weight="680" text-anchor="start" >People and responsibilities</text>
+<rect x="238" y="525" width="780" height="66" rx="15" fill="#EEF7F7" stroke="#DAE5E8" stroke-width="2" filter="url(#cardshadow)"/>
+<rect x="239" y="526" width="7" height="64" rx="2" fill="#08717C" stroke="#08717C" stroke-width="0" />
+<circle cx="292" cy="558" r="23" fill="#E1F0F0"/>
+<rect x="279" y="551" width="7" height="7" rx="2" fill="none" stroke="#08717C" stroke-width="2"/>
+<rect x="298" y="551" width="7" height="7" rx="2" fill="none" stroke="#08717C" stroke-width="2"/>
+<rect x="288.5" y="565" width="7" height="7" rx="2" fill="none" stroke="#08717C" stroke-width="2"/>
+<path d="M286 554.5 H298 M282.5 558 V563 H292 V565" fill="none" stroke="#08717C" stroke-width="2"/>
+<text x="339" y="568" fill="#15324B" font-size="27" font-weight="680" text-anchor="start" >Day-to-day process</text>
+<rect x="238" y="610" width="780" height="66" rx="15" fill="#FFFFFF" stroke="#DAE5E8" stroke-width="2" filter="url(#cardshadow)"/>
+<rect x="239" y="611" width="7" height="64" rx="2" fill="#08717C" stroke="#08717C" stroke-width="0" />
+<circle cx="292" cy="643" r="23" fill="#E1F0F0"/>
+<rect x="278" y="635" width="29" height="20" rx="4" stroke="#08717C" stroke-width="2.4" fill="none"/>
+<line x1="278" y1="642" x2="307" y2="642" stroke="#08717C" stroke-width="2"/>
+<path d="M285 649 H293 M298 649 H301" stroke="#08717C" stroke-width="2" stroke-linecap="round"/>
+<text x="339" y="653" fill="#15324B" font-size="27" font-weight="680" text-anchor="start" >Tools and information</text>
+<rect x="238" y="695" width="780" height="66" rx="15" fill="#EEF7F7" stroke="#DAE5E8" stroke-width="2" filter="url(#cardshadow)"/>
+<rect x="239" y="696" width="7" height="64" rx="2" fill="#08717C" stroke="#08717C" stroke-width="0" />
+<circle cx="292" cy="728" r="23" fill="#E1F0F0"/>
+<path d="M292 719 L303 723 V732 C303 738 297 741 292 744 C287 741 281 738 281 732 V723 Z" fill="none" stroke="#08717C" stroke-width="2.3" stroke-linejoin="round"/>
+<path d="M287 730 H297 M287 735 H294" stroke="#08717C" stroke-width="2" stroke-linecap="round"/>
+<text x="339" y="738" fill="#15324B" font-size="27" font-weight="680" text-anchor="start" >Checks and ownership</text>
+<path d="M628 439 V419" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round"/>
+<path d="M621 420 L628 409 L635 420" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M628 524 V521" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round"/>
+<path d="M621 522 L628 511 L635 522" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M628 609 V606" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round"/>
+<path d="M621 607 L628 596 L635 607" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M628 694 V691" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round"/>
+<path d="M621 692 L628 681 L635 692" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M238 727 H216 Q174 727 174 685 V399 Q174 365 208 365 H310" fill="none" stroke="#08717C" stroke-width="2.5" stroke-dasharray="8 8" opacity="0.83" marker-end="url(#arrow-right)"/>
+<text x="136" y="622" fill="#08717C" font-size="15" font-weight="700" text-anchor="start" letter-spacing="1.9" transform="rotate(-90 136 622)">FEEDBACK TO GOAL</text>
+<rect x="1127" y="301" width="135" height="32" rx="16" fill="#EEF7F7" stroke="#EEF7F7" stroke-width="0" />
+<text x="1194" y="323" fill="#08717C" font-size="14" font-weight="750" text-anchor="middle" letter-spacing="1.6">OPEN ITEMS</text>
+<text x="1128" y="383" fill="#15324B" font-size="30" font-weight="750" text-anchor="start" >Gaps to investigate</text>
+<text x="1129" y="421" fill="#627783" font-size="19" font-weight="400" text-anchor="start" >Leave unresolved questions open</text>
+<text x="1129" y="449" fill="#627783" font-size="19" font-weight="400" text-anchor="start" >until project evidence is available.</text>
+<rect x="1128" y="480" width="356" height="56" rx="12" fill="#FAFCFD" stroke="#E1EAED" stroke-width="1.5" />
+<line x1="1154" y1="509" x2="1457" y2="509" stroke="#ACC6CC" stroke-width="2.4" stroke-dasharray="3 9" stroke-linecap="round"/>
+<rect x="1128" y="563" width="356" height="56" rx="12" fill="#FAFCFD" stroke="#E1EAED" stroke-width="1.5" />
+<line x1="1154" y1="592" x2="1457" y2="592" stroke="#ACC6CC" stroke-width="2.4" stroke-dasharray="3 9" stroke-linecap="round"/>
+<rect x="1128" y="646" width="356" height="56" rx="12" fill="#FAFCFD" stroke="#E1EAED" stroke-width="1.5" />
+<line x1="1154" y1="675" x2="1457" y2="675" stroke="#ACC6CC" stroke-width="2.4" stroke-dasharray="3 9" stroke-linecap="round"/>
+<text x="1132" y="751" fill="#627783" font-size="16" font-weight="450" text-anchor="start" >No findings have been assigned.</text>
+<rect x="85" y="808" width="10" height="10" rx="5" fill="#C77926" stroke="#C77926" stroke-width="0" />
+<text x="106" y="820" fill="#627783" font-size="17" font-weight="400" text-anchor="start" >Illustrative capability model, not a measured assessment or a claim of implementation.</text>
+</g></svg>

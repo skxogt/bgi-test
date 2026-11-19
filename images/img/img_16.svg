@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="img16-title img16-desc">
+  <title id="img16-title">Illustrative inquiry handoff, from intended audience to an assigned next step</title>
+  <desc id="img16-desc">Five stages: Intended audience, Relevant message, Inquiry arrives, Check fit, and Assign next step. A separate optional clarification branch from Check fit leads to Needs more information and Manual follow-up, then returns to Check fit. A note explains that actual forms, recipients and privacy processing must be verified. The diagram does not show or imply a connected CRM automation.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-35%" width="150%" height="190%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#15324B" flood-opacity="0.065"/>
+    </filter>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.7" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1 L9 5 L1 9" stroke="#08717C" fill="none" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-dashed" viewBox="0 0 10 10" refX="8.7" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1 L9 5 L1 9" stroke="#587B88" fill="none" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .font{font-family:Inter,'Segoe UI',Arial,Helvetica,sans-serif}
+      .dark{fill:#15324B}.muted{fill:#496270}.teal{fill:#08717C}
+      .overline{font-size:17px;font-weight:750;letter-spacing:1.6px}
+      .smallhead{font-size:16px;font-weight:750;letter-spacing:1.1px}
+      .connector{fill:none;stroke:#08717C;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .clarify{fill:none;stroke:#587B88;stroke-width:2.8;stroke-dasharray:8 7;stroke-linecap:round;stroke-linejoin:round}
+      .card{fill:#FFFFFF;stroke:#D8E4E9;stroke-width:2;filter:url(#shadow)}
+      .icon{stroke:#08717C;stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#F7F9FA"/>
+  <rect width="1600" height="14" fill="#15324B"/>
+  <rect x="92" y="74" width="6" height="27" rx="3" fill="#08717C"/>
+  <text class="font overline teal" x="116" y="96">SVC-12  /  INQUIRY HANDOFF MAP</text>
+  <text class="font dark" x="92" y="166" font-size="49" font-weight="750" letter-spacing="-1.6">From inquiry to a clear next step</text>
+  <text class="font muted" x="94" y="212" font-size="21.8">An inquiry is more useful when the next person knows what it concerns and what should happen next.</text>
+  <path d="M94 248 H1506" stroke="#DCE6EA" stroke-width="2"/>
+
+  <!-- Exact five-stage main route. Connectors are handoff logic, not live automation. -->
+  <g class="connector" marker-end="url(#arr)">
+    <path d="M350 425 H396"/>
+    <path d="M630 425 H676"/>
+    <path d="M910 425 H956"/>
+    <path d="M1190 425 H1236"/>
+  </g>
+
+  <!-- Five equal-weight process stages -->
+  <g>
+    <rect class="card" x="120" y="311" width="230" height="218" rx="19"/>
+    <rect x="121.5" y="312" width="227" height="7" rx="3.5" fill="#15324B"/>
+    <text class="font smallhead muted" x="143" y="354">01  /  AUDIENCE</text>
+    <rect x="144" y="377" width="54" height="54" rx="14" fill="#E6F2F3"/>
+    <g class="icon" transform="translate(154 387)">
+      <circle cx="17" cy="10" r="7"/>
+      <path d="M3 34 C4 22,30 22,31 34"/>
+    </g>
+    <text class="font dark" x="143" y="479" font-size="21" font-weight="750">Intended audience</text>
+  </g>
+  <g>
+    <rect class="card" x="400" y="311" width="230" height="218" rx="19"/>
+    <rect x="401.5" y="312" width="227" height="7" rx="3.5" fill="#08717C"/>
+    <text class="font smallhead muted" x="423" y="354">02  /  MESSAGE</text>
+    <rect x="424" y="377" width="54" height="54" rx="14" fill="#E6F2F3"/>
+    <g class="icon" transform="translate(434 388)">
+      <path d="M2 3 H31 Q35 3 35 8 V24 Q35 29 30 29 H16 L6 36 V29 H6 Q2 29 2 25 Z"/>
+      <path d="M9 12 H27 M9 19 H23"/>
+    </g>
+    <text class="font dark" x="423" y="479" font-size="21" font-weight="750">Relevant message</text>
+  </g>
+  <g>
+    <rect class="card" x="680" y="311" width="230" height="218" rx="19"/>
+    <rect x="681.5" y="312" width="227" height="7" rx="3.5" fill="#08717C"/>
+    <text class="font smallhead muted" x="703" y="354">03  /  INQUIRY</text>
+    <rect x="704" y="377" width="54" height="54" rx="14" fill="#E6F2F3"/>
+    <g class="icon" transform="translate(713 389)">
+      <rect x="1" y="4" width="35" height="28" rx="5"/>
+      <path d="M2 8 L18 20 L35 8"/>
+    </g>
+    <text class="font dark" x="703" y="479" font-size="22.2" font-weight="750">Inquiry arrives</text>
+  </g>
+  <g>
+    <rect x="960" y="311" width="230" height="218" rx="19" fill="#FFFFFF" stroke="#C77926" stroke-width="2.8" filter="url(#shadow)"/>
+    <rect x="961.5" y="312" width="227" height="7" rx="3.5" fill="#C77926"/>
+    <text class="font smallhead muted" x="983" y="354">04  /  CHECK FIT</text>
+    <rect x="984" y="377" width="54" height="54" rx="14" fill="#FEF4E8"/>
+    <g transform="translate(997 387)" fill="none" stroke="#985714" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="14" cy="15" r="12"/>
+      <path d="M23 24 L32 34"/>
+    </g>
+    <text class="font dark" x="983" y="479" font-size="23" font-weight="750">Check fit</text>
+  </g>
+  <g>
+    <rect x="1240" y="311" width="230" height="218" rx="19" fill="#F1F5F6" stroke="#15324B" stroke-width="2.6" filter="url(#shadow)"/>
+    <rect x="1241.5" y="312" width="227" height="7" rx="3.5" fill="#15324B"/>
+    <text class="font smallhead muted" x="1263" y="354">05  /  NEXT ACTION</text>
+    <rect x="1264" y="377" width="54" height="54" rx="14" fill="#E6F2F3"/>
+    <g class="icon" transform="translate(1275 389)">
+      <rect x="0" y="6" width="31" height="28" rx="4"/>
+      <path d="M8 6 V2 H23 V6 M8 15 H23 M8 22 H19"/>
+    </g>
+    <text class="font dark" x="1263" y="479" font-size="20.9" font-weight="750">Assign next step</text>
+  </g>
+
+  <!-- In implementation the actual form, routing and privacy facts are not assumed. -->
+  <rect x="665" y="556" width="280" height="108" rx="15" fill="#FFFFFF" stroke="#D6E2E7" stroke-width="2"/>
+  <text class="font" x="684" y="583" font-size="14.2" font-weight="750" letter-spacing="0.85" fill="#496270">IMPLEMENTATION NOTE</text>
+  <text class="font dark" x="684" y="608" font-size="16.6">Actual form, recipients and</text>
+  <text class="font dark" x="684" y="630" font-size="16.6">privacy processing must</text>
+  <text class="font dark" x="684" y="652" font-size="16.6">be verified.</text>
+  <path d="M795 529 V558" stroke="#91A9B3" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- Optional manual clarification loop from Check fit; no connected CRM depicted. -->
+  <path class="clarify" d="M1014 529 V674" marker-end="url(#arr-dashed)"/>
+  <text class="font muted" x="1041" y="641" font-size="15.5">If details are missing</text>
+  <rect x="959" y="676" width="230" height="77" rx="14" fill="#FFFFFF" stroke="#8299A6" stroke-width="2.3" stroke-dasharray="7 5"/>
+  <text class="font dark" x="978" y="708" font-size="19" font-weight="700">Needs more</text>
+  <text class="font dark" x="978" y="735" font-size="19" font-weight="700">information</text>
+  <path class="clarify" d="M1189 714 H1237" marker-end="url(#arr-dashed)"/>
+  <rect x="1239" y="676" width="230" height="77" rx="14" fill="#FFFFFF" stroke="#8299A6" stroke-width="2.3" stroke-dasharray="7 5"/>
+  <g class="icon" transform="translate(1259 699)">
+    <path d="M2 4 H22 Q25 4 25 8 V16 Q25 20 21 20 H12 L6 25 V20 H6 Q2 20 2 16 Z" stroke-width="2.1"/>
+  </g>
+  <text class="font dark" x="1300" y="720" font-size="19.6" font-weight="700">Manual</text>
+  <text class="font dark" x="1300" y="742" font-size="19.6" font-weight="700">follow-up</text>
+  <path class="clarify" d="M1348 676 V613 Q1348 587 1322 587 H1137 Q1133 587 1133 578 V531" marker-end="url(#arr-dashed)"/>
+  <rect x="1169" y="567" width="162" height="29" rx="14" fill="#F7F9FA"/>
+  <text class="font muted" x="1250" y="586" font-size="14.4" text-anchor="middle">Recheck after reply</text>
+
+  <rect x="92" y="797" width="1412" height="43" rx="14" fill="#FFFFFF" stroke="#DCE6EA" stroke-width="1.5"/>
+  <path d="M123 818 H171" stroke="#08717C" stroke-width="3" marker-end="url(#arr)"/>
+  <text class="font muted" x="190" y="825" font-size="16.4">Main handoff</text>
+  <path d="M400 818 H448" class="clarify" marker-end="url(#arr-dashed)"/>
+  <text class="font muted" x="466" y="825" font-size="16.4">Optional manual clarification</text>
+  <text class="font muted" x="939" y="825" font-size="15.4">Illustrative only — actual routing and permissions are unverified.</text>
+  <text class="font" x="1505" y="872" text-anchor="end" font-size="16" fill="#6B7F89">BGI SOLUTIONS  /  SVC-12  /  EXPLANATORY VISUAL</text>
+</svg>

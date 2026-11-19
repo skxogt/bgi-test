@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Illustrative customer discovery and decision journey with service touchpoints</title>
+<desc id="desc">Five stages read Find, Understand, Trust, Ask, Decide. Illustrative service touchpoints beneath the stages: Find SVC-09; Understand SVC-11 and SVC-15; Trust SVC-10; Ask SVC-12; Decide SVC-13. SVC-14, Review acquisition costs, is in a separate business-side measurement rail spanning the full journey. Paths differ by customer and business.</desc>
+<defs>
+<pattern id="pin" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" fill="#9DBBC5" opacity="0.22"/></pattern>
+<linearGradient id="navy" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#15324B"/><stop offset="1" stop-color="#1C485B"/></linearGradient>
+<filter id="shadow" x="-10%" y="-20%" width="120%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#1B4556" flood-opacity="0.06"/></filter>
+</defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#F7F9FA" stroke="none" stroke-width="1" />
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="url(#pin)" stroke="none" stroke-width="1" />
+<text x="110" y="74" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" fill="#08717C" font-weight="700" text-anchor="start" letter-spacing="3" >CUSTOMER PATH / SERVICE TOUCHPOINTS</text>
+<text x="110" y="137" font-family="Inter, Arial, Helvetica, sans-serif" font-size="51" fill="#15324B" font-weight="700" text-anchor="start" letter-spacing="-1" >From discovery to decision</text>
+<text x="112" y="184" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#506D7C" font-weight="400" text-anchor="start" >Illustrative journey from discovery through confidence and interest to inquiry and decision.</text>
+<line x1="110" y1="221" x2="1490" y2="221" stroke="#D5E3E8" stroke-width="2" />
+<text x="111" y="262" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" fill="#08717C" font-weight="700" text-anchor="start" letter-spacing="2.5" >THE CUSTOMER JOURNEY</text>
+<text x="1489" y="262" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" fill="#506D7C" font-weight="600" text-anchor="end" letter-spacing="1.3" >FIVE POSSIBLE STAGES</text>
+<line x1="367" y1="357" x2="380" y2="357" stroke="#188798" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 374 351 L 380 357 L 374 363" fill="none" stroke="#188798" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="650" y1="357" x2="663" y2="357" stroke="#188798" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 657 351 L 663 357 L 657 363" fill="none" stroke="#188798" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="933" y1="357" x2="946" y2="357" stroke="#188798" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 940 351 L 946 357 L 940 363" fill="none" stroke="#188798" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1216" y1="357" x2="1229" y2="357" stroke="#188798" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 1223 351 L 1229 357 L 1223 363" fill="none" stroke="#188798" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="110" y="285" width="248" height="169" rx="23" fill="#FFFFFF" stroke="#D5E3E8" stroke-width="2" filter="url(#shadow)"/>
+<rect x="110" y="305" width="5" height="128" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="161" cy="350" r="29" fill="#E8F3F4" stroke="none" stroke-width="1"/>
+<text x="326" y="322" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#08717C" font-weight="700" text-anchor="end" letter-spacing="1.5" >01</text>
+<text x="138" y="418" font-family="Inter, Arial, Helvetica, sans-serif" font-size="31" fill="#15324B" font-weight="700" text-anchor="start" >Find</text>
+<circle cx="157" cy="346" r="10" fill="none" stroke="#08717C" stroke-width="2.7"/>
+<path d="M 165 354 l 10 10" fill="none" stroke="#08717C" stroke-width="2.7" stroke-linecap="round"/>
+<rect x="393" y="285" width="248" height="169" rx="23" fill="#FFFFFF" stroke="#D5E3E8" stroke-width="2" filter="url(#shadow)"/>
+<rect x="393" y="305" width="5" height="128" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="444" cy="350" r="29" fill="#E8F3F4" stroke="none" stroke-width="1"/>
+<text x="609" y="322" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#08717C" font-weight="700" text-anchor="end" letter-spacing="1.5" >02</text>
+<text x="421" y="418" font-family="Inter, Arial, Helvetica, sans-serif" font-size="31" fill="#15324B" font-weight="700" text-anchor="start" >Understand</text>
+<path d="M 428 340 Q 436 337 444 342 L 444 363 Q 437 358 428 361 Z" fill="none" stroke="#08717C" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M 460 340 Q 452 337 444 342 L 444 363 Q 451 358 460 361 Z" fill="none" stroke="#08717C" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="676" y="285" width="248" height="169" rx="23" fill="#FFFFFF" stroke="#D5E3E8" stroke-width="2" filter="url(#shadow)"/>
+<rect x="676" y="305" width="5" height="128" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="727" cy="350" r="29" fill="#E8F3F4" stroke="none" stroke-width="1"/>
+<text x="892" y="322" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#08717C" font-weight="700" text-anchor="end" letter-spacing="1.5" >03</text>
+<text x="704" y="418" font-family="Inter, Arial, Helvetica, sans-serif" font-size="31" fill="#15324B" font-weight="700" text-anchor="start" >Trust</text>
+<path d="M 727 334 L 742 340 V 351 Q 739 363 727 367 Q 715 363 712 351 V 340 Z" fill="none" stroke="#08717C" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M 721 350 l 5 5 l 9 -10" fill="none" stroke="#08717C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="959" y="285" width="248" height="169" rx="23" fill="#FFFFFF" stroke="#D5E3E8" stroke-width="2" filter="url(#shadow)"/>
+<rect x="959" y="305" width="5" height="128" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="1010" cy="350" r="29" fill="#E8F3F4" stroke="none" stroke-width="1"/>
+<text x="1175" y="322" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#08717C" font-weight="700" text-anchor="end" letter-spacing="1.5" >04</text>
+<text x="987" y="418" font-family="Inter, Arial, Helvetica, sans-serif" font-size="31" fill="#15324B" font-weight="700" text-anchor="start" >Ask</text>
+<path d="M 993 338 H 1027 V 359 H 1006 L 997 366 V 359 H 993 Z" fill="none" stroke="#08717C" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="1002" cy="348" r="1.8" fill="#08717C" stroke="none" stroke-width="1"/>
+<circle cx="1010" cy="348" r="1.8" fill="#08717C" stroke="none" stroke-width="1"/>
+<circle cx="1018" cy="348" r="1.8" fill="#08717C" stroke="none" stroke-width="1"/>
+<rect x="1242" y="285" width="248" height="169" rx="23" fill="#FFFFFF" stroke="#D5E3E8" stroke-width="2" filter="url(#shadow)"/>
+<rect x="1242" y="305" width="5" height="128" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="1293" cy="350" r="29" fill="#E8F3F4" stroke="none" stroke-width="1"/>
+<text x="1458" y="322" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#08717C" font-weight="700" text-anchor="end" letter-spacing="1.5" >05</text>
+<text x="1270" y="418" font-family="Inter, Arial, Helvetica, sans-serif" font-size="31" fill="#15324B" font-weight="700" text-anchor="start" >Decide</text>
+<circle cx="1293" cy="350" r="17" fill="none" stroke="#08717C" stroke-width="2.5"/>
+<path d="M 1283 350 l 7 7 l 13 -14" fill="none" stroke="#08717C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="234" y1="454" x2="234" y2="510" stroke="#86ADB6" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="234" cy="510" r="4" fill="#188798" stroke="none" stroke-width="1"/>
+<line x1="234" y1="510" x2="234" y2="555" stroke="#86ADB6" stroke-width="2.4" />
+<line x1="517" y1="454" x2="517" y2="510" stroke="#86ADB6" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="517" cy="510" r="4" fill="#188798" stroke="none" stroke-width="1"/>
+<line x1="517" y1="510" x2="517" y2="527" stroke="#86ADB6" stroke-width="2.4" />
+<line x1="451" y1="527" x2="583" y2="527" stroke="#86ADB6" stroke-width="2.4" />
+<line x1="451" y1="527" x2="451" y2="555" stroke="#86ADB6" stroke-width="2.4" />
+<line x1="583" y1="527" x2="583" y2="555" stroke="#86ADB6" stroke-width="2.4" />
+<line x1="800" y1="454" x2="800" y2="510" stroke="#86ADB6" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="800" cy="510" r="4" fill="#188798" stroke="none" stroke-width="1"/>
+<line x1="800" y1="510" x2="800" y2="555" stroke="#86ADB6" stroke-width="2.4" />
+<line x1="1083" y1="454" x2="1083" y2="510" stroke="#86ADB6" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="1083" cy="510" r="4" fill="#188798" stroke="none" stroke-width="1"/>
+<line x1="1083" y1="510" x2="1083" y2="555" stroke="#86ADB6" stroke-width="2.4" />
+<line x1="1366" y1="454" x2="1366" y2="510" stroke="#86ADB6" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="1366" cy="510" r="4" fill="#188798" stroke="none" stroke-width="1"/>
+<line x1="1366" y1="510" x2="1366" y2="555" stroke="#86ADB6" stroke-width="2.4" />
+<rect x="150" y="555" width="168" height="57" rx="13" fill="#E6F1F3" stroke="#A9CED5" stroke-width="2" />
+<text x="234.0" y="593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#08717C" font-weight="700" text-anchor="middle" letter-spacing="0.3" >SVC-09</text>
+<rect x="397" y="555" width="110" height="57" rx="13" fill="#E6F1F3" stroke="#A9CED5" stroke-width="2" />
+<text x="452.0" y="593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#08717C" font-weight="700" text-anchor="middle" letter-spacing="0.3" >SVC-11</text>
+<rect x="527" y="555" width="110" height="57" rx="13" fill="#E6F1F3" stroke="#A9CED5" stroke-width="2" />
+<text x="582.0" y="593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#08717C" font-weight="700" text-anchor="middle" letter-spacing="0.3" >SVC-15</text>
+<rect x="716" y="555" width="168" height="57" rx="13" fill="#E6F1F3" stroke="#A9CED5" stroke-width="2" />
+<text x="800.0" y="593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#08717C" font-weight="700" text-anchor="middle" letter-spacing="0.3" >SVC-10</text>
+<rect x="999" y="555" width="168" height="57" rx="13" fill="#E6F1F3" stroke="#A9CED5" stroke-width="2" />
+<text x="1083.0" y="593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#08717C" font-weight="700" text-anchor="middle" letter-spacing="0.3" >SVC-12</text>
+<rect x="1282" y="555" width="168" height="57" rx="13" fill="#E6F1F3" stroke="#A9CED5" stroke-width="2" />
+<text x="1366.0" y="593" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#08717C" font-weight="700" text-anchor="middle" letter-spacing="0.3" >SVC-13</text>
+<text x="112" y="644" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#506D7C" font-weight="400" text-anchor="start" >Service touchpoints are illustrative; no conversion results are implied.</text>
+<rect x="110" y="663" width="1380" height="140" rx="24" fill="url(#navy)" stroke="#153F55" stroke-width="1.5" />
+<rect x="110" y="690" width="6" height="88" rx="3" fill="#55B4B8" stroke="none" stroke-width="1" />
+<text x="148" y="698" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" fill="#A8D7D8" font-weight="700" text-anchor="start" letter-spacing="2.4" >BUSINESS-SIDE MEASUREMENT</text>
+<rect x="149" y="720" width="139" height="52" rx="12" fill="#E4F1F2" stroke="none" stroke-width="1" />
+<text x="218.5" y="754" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" fill="#08717C" font-weight="700" text-anchor="middle" >SVC-14</text>
+<text x="324" y="743" font-family="Inter, Arial, Helvetica, sans-serif" font-size="31" fill="#FFFFFF" font-weight="700" text-anchor="start" >Review acquisition costs</text>
+<text x="326" y="777" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#C9DEE3" font-weight="400" text-anchor="start" >Across the journey, not a buyer decision stage</text>
+<line x1="1160" y1="732" x2="1437" y2="732" stroke="#84C4C5" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="1160.0" cy="732" r="6" fill="#93D5D3" stroke="none" stroke-width="1"/>
+<circle cx="1229.25" cy="732" r="6" fill="#93D5D3" stroke="none" stroke-width="1"/>
+<circle cx="1298.5" cy="732" r="6" fill="#93D5D3" stroke="none" stroke-width="1"/>
+<circle cx="1367.75" cy="732" r="6" fill="#93D5D3" stroke="none" stroke-width="1"/>
+<circle cx="1437.0" cy="732" r="6" fill="#93D5D3" stroke="none" stroke-width="1"/>
+<text x="1438" y="765" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" fill="#C9DEE3" font-weight="500" text-anchor="end" >Full journey perspective</text>
+<text x="112" y="852" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" fill="#15324B" font-weight="600" text-anchor="start" >Paths differ by customer and business</text>
+<text x="1489" y="850" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" fill="#506D7C" font-weight="600" text-anchor="end" letter-spacing="0.5" >ILLUSTRATIVE / NOT MEASURED CUSTOMER DATA</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">Six-step proposed project process with client input</title>
+<desc id="svg-desc">Six steps from left to right: Describe the need; Confirm scope; Prepare; Review together; Check against brief; Handover. A separate client-input rail connects Goal and materials to step one, Confirm priorities to step two, and Feedback to step four. This is a proposed process, to be confirmed in the project agreement.</desc>
+<defs>
+  <marker id="arrow-right" markerWidth="7" markerHeight="7" refX="5.6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0.6 0.7 L5.7 3.5 L0.6 6.3" fill="none" stroke="#08717C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <marker id="arrow-up" markerWidth="10" markerHeight="10" refX="5.5" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 8 L5.5 3 L9 8" fill="none" stroke="#08717C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect x="0" y="0" width="1600" height="900" fill="#F7F9FA"/>
+<!-- Restrained editorial heading -->
+<rect x="114" y="105" width="52" height="5" rx="2.5" fill="#08717C" />
+<text x="179" y="112" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="2.2" fill="#08717C">HOW WE WORK</text>
+<text x="114" y="185" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="700" letter-spacing="-1" fill="#15324B">Proposed project flow</text>
+<text x="114" y="230" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#60737E">Six clear steps, with client input at key decision points.</text>
+<path d="M114 264 H1486" fill="none" stroke="#D2E0E5" stroke-width="2" />
+<text x="114" y="305" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="1.8" font-weight="700" fill="#60737E">PROJECT STEPS</text>
+
+<path d="M320 433 H338" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" fill="none" marker-end="url(#arrow-right)" />
+<path d="M554 433 H572" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" fill="none" marker-end="url(#arrow-right)" />
+<path d="M788 433 H806" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" fill="none" marker-end="url(#arrow-right)" />
+<path d="M1022 433 H1040" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" fill="none" marker-end="url(#arrow-right)" />
+<path d="M1256 433 H1274" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" fill="none" marker-end="url(#arrow-right)" />
+<rect x="114" y="623" width="1372" height="173" rx="19" fill="#ECF6F6" stroke="#BDD9DC" stroke-width="1.6"/>
+<path d="M215.0 678 V534" stroke="#08717C" stroke-width="2.4" stroke-dasharray="3 8" stroke-linecap="round" fill="none" marker-end="url(#arrow-up)"/>
+<path d="M449.0 678 V534" stroke="#08717C" stroke-width="2.4" stroke-dasharray="3 8" stroke-linecap="round" fill="none" marker-end="url(#arrow-up)"/>
+<path d="M917.0 678 V534" stroke="#08717C" stroke-width="2.4" stroke-dasharray="3 8" stroke-linecap="round" fill="none" marker-end="url(#arrow-up)"/>
+<g role="group" aria-label="Step 1: Describe the need">
+  <rect x="116" y="336" width="202" height="199" rx="18" fill="#DCE8EB" opacity="0.55"/>
+  <rect x="114" y="331" width="202" height="199" rx="18" fill="#FFFFFF" stroke="#D2E0E5" stroke-width="1.7" />
+  <rect x="133" y="351" width="42" height="5" rx="2.5" fill="#08717C" />
+  <text x="133" y="415" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" letter-spacing="-1" fill="#08717C">01</text>
+  <text x="133" y="464" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#15324B"><tspan x="133" dy="0">Describe</tspan><tspan x="133" dy="33">the need</tspan></text>
+</g>
+<g role="group" aria-label="Step 2: Confirm scope">
+  <rect x="350" y="336" width="202" height="199" rx="18" fill="#DCE8EB" opacity="0.55"/>
+  <rect x="348" y="331" width="202" height="199" rx="18" fill="#FFFFFF" stroke="#D2E0E5" stroke-width="1.7" />
+  <rect x="367" y="351" width="42" height="5" rx="2.5" fill="#08717C" />
+  <text x="367" y="415" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" letter-spacing="-1" fill="#08717C">02</text>
+  <text x="367" y="464" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#15324B"><tspan x="367" dy="0">Confirm</tspan><tspan x="367" dy="33">scope</tspan></text>
+</g>
+<g role="group" aria-label="Step 3: Prepare">
+  <rect x="584" y="336" width="202" height="199" rx="18" fill="#DCE8EB" opacity="0.55"/>
+  <rect x="582" y="331" width="202" height="199" rx="18" fill="#FFFFFF" stroke="#D2E0E5" stroke-width="1.7" />
+  <rect x="601" y="351" width="42" height="5" rx="2.5" fill="#08717C" />
+  <text x="601" y="415" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" letter-spacing="-1" fill="#08717C">03</text>
+  <text x="601" y="475" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#15324B">Prepare</text>
+</g>
+<g role="group" aria-label="Step 4: Review together">
+  <rect x="818" y="336" width="202" height="199" rx="18" fill="#DCE8EB" opacity="0.55"/>
+  <rect x="816" y="331" width="202" height="199" rx="18" fill="#FFFFFF" stroke="#D2E0E5" stroke-width="1.7" />
+  <rect x="835" y="351" width="42" height="5" rx="2.5" fill="#08717C" />
+  <text x="835" y="415" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" letter-spacing="-1" fill="#08717C">04</text>
+  <text x="835" y="464" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#15324B"><tspan x="835" dy="0">Review</tspan><tspan x="835" dy="33">together</tspan></text>
+</g>
+<g role="group" aria-label="Step 5: Check against brief">
+  <rect x="1052" y="336" width="202" height="199" rx="18" fill="#DCE8EB" opacity="0.55"/>
+  <rect x="1050" y="331" width="202" height="199" rx="18" fill="#FFFFFF" stroke="#D2E0E5" stroke-width="1.7" />
+  <rect x="1069" y="351" width="42" height="5" rx="2.5" fill="#08717C" />
+  <text x="1069" y="415" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" letter-spacing="-1" fill="#08717C">05</text>
+  <text x="1069" y="464" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#15324B"><tspan x="1069" dy="0">Check against</tspan><tspan x="1069" dy="33">brief</tspan></text>
+</g>
+<g role="group" aria-label="Step 6: Handover">
+  <rect x="1286" y="336" width="202" height="199" rx="18" fill="#DCE8EB" opacity="0.55"/>
+  <rect x="1284" y="331" width="202" height="199" rx="18" fill="#FFFFFF" stroke="#D2E0E5" stroke-width="1.7" />
+  <rect x="1303" y="351" width="42" height="5" rx="2.5" fill="#08717C" />
+  <text x="1303" y="415" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" letter-spacing="-1" fill="#08717C">06</text>
+  <text x="1303" y="475" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#15324B">Handover</text>
+</g>
+<g role="group" aria-label="Step 1 client input: Goal and materials">
+ <rect x="121" y="677" width="188" height="83" rx="13" fill="#FFFFFF" stroke="#BDD9DC" stroke-width="1.7"/>
+ <rect x="134" y="692" width="4" height="53" rx="2" fill="#08717C"/>
+
+<text x="149" y="712" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#15324B"><tspan x="149" dy="0">Goal and</tspan><tspan x="149" dy="29">materials</tspan></text>
+</g>
+<g role="group" aria-label="Step 2 client input: Confirm priorities">
+ <rect x="355" y="677" width="188" height="83" rx="13" fill="#FFFFFF" stroke="#BDD9DC" stroke-width="1.7"/>
+ <rect x="368" y="692" width="4" height="53" rx="2" fill="#08717C"/>
+
+<text x="383" y="712" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#15324B"><tspan x="383" dy="0">Confirm</tspan><tspan x="383" dy="29">priorities</tspan></text>
+</g>
+<g role="group" aria-label="Step 4 client input: Feedback">
+ <rect x="823" y="677" width="188" height="83" rx="13" fill="#FFFFFF" stroke="#BDD9DC" stroke-width="1.7"/>
+ <rect x="836" y="692" width="4" height="53" rx="2" fill="#08717C"/>
+
+<text x="851" y="727" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#15324B">Feedback</text>
+</g>
+<g>
+ <circle cx="1223" cy="701" r="18" fill="#08717C" />
+ <path d="M1213 701 H1233 M1223 691 V711" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+ <text x="1251" y="700" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="0.9" fill="#15324B">CLIENT INPUT</text>
+ <text x="1251" y="731" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#60737E">Steps 1, 2 and 4</text>
+</g>
+<!-- No fabricated timings, SLAs or delivery guarantees. Any caveat belongs in adjacent live HTML. -->
+</svg>

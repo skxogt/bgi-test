@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="asset-title asset-desc">
+  <title id="asset-title">Illustrative symptom, possible constraints, and evidence-check map</title>
+  <desc id="asset-desc">An illustrative observed symptom, fewer qualified inquiries, branches with solid arrows into three separate dashed hypotheses: Hard to find online, Unclear offer, and Follow-up gaps. Each hypothesis connects by a dotted line to its own Evidence to check box. A separate right-hand panel labeled What we still do not know lists open questions about supporting evidence, missing information and next checks. The diagram is not BGI or client data and does not identify a true cause.</desc>
+  <defs>
+    <pattern id="quietDots" patternUnits="userSpaceOnUse" width="24" height="24">
+      <circle cx="2" cy="2" r="0.85" fill="#D7E7E9" opacity="0.55"/>
+    </pattern>
+    <linearGradient id="rootFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17344D" />
+      <stop offset="100%" stop-color="#215169" />
+    </linearGradient>
+    <linearGradient id="panelWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F3F5" />
+      <stop offset="100%" stop-color="#F1F7F8" />
+    </linearGradient>
+    <marker id="solidHead" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#08717C" />
+    </marker>
+    <marker id="dottedHead" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#5A9CA5" />
+    </marker>
+    <style>
+      .font { font-family:Inter,Arial,Helvetica,sans-serif; }
+      .eyebrow { font-family:Inter,Arial,Helvetica,sans-serif; font-size:18px; font-weight:750; letter-spacing:2px; }
+      .navy { fill:#17344D; }
+      .teal { fill:#08717C; }
+      .muted { fill:#537183; }
+      .hint { font-family:Inter,Arial,Helvetica,sans-serif; fill:#537183; font-size:17px; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1080" fill="#F7FAFB" />
+  <rect width="1440" height="1080" fill="url(#quietDots)" />
+  <rect x="0" y="0" width="1440" height="9" fill="#17344D" />
+
+  <!-- Heading and explanatory context. -->
+  <text x="104" y="77" class="eyebrow teal">SVC-01  /  CONSTRAINT DIAGNOSIS</text>
+  <text x="104" y="143" class="font navy" font-size="48" font-weight="750">One symptom. Several possibilities.</text>
+  <text x="105" y="188" class="font muted" font-size="21.5">Separate the observed problem from hypotheses and evidence still needed.</text>
+  <line x1="104" y1="215" x2="1336" y2="215" stroke="#CADDE2" stroke-width="2" />
+
+  <!-- Root: one illustrative observation, emphatically not client evidence. -->
+  <rect x="107" y="257" width="896" height="160" rx="22" fill="#17344D" opacity=".065" />
+  <rect x="104" y="250" width="896" height="160" rx="22" fill="url(#rootFill)" stroke="#315E70" stroke-width="2" />
+  <rect x="135" y="280" width="209" height="32" rx="16" fill="#D4EDF0" opacity=".17" />
+  <text x="152" y="302" class="font" fill="#C6EFF0" font-size="16" font-weight="760" letter-spacing="1.6">OBSERVED SYMPTOM</text>
+  <text x="142" y="359" class="font" fill="#FFFFFF" font-size="36" font-weight="740">Fewer qualified inquiries</text>
+  <text x="143" y="387" class="font" fill="#D1E3E9" font-size="17.5">Illustrative example - not BGI/client data</text>
+  <circle cx="938" cy="333" r="31" fill="#37657B" stroke="#79ADBA" stroke-width="2" />
+  <path d="M925 344 L933 334 L941 338 L953 319" fill="none" stroke="#D8F1F2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="925" cy="344" r="3" fill="#D8F1F2" />
+  <circle cx="953" cy="319" r="3" fill="#D8F1F2" />
+
+  <!-- Solid branching connectors: possibilities, not proven causes. -->
+  <path d="M552 410 V469 M246.5 469 H862.5" fill="none" stroke="#7EAAB2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M246.5 469 V540" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#solidHead)" />
+  <path d="M554.5 469 V540" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#solidHead)" />
+  <path d="M862.5 469 V540" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#solidHead)" />
+  <circle cx="552" cy="469" r="6" fill="#08717C" stroke="#F7FAFB" stroke-width="3" />
+
+  <!-- Three equal-weight hypothetical explanations. -->
+  <rect x="104" y="553" width="285" height="179" rx="19" fill="#FFFFFF" stroke="#4F96A0" stroke-width="2.6" stroke-dasharray="8 6" />
+  <rect x="412" y="553" width="285" height="179" rx="19" fill="#FFFFFF" stroke="#4F96A0" stroke-width="2.6" stroke-dasharray="8 6" />
+  <rect x="720" y="553" width="285" height="179" rx="19" fill="#FFFFFF" stroke="#4F96A0" stroke-width="2.6" stroke-dasharray="8 6" />
+
+  <!-- Hypothesis 1 -->
+  <circle cx="138" cy="595" r="19" fill="#DDF0F2" />
+  <text x="138" y="602" class="font teal" font-size="19" font-weight="800" text-anchor="middle">1</text>
+  <text x="168" y="600" class="font teal" font-size="14" font-weight="750" letter-spacing=".75">POSSIBLE CAUSE</text>
+  <line x1="131" y1="625" x2="363" y2="625" stroke="#DBE8EB" stroke-width="2" />
+  <text x="130" y="667" class="font navy" font-size="24.5" font-weight="740">Hard to find online</text>
+  <text x="130" y="705" class="hint">Hypothesis, not a finding</text>
+
+  <!-- Hypothesis 2 -->
+  <circle cx="446" cy="595" r="19" fill="#DDF0F2" />
+  <text x="446" y="602" class="font teal" font-size="19" font-weight="800" text-anchor="middle">2</text>
+  <text x="476" y="600" class="font teal" font-size="14" font-weight="750" letter-spacing=".75">POSSIBLE CAUSE</text>
+  <line x1="439" y1="625" x2="671" y2="625" stroke="#DBE8EB" stroke-width="2" />
+  <text x="438" y="667" class="font navy" font-size="26" font-weight="740">Unclear offer</text>
+  <text x="438" y="705" class="hint">Hypothesis, not a finding</text>
+
+  <!-- Hypothesis 3 -->
+  <circle cx="754" cy="595" r="19" fill="#DDF0F2" />
+  <text x="754" y="602" class="font teal" font-size="19" font-weight="800" text-anchor="middle">3</text>
+  <text x="784" y="600" class="font teal" font-size="14" font-weight="750" letter-spacing=".75">POSSIBLE CAUSE</text>
+  <line x1="747" y1="625" x2="979" y2="625" stroke="#DBE8EB" stroke-width="2" />
+  <text x="746" y="667" class="font navy" font-size="26" font-weight="740">Follow-up gaps</text>
+  <text x="746" y="705" class="hint">Hypothesis, not a finding</text>
+
+  <!-- Dotted connectors lead separately to unfilled evidence checks. -->
+  <path d="M246.5 735 V806" fill="none" stroke="#5A9CA5" stroke-width="3" stroke-dasharray="3 8" stroke-linecap="round" marker-end="url(#dottedHead)" />
+  <path d="M554.5 735 V806" fill="none" stroke="#5A9CA5" stroke-width="3" stroke-dasharray="3 8" stroke-linecap="round" marker-end="url(#dottedHead)" />
+  <path d="M862.5 735 V806" fill="none" stroke="#5A9CA5" stroke-width="3" stroke-dasharray="3 8" stroke-linecap="round" marker-end="url(#dottedHead)" />
+
+  <!-- Evidence leaves intentionally blank to avoid inventing data. -->
+  <rect x="104" y="820" width="285" height="118" rx="17" fill="#FFFFFF" stroke="#CDDEE3" stroke-width="2" />
+  <rect x="412" y="820" width="285" height="118" rx="17" fill="#FFFFFF" stroke="#CDDEE3" stroke-width="2" />
+  <rect x="720" y="820" width="285" height="118" rx="17" fill="#FFFFFF" stroke="#CDDEE3" stroke-width="2" />
+
+  <g fill="none" stroke="#08717C" stroke-width="2.2" stroke-linecap="round">
+    <rect x="128" y="841" width="24" height="25" rx="4" />
+    <path d="M134 848 H146 M134 856 H143" />
+    <rect x="436" y="841" width="24" height="25" rx="4" />
+    <path d="M442 848 H454 M442 856 H451" />
+    <rect x="744" y="841" width="24" height="25" rx="4" />
+    <path d="M750 848 H762 M750 856 H759" />
+  </g>
+  <g class="font navy" font-size="21.5" font-weight="730">
+    <text x="166" y="860">Evidence to check</text>
+    <text x="474" y="860">Evidence to check</text>
+    <text x="782" y="860">Evidence to check</text>
+  </g>
+  <g fill="none" stroke="#D5E2E6" stroke-width="2.5" stroke-linecap="round">
+    <path d="M129 886 H355 M129 910 H310" />
+    <path d="M437 886 H663 M437 910 H618" />
+    <path d="M745 886 H971 M745 910 H926" />
+  </g>
+
+  <!-- An unfilled unknowns rail, explicitly separate from the three hypotheses. -->
+  <rect x="1047" y="250" width="289" height="688" rx="23" fill="url(#panelWash)" stroke="#CAE0E5" stroke-width="2" />
+  <rect x="1073" y="282" width="5" height="64" rx="2.5" fill="#08717C" />
+  <text x="1094" y="307" class="font navy" font-size="23" font-weight="760">What we still</text>
+  <text x="1094" y="342" class="font navy" font-size="23" font-weight="760">do not know</text>
+  <line x1="1073" y1="367" x2="1311" y2="367" stroke="#C6DDE2" stroke-width="2" />
+  <text x="1073" y="415" class="font muted" font-size="20" font-weight="600">Open questions</text>
+
+  <rect x="1073" y="444" width="237" height="119" rx="14" fill="#FFFFFF" stroke="#D4E4E7" stroke-width="1.7" />
+  <rect x="1093" y="466" width="29" height="4" rx="2" fill="#08717C" />
+  <text x="1093" y="507" class="font navy" font-size="21" font-weight="650">Which explanation</text>
+  <text x="1093" y="535" class="font navy" font-size="21" font-weight="650">has support?</text>
+
+  <rect x="1073" y="582" width="237" height="119" rx="14" fill="#FFFFFF" stroke="#D4E4E7" stroke-width="1.7" />
+  <rect x="1093" y="604" width="29" height="4" rx="2" fill="#08717C" />
+  <text x="1093" y="645" class="font navy" font-size="21" font-weight="650">Which evidence</text>
+  <text x="1093" y="673" class="font navy" font-size="21" font-weight="650">is missing?</text>
+
+  <rect x="1073" y="720" width="237" height="119" rx="14" fill="#FFFFFF" stroke="#D4E4E7" stroke-width="1.7" />
+  <rect x="1093" y="742" width="29" height="4" rx="2" fill="#08717C" />
+  <text x="1093" y="783" class="font navy" font-size="21" font-weight="650">What should be</text>
+  <text x="1093" y="811" class="font navy" font-size="21" font-weight="650">checked next?</text>
+
+  <circle cx="1086" cy="890" r="11" fill="none" stroke="#08717C" stroke-width="2" />
+  <path d="M1086 887 V894 M1086 884 V883" stroke="#08717C" stroke-width="2" stroke-linecap="round" />
+  <text x="1106" y="896" class="font muted" font-size="17.3" font-weight="600">No cause confirmed</text>
+
+  <!-- Arrow-style legend: solid = hypotheses; dotted = evidence checks. -->
+  <line x1="104" y1="978" x2="1336" y2="978" stroke="#D0E0E4" stroke-width="2" />
+  <path d="M111 1008 H167" stroke="#08717C" stroke-width="3" marker-end="url(#solidHead)" />
+  <text x="184" y="1016" class="font muted" font-size="18">Possible explanations</text>
+  <path d="M465 1008 H521" stroke="#5A9CA5" stroke-width="3" stroke-dasharray="3 8" stroke-linecap="round" marker-end="url(#dottedHead)" />
+  <text x="539" y="1016" class="font muted" font-size="18">Evidence to check</text>
+  <text x="1336" y="1016" text-anchor="end" class="font muted" font-size="17.2">Illustrative structure, not an actual diagnosis</text>
+</svg>

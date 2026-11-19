@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="asset-title asset-desc">
+  <title id="asset-title">Two complementary service tracks: after the sale, or create the materials</title>
+  <desc id="asset-desc">A decision fork labeled What needs work? branches into two equally important independent tracks. The left track, After the sale, includes SVC-16 Get customers started and SVC-17 Keep relationships useful. The right track, Create the materials, includes SVC-18 Websites and business assets. Both tracks conclude Scope agreed separately. A dotted line marks an optional connection, not a mandatory package.</desc>
+  <defs>
+    <pattern id="fineDots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="0.85" fill="#D6E5E8" opacity="0.6"/></pattern>
+    <linearGradient id="navyGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#17344D"/><stop offset="100%" stop-color="#1F4C62"/></linearGradient>
+    <linearGradient id="tealWash" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ECF7F8"/><stop offset="100%" stop-color="#F5FAFB"/></linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="135%" height="145%"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#16344A" flood-opacity="0.065"/></filter>
+    <style>
+      .font{font-family:Inter,Arial,Helvetica,sans-serif}
+      .navy{fill:#17344D}
+      .muted{fill:#527080}
+      .teal{fill:#08717C}
+      .eyebrow{font:700 19px Inter,Arial,Helvetica,sans-serif;letter-spacing:3px}
+      .paneltitle{font:700 37px Inter,Arial,Helvetica,sans-serif}
+      .smallcaps{font:700 18px Inter,Arial,Helvetica,sans-serif;letter-spacing:1.7px}
+      .service{font-family:Inter,Arial,Helvetica,sans-serif;font-size:30px;font-weight:700}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#F7FAFB"/>
+  <rect width="1600" height="900" fill="url(#fineDots)"/>
+  <rect width="1600" height="10" fill="#17344D"/>
+
+  <!-- Clear editorial title area, consistent with the previous diagrams -->
+  <text x="110" y="81" class="eyebrow teal">CUSTOMER VALUE / TWO DISTINCT SERVICE TRACKS</text>
+  <text x="110" y="145" class="font navy" font-size="53" font-weight="760">Two complementary tracks</text>
+  <text x="111" y="190" class="font muted" font-size="24">Customer experience after a sale, or practical website and business assets.</text>
+  <line x1="110" x2="1490" y1="218" y2="218" stroke="#CBDDE2" stroke-width="2"/>
+
+  <!-- Central choice and branching connection: equal weight, no priority arrow -->
+  <rect x="638" y="235" width="324" height="83" rx="22" fill="url(#navyGrad)" stroke="#315E70" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="800" y="264" fill="#A9DEE2" class="font" font-size="16" font-weight="700" letter-spacing="2.6" text-anchor="middle">START HERE</text>
+  <text x="800" y="298" fill="#FFFFFF" class="font" font-size="29" font-weight="700" text-anchor="middle">What needs work?</text>
+  <path d="M800 318 V333 H445 V363 M800 333 H1155 V363" fill="none" stroke="#79A6AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="445" cy="363" r="6.5" fill="#08717C" stroke="#F7FAFB" stroke-width="3"/>
+  <circle cx="1155" cy="363" r="6.5" fill="#08717C" stroke="#F7FAFB" stroke-width="3"/>
+
+  <!-- Track A panel -->
+  <rect x="110" y="372" width="670" height="425" rx="25" fill="#FFFFFF" stroke="#D5E4E8" stroke-width="2" filter="url(#softShadow)"/>
+  <path d="M113 404 V765" stroke="#08717C" stroke-width="6" stroke-linecap="round"/>
+  <text x="150" y="418" class="smallcaps teal">PATH A  /  CUSTOMER EXPERIENCE</text>
+  <text x="150" y="466" class="paneltitle navy">After the sale</text>
+  <text x="151" y="494" class="font muted" font-size="20">Work on customer starts and relationships</text>
+  <line x1="150" x2="741" y1="515" y2="515" stroke="#DCE8EB" stroke-width="2"/>
+
+  <rect x="150" y="533" width="590" height="92" rx="17" fill="url(#tealWash)" stroke="#C6E0E5" stroke-width="2"/>
+  <circle cx="198" cy="579" r="29" fill="#DCEFF1"/>
+  <g fill="none" stroke="#08717C" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="196" cy="572" r="7"/>
+    <path d="M183 591 c0-9 6-13 13-13 s13 4 13 13"/>
+    <path d="M207 571 l5 5 9-11"/>
+  </g>
+  <text x="250" y="564" class="font teal" font-size="18" font-weight="800" letter-spacing="1.2">SVC-16</text>
+  <text x="250" y="601" class="service navy">Get customers started</text>
+
+  <rect x="150" y="637" width="590" height="92" rx="17" fill="url(#tealWash)" stroke="#C6E0E5" stroke-width="2"/>
+  <circle cx="198" cy="683" r="29" fill="#DCEFF1"/>
+  <g fill="none" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M184 681 c-2-11 5-20 15-20 8 0 14 5 16 11"/>
+    <path d="M215 665 v8 h-8"/>
+    <path d="M214 685 c1 11-6 20-16 20-8 0-14-5-16-11"/>
+    <path d="M182 701 v-8 h8"/>
+  </g>
+  <text x="250" y="669" class="font teal" font-size="18" font-weight="800" letter-spacing="1.2">SVC-17</text>
+  <text x="250" y="706" class="service navy">Keep relationships useful</text>
+
+  <rect x="267" y="745" width="355" height="35" rx="17.5" fill="#F7FAFB" stroke="#C6DDE3" stroke-width="1.8"/>
+  <circle cx="287" cy="762.5" r="4" fill="#08717C"/>
+  <text x="445" y="769" class="font navy" font-size="19" font-weight="650" text-anchor="middle">Scope agreed separately</text>
+
+  <!-- Track B panel, visually equal to Track A -->
+  <rect x="820" y="372" width="670" height="425" rx="25" fill="#FFFFFF" stroke="#D5E4E8" stroke-width="2" filter="url(#softShadow)"/>
+  <path d="M823 404 V765" stroke="#08717C" stroke-width="6" stroke-linecap="round"/>
+  <text x="860" y="418" class="smallcaps teal">PATH B  /  ASSET PRODUCTION</text>
+  <text x="860" y="466" class="paneltitle navy">Create the materials</text>
+  <text x="861" y="494" class="font muted" font-size="20">Produce the website or business materials needed</text>
+  <line x1="860" x2="1451" y1="515" y2="515" stroke="#DCE8EB" stroke-width="2"/>
+
+  <rect x="860" y="533" width="590" height="196" rx="18" fill="url(#tealWash)" stroke="#C6E0E5" stroke-width="2"/>
+  <circle cx="908" cy="579" r="28" fill="#DCEFF1"/>
+  <g fill="none" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="893" y="568" width="30" height="24" rx="3"/>
+    <path d="M893 574 H923 M900 583 h9 M913 583 h4"/>
+  </g>
+  <text x="960" y="566" class="font teal" font-size="18" font-weight="800" letter-spacing="1.2">SVC-18</text>
+  <text x="960" y="606" class="service navy">Websites and</text>
+  <text x="960" y="645" class="service navy">business assets</text>
+
+  <!-- Quiet page-wireframe motif with no fabricated words or screenshots -->
+  <rect x="1252" y="572" width="152" height="112" rx="8" fill="#FFFFFF" stroke="#8FBCC3" stroke-width="2.5"/>
+  <rect x="1252" y="572" width="152" height="17" rx="8" fill="#DCEFF1"/>
+  <path d="M1252 589 H1404" stroke="#8FBCC3" stroke-width="1.5"/>
+  <circle cx="1265" cy="580" r="2.4" fill="#08717C"/>
+  <circle cx="1274" cy="580" r="2.4" fill="#7AAFB6"/>
+  <circle cx="1283" cy="580" r="2.4" fill="#7AAFB6"/>
+  <rect x="1264" y="600" width="128" height="27" rx="4" fill="#D5E9EC"/>
+  <rect x="1264" y="635" width="37" height="35" rx="3" fill="#E3F1F3" stroke="#C2DDE1"/>
+  <rect x="1309" y="635" width="37" height="35" rx="3" fill="#E3F1F3" stroke="#C2DDE1"/>
+  <rect x="1354" y="635" width="38" height="35" rx="3" fill="#E3F1F3" stroke="#C2DDE1"/>
+
+  <rect x="977" y="745" width="355" height="35" rx="17.5" fill="#F7FAFB" stroke="#C6DDE3" stroke-width="1.8"/>
+  <circle cx="997" cy="762.5" r="4" fill="#08717C"/>
+  <text x="1155" y="769" class="font navy" font-size="19" font-weight="650" text-anchor="middle">Scope agreed separately</text>
+
+  <!-- The two paths are independently scoped. Dotted linkage means optional, never required. -->
+  <path d="M445 798 V833 H1155 V798" fill="none" stroke="#6D9BA5" stroke-width="2.3" stroke-dasharray="5 9" stroke-linecap="round"/>
+  <rect x="684" y="813" width="232" height="35" rx="17" fill="#F7FAFB" stroke="#D5E4E8" stroke-width="1"/>
+  <text x="800" y="836.5" class="font teal" font-size="17" font-weight="800" letter-spacing="1" text-anchor="middle">OPTIONAL CONNECTION</text>
+
+  <text x="110" y="874" class="font navy" font-size="18" font-weight="650">The tracks are alternatives, not a compulsory package.</text>
+  <text x="1490" y="874" class="font muted" font-size="16" font-weight="650" text-anchor="end">ILLUSTRATIVE / SCOPE TO BE AGREED</text>
+</svg>

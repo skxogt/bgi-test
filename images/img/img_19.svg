@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="svgTitle svgDesc">
+<title id="svgTitle">Illustrative customer relationship lifecycle with permission-aware follow-up</title>
+<desc id="svgDesc">An open arc contains five stages: Welcome, Help with use, Ask for feedback, Review new needs, and Invite advocacy only with permission. Arrows show a potential progression without requiring every customer to follow every step. A review loop is included. The open space is labeled Not every customer follows every step. A separate callout says Respect consent and frequency. The diagram has no performance figures or testimonials.</desc>
+<defs>
+  <filter id="softshadow" x="-15%" y="-18%" width="135%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#15324B" flood-opacity="0.075"/></filter>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7.2" refY="4" orient="auto" viewBox="0 0 8 8"><path d="M0 0 L8 4 L0 8 z" fill="#08717C"/></marker>
+  <marker id="arrowSoft" markerWidth="7" markerHeight="7" refX="6.5" refY="3.5" orient="auto" viewBox="0 0 7 7"><path d="M0 0 L7 3.5 L0 7 z" fill="#759CA2"/></marker>
+</defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#F7F9FA" stroke="none" stroke-width="1" />
+<rect x="0" y="0" width="1600" height="13" rx="0" fill="#15324B" stroke="none" stroke-width="1" />
+<rect x="94" y="61" width="46" height="5" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="157" y="69" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="700" fill="#15324B" text-anchor="start" letter-spacing="1.6">BGI SOLUTIONS  /  SERVICE VISUAL  /  SVC-17</text>
+<text x="94" y="143" font-family="'DejaVu Sans', Arial, sans-serif" font-size="42" font-weight="700" fill="#15324B" text-anchor="start" >Helpful follow-up changes over time</text>
+<text x="94" y="190" font-family="'DejaVu Sans', Arial, sans-serif" font-size="21" font-weight="400" fill="#596C78" text-anchor="start" >Five possible touchpoints across an ongoing customer relationship.</text>
+<rect x="1197" y="109" width="309" height="50" rx="25" fill="#E7F2F3" stroke="#C6DEDF" stroke-width="1.7" />
+<circle cx="1227" cy="134" r="6" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="1247" y="140" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="700" fill="#08717C" text-anchor="start" letter-spacing="0.7">ILLUSTRATIVE LIFECYCLE</text>
+<line x1="94" y1="222" x2="1506" y2="222" stroke="#D8E2E5" stroke-width="1.7" stroke-linecap="round" />
+<text x="94" y="263" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="700" fill="#15324B" text-anchor="start" letter-spacing="1.75">POTENTIAL CUSTOMER TOUCHPOINTS</text>
+<text x="1506" y="263" font-family="'DejaVu Sans', Arial, sans-serif" font-size="14" font-weight="500" fill="#596C78" text-anchor="end" letter-spacing="1.2">FOLLOW-UP IS NOT AUTOMATIC</text>
+<path d="M 219 626 C 295 394 500 303 800 336 C 1100 303 1305 394 1381 626" fill="none" stroke="#E3EFF0" stroke-width="27" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 219 626 C 295 394 500 303 800 336 C 1100 303 1305 394 1381 626" fill="none" stroke="#A8CCCE" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 11" opacity="0.6"/>
+<path d="M 274 580 C 295 555 326 532 364 518" fill="none" stroke="#08717C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 624 416 C 635 400 644 384 664 378" fill="none" stroke="#08717C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 936 378 C 949 384 958 402 973 417" fill="none" stroke="#08717C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 1236 519 C 1271 533 1298 551 1317 580" fill="none" stroke="#08717C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="94" y="580" width="246" height="162" rx="17" fill="#FFFFFF" stroke="#D2E1E5" stroke-width="1.8" filter="url(#softshadow)"/>
+<rect x="113" y="596" width="53" height="34" rx="17" fill="#EAF4F5" stroke="none" stroke-width="1" />
+<text x="139" y="619" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#08717C" text-anchor="middle" >01</text>
+<text x="320" y="617" font-family="'DejaVu Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#596C78" text-anchor="end" letter-spacing="1.15">BEGIN</text>
+<line x1="113" y1="640" x2="321" y2="640" stroke="#E7EEF0" stroke-width="1.5" stroke-linecap="round" />
+<text x="217.0" y="692" font-family="'DejaVu Sans', Arial, sans-serif" font-size="21.7" font-weight="700" fill="#15324B" text-anchor="middle" >Welcome</text>
+<rect x="198.0" y="725" width="38" height="3" rx="1.5" fill="#08717C" stroke="none" stroke-width="1" />
+<rect x="357" y="352" width="270" height="172" rx="17" fill="#FFFFFF" stroke="#D2E1E5" stroke-width="1.8" filter="url(#softshadow)"/>
+<rect x="376" y="368" width="53" height="34" rx="17" fill="#EAF4F5" stroke="none" stroke-width="1" />
+<text x="402" y="391" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#08717C" text-anchor="middle" >02</text>
+<text x="607" y="389" font-family="'DejaVu Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#596C78" text-anchor="end" letter-spacing="1.15">SUPPORT</text>
+<line x1="376" y1="412" x2="608" y2="412" stroke="#E7EEF0" stroke-width="1.5" stroke-linecap="round" />
+<text x="492.0" y="464" font-family="'DejaVu Sans', Arial, sans-serif" font-size="21.7" font-weight="700" fill="#15324B" text-anchor="middle" >Help with use</text>
+<rect x="473.0" y="507" width="38" height="3" rx="1.5" fill="#08717C" stroke="none" stroke-width="1" />
+<rect x="664" y="283" width="272" height="172" rx="17" fill="#FFFFFF" stroke="#D2E1E5" stroke-width="1.8" filter="url(#softshadow)"/>
+<rect x="683" y="299" width="53" height="34" rx="17" fill="#EAF4F5" stroke="none" stroke-width="1" />
+<text x="709" y="322" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#08717C" text-anchor="middle" >03</text>
+<text x="916" y="320" font-family="'DejaVu Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#596C78" text-anchor="end" letter-spacing="1.15">LISTEN</text>
+<line x1="683" y1="343" x2="917" y2="343" stroke="#E7EEF0" stroke-width="1.5" stroke-linecap="round" />
+<text x="800.0" y="395" font-family="'DejaVu Sans', Arial, sans-serif" font-size="21.7" font-weight="700" fill="#15324B" text-anchor="middle" >Ask for feedback</text>
+<rect x="781.0" y="438" width="38" height="3" rx="1.5" fill="#08717C" stroke="none" stroke-width="1" />
+<rect x="973" y="352" width="270" height="172" rx="17" fill="#FFFFFF" stroke="#D2E1E5" stroke-width="1.8" filter="url(#softshadow)"/>
+<rect x="992" y="368" width="53" height="34" rx="17" fill="#EAF4F5" stroke="none" stroke-width="1" />
+<text x="1018" y="391" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#08717C" text-anchor="middle" >04</text>
+<text x="1223" y="389" font-family="'DejaVu Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#596C78" text-anchor="end" letter-spacing="1.15">REASSESS</text>
+<line x1="992" y1="412" x2="1224" y2="412" stroke="#E7EEF0" stroke-width="1.5" stroke-linecap="round" />
+<text x="1108.0" y="464" font-family="'DejaVu Sans', Arial, sans-serif" font-size="21.7" font-weight="700" fill="#15324B" text-anchor="middle" >Review new needs</text>
+<rect x="1089.0" y="507" width="38" height="3" rx="1.5" fill="#08717C" stroke="none" stroke-width="1" />
+<rect x="1260" y="580" width="246" height="162" rx="17" fill="#FFFFFF" stroke="#D2E1E5" stroke-width="1.8" filter="url(#softshadow)"/>
+<rect x="1279" y="596" width="53" height="34" rx="17" fill="#EAF4F5" stroke="none" stroke-width="1" />
+<text x="1305" y="619" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#08717C" text-anchor="middle" >05</text>
+<text x="1486" y="617" font-family="'DejaVu Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#596C78" text-anchor="end" letter-spacing="1.15">OPTIONAL</text>
+<line x1="1279" y1="640" x2="1487" y2="640" stroke="#E7EEF0" stroke-width="1.5" stroke-linecap="round" />
+<text x="1383.0" y="685" font-family="'DejaVu Sans', Arial, sans-serif" font-size="21.0" font-weight="700" fill="#15324B" text-anchor="middle" >Invite advocacy</text>
+<text x="1383.0" y="717" font-family="'DejaVu Sans', Arial, sans-serif" font-size="18.5" font-weight="700" fill="#15324B" text-anchor="middle" >only with permission</text>
+<rect x="1364.0" y="725" width="38" height="3" rx="1.5" fill="#08717C" stroke="none" stroke-width="1" />
+<rect x="438" y="610" width="605" height="100" rx="18" fill="#FFFFFF" stroke="#D6E3E6" stroke-width="1.7" filter="url(#softshadow)"/>
+<path d="M 478 669 A 18 18 0 1 1 506 643" fill="none" stroke="#08717C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+<line x1="499" y1="643" x2="508" y2="644" stroke="#08717C" stroke-width="2.5" stroke-linecap="round" />
+<text x="527" y="653" font-family="'DejaVu Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#15324B" text-anchor="start" >Not every customer follows every step</text>
+<text x="528" y="683" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="400" fill="#596C78" text-anchor="start" >Continue only when relevant and appropriate.</text>
+<path d="M 1164 553 C 1200 574 1200 613 1160 623 C 1125 631 1113 604 1127 585" fill="none" stroke="#759CA2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 7" marker-end="url(#arrowSoft)"/>
+<text x="1155" y="674" font-family="'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#08717C" text-anchor="middle" letter-spacing="0.6">REVIEW IF RELEVANT</text>
+<rect x="94" y="780" width="1412" height="75" rx="15" fill="#15324B" stroke="none" stroke-width="1" />
+<rect x="94" y="780" width="9" height="75" rx="4" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="138" cy="817" r="16" fill="none" stroke="#B7E0E1" stroke-width="2.3" />
+<path d="M 128 817 l6 6 12 -15" fill="none" stroke="#B7E0E1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="174" y="825" font-family="'DejaVu Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="start" >Respect consent and frequency</text>
+<text x="1478" y="822" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="500" fill="#CEE5E8" text-anchor="end" >No assumed advocacy or retention results</text>
+</svg>

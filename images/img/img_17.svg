@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="diagram-title diagram-desc">
+  <title id="diagram-title">Buyer decision questions and possible friction points — SVC-13</title>
+  <desc id="diagram-desc">An illustrative five-stage buyer decision pathway: Understand offer, Check fit, Look for proof, Compare next steps, Make a choice. Dotted lines connect the three middle steps with the unanswered questions: Is this for my business? Can I trust the claim? What happens after I ask? Illustrative; validate with customer feedback. The diagram does not represent measured customer abandonment.</desc>
+  <defs>
+    <filter id="soft-shadow" x="-22%" y="-32%" width="145%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#15324B" flood-opacity="0.07"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1.5 1.5 L8.8 5 L1.5 8.5" stroke="#08717C" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .font{font-family:Inter,'Segoe UI',Arial,Helvetica,sans-serif}
+      .heading{fill:#15324B}
+      .body{fill:#18252D}
+      .muted{fill:#496270}
+      .teal{fill:#08717C}
+      .card{fill:#FFFFFF;stroke:#D8E4E9;stroke-width:2;filter:url(#soft-shadow)}
+      .stage-num{font-size:17px;font-weight:750;letter-spacing:1.2px}
+      .stage-label{font-size:24.5px;font-weight:750;letter-spacing:-0.35px}
+      .icon-stroke{fill:none;stroke:#08717C;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+      .question-label{font-size:14.5px;font-weight:750;letter-spacing:1.5px}
+      .question-text{font-size:22px;font-weight:700;letter-spacing:-0.3px}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#F7F9FA"/>
+  <rect width="1600" height="14" fill="#15324B"/>
+
+  <!-- Introductory content, matching the source's narrative rather than inventing measurements. -->
+  <rect x="92" y="74" width="6" height="27" rx="3" fill="#08717C"/>
+  <text x="116" y="96" class="font teal" font-size="17" font-weight="750" letter-spacing="1.6">SVC-13  /  BUYER DECISION FRICTION</text>
+  <text x="92" y="163" class="font heading" font-size="48" font-weight="750" letter-spacing="-1.4">Where might customers hesitate?</text>
+  <text x="94" y="209" class="font muted" font-size="22">People may hesitate because a key question remains unanswered. That is different from a lack of interest.</text>
+  <path d="M94 249 H1506" stroke="#DCE6EA" stroke-width="2"/>
+  <text x="94" y="294" class="font muted" font-size="16.5" font-weight="750" letter-spacing="1.3">ILLUSTRATIVE BUYER PATH</text>
+  <text x="1505" y="294" text-anchor="end" class="font muted" font-size="16.5">Sequence shown for explanation, not measured behavior</text>
+
+  <!-- Arrow connectors: equal-weight stages, not measured conversions or customer drop-off. -->
+  <g stroke="#08717C" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrow)">
+    <path d="M328 434 H384"/>
+    <path d="M622 434 H678"/>
+    <path d="M916 434 H972"/>
+    <path d="M1210 434 H1266"/>
+  </g>
+  <g>
+    <rect class="card" x="92" y="330" width="236" height="209" rx="19"/>
+    <path d="M112 331 H308" stroke="#15324B" stroke-width="7" stroke-linecap="round"/>
+    <text x="117" y="372" class="font muted stage-num">01 / DECISION</text>
+    <rect x="116" y="393" width="59" height="59" rx="15" fill="#E6F2F3"/>
+    <g class="icon-stroke" transform="translate(123 403) scale(0.92)"><rect x="5" y="3" width="32" height="39" rx="5"/><path d="M12 13 H30 M12 22 H29 M12 31 H25"/></g>
+    <text x="117" y="487" class="font heading stage-label">Understand</text>
+    <text x="117" y="516" class="font heading stage-label">offer</text>
+  </g>
+  <g>
+    <rect class="card" x="386" y="330" width="236" height="209" rx="19"/>
+    <path d="M406 331 H602" stroke="#08717C" stroke-width="7" stroke-linecap="round"/>
+    <text x="411" y="372" class="font muted stage-num">02 / DECISION</text>
+    <rect x="410" y="393" width="59" height="59" rx="15" fill="#E6F2F3"/>
+    <g class="icon-stroke" transform="translate(417 403) scale(0.92)"><circle cx="22" cy="21" r="17"/><path d="M14 21 L20 27 L31 15"/></g>
+    <text x="411" y="506" class="font heading stage-label">Check fit</text>
+  </g>
+  <g>
+    <rect class="card" x="680" y="330" width="236" height="209" rx="19"/>
+    <path d="M700 331 H896" stroke="#08717C" stroke-width="7" stroke-linecap="round"/>
+    <text x="705" y="372" class="font muted stage-num">03 / DECISION</text>
+    <rect x="704" y="393" width="59" height="59" rx="15" fill="#E6F2F3"/>
+    <g class="icon-stroke" transform="translate(711 403) scale(0.92)"><path d="M8 2 H27 L36 11 V41 H8 Z"/><path d="M27 2 V11 H36"/><circle cx="19" cy="23" r="7"/><path d="M24 28 L30 34"/></g>
+    <text x="705" y="506" class="font heading stage-label">Look for proof</text>
+  </g>
+  <g>
+    <rect class="card" x="974" y="330" width="236" height="209" rx="19"/>
+    <path d="M994 331 H1190" stroke="#08717C" stroke-width="7" stroke-linecap="round"/>
+    <text x="999" y="372" class="font muted stage-num">04 / DECISION</text>
+    <rect x="998" y="393" width="59" height="59" rx="15" fill="#E6F2F3"/>
+    <g class="icon-stroke" transform="translate(1005 403) scale(0.92)"><rect x="4" y="6" width="16" height="29" rx="3"/><rect x="25" y="6" width="16" height="29" rx="3"/><path d="M9 15 H15 M30 15 H36 M9 23 H15 M30 23 H36"/></g>
+    <text x="999" y="487" class="font heading stage-label">Compare</text>
+    <text x="999" y="516" class="font heading stage-label">next steps</text>
+  </g>
+  <g>
+    <rect class="card" x="1268" y="330" width="236" height="209" rx="19"/>
+    <path d="M1288 331 H1484" stroke="#15324B" stroke-width="7" stroke-linecap="round"/>
+    <text x="1293" y="372" class="font muted stage-num">05 / DECISION</text>
+    <rect x="1292" y="393" width="59" height="59" rx="15" fill="#E6F2F3"/>
+    <g class="icon-stroke" transform="translate(1299 403) scale(0.92)"><path d="M7 8 H20 L31 19 L20 30 H7"/><path d="M31 19 H40"/><circle cx="8" cy="8" r="3" fill="#08717C" stroke="none"/><circle cx="8" cy="30" r="3" fill="#08717C" stroke="none"/></g>
+    <text x="1293" y="506" class="font heading stage-label">Make a choice</text>
+  </g>
+
+  <!-- Question marks indicate areas to investigate, never actual measured abandonment. -->
+  <g>
+    <path d="M505 541 V603" fill="none" stroke="#7896A3" stroke-width="3" stroke-dasharray="4 9" stroke-linecap="round"/>
+    <circle cx="505" cy="545" r="5" fill="#08717C"/>
+    <rect x="368" y="604" width="274" height="125" rx="17" fill="#FFFFFF" stroke="#91AAB5" stroke-width="2" stroke-dasharray="8 6"/>
+    <rect x="386" y="622" width="33" height="33" rx="10" fill="#E6F2F3"/>
+    <text x="402.5" y="646" text-anchor="middle" class="font teal" font-size="22" font-weight="800">?</text>
+    <text x="430" y="645" class="font muted question-label">QUESTION TO CHECK</text>
+    <text x="388" y="682" class="font heading question-text">Is this for my</text>
+    <text x="388" y="709" class="font heading question-text">business?</text>
+  </g>
+  <g>
+    <path d="M799 541 V603" fill="none" stroke="#7896A3" stroke-width="3" stroke-dasharray="4 9" stroke-linecap="round"/>
+    <circle cx="799" cy="545" r="5" fill="#08717C"/>
+    <rect x="662" y="604" width="274" height="125" rx="17" fill="#FFFFFF" stroke="#91AAB5" stroke-width="2" stroke-dasharray="8 6"/>
+    <rect x="680" y="622" width="33" height="33" rx="10" fill="#E6F2F3"/>
+    <text x="696.5" y="646" text-anchor="middle" class="font teal" font-size="22" font-weight="800">?</text>
+    <text x="724" y="645" class="font muted question-label">QUESTION TO CHECK</text>
+    <text x="682" y="682" class="font heading question-text">Can I trust the</text>
+    <text x="682" y="709" class="font heading question-text">claim?</text>
+  </g>
+  <g>
+    <path d="M1093 541 V603" fill="none" stroke="#7896A3" stroke-width="3" stroke-dasharray="4 9" stroke-linecap="round"/>
+    <circle cx="1093" cy="545" r="5" fill="#08717C"/>
+    <rect x="956" y="604" width="274" height="125" rx="17" fill="#FFFFFF" stroke="#91AAB5" stroke-width="2" stroke-dasharray="8 6"/>
+    <rect x="974" y="622" width="33" height="33" rx="10" fill="#E6F2F3"/>
+    <text x="990.5" y="646" text-anchor="middle" class="font teal" font-size="22" font-weight="800">?</text>
+    <text x="1018" y="645" class="font muted question-label">QUESTION TO CHECK</text>
+    <text x="976" y="682" class="font heading question-text">What happens</text>
+    <text x="976" y="709" class="font heading question-text">after I ask?</text>
+  </g>
+
+  <!-- Explicit qualifier prevents the image from implying an observed conversion bottleneck. -->
+  <rect x="92" y="781" width="1412" height="73" rx="16" fill="#FFFFFF" stroke="#DCE6EA" stroke-width="1.5"/>
+  <rect x="110" y="798" width="7" height="38" rx="3.5" fill="#C77926"/>
+  <text x="135" y="811" class="font heading" font-size="19" font-weight="750">Illustrative — validate with customer feedback</text>
+  <text x="135" y="838" class="font muted" font-size="17.5">These are possible questions, not evidence of actual lost sales or measured customer drop-off.</text>
+</svg>

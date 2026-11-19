@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="svgTitle svgDesc">
+<title id="svgTitle">Proposed onboarding path from agreement to first useful value</title>
+<desc id="svgDesc">Five stages connected left to right: Agreement; Setup and access; Guidance; First useful milestone; Check-in. Below each, a provisional responsibility label identifies client input or provider task, using two icons for shared stages. A final question asks: How will we know this was useful? All responsibilities must be confirmed for each project. There are no dates or guaranteed outcomes.</desc>
+<defs>
+  <filter id="shadow" x="-15%" y="-15%" width="135%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#15324B" flood-opacity="0.065"/></filter>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#08717C"/></marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#A6BEC0"/></marker>
+</defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#F7F9FA" stroke="none" stroke-width="1" />
+<rect x="0" y="0" width="1600" height="13" rx="0" fill="#15324B" stroke="none" stroke-width="1" />
+<rect x="94" y="61" width="46" height="5" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="157" y="69" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="1.7">BGI SOLUTIONS  /  SERVICE VISUAL  /  SVC-16</text>
+<text x="94" y="143" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="42" font-weight="700" text-anchor="start" >From agreement to first useful value</text>
+<text x="95" y="190" fill="#596C78" font-family="'DejaVu Sans', Arial, sans-serif" font-size="22" font-weight="400" text-anchor="start" >A proposed onboarding path that makes steps and responsibilities clear.</text>
+<rect x="1252" y="109" width="254" height="50" rx="25" fill="#E7F2F3" stroke="#C6DEDF" stroke-width="1.7" />
+<circle cx="1283" cy="134" r="6" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="1304" y="140" fill="#08717C" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start" letter-spacing="0.9">ILLUSTRATIVE FLOW</text>
+<line x1="94" y1="222" x2="1506" y2="222" stroke="#D8E2E5" stroke-width="1.7" stroke-linecap="round"  />
+<text x="94" y="264" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start" letter-spacing="2.0">THE FIVE STAGES</text>
+<text x="1505" y="264" fill="#596C78" font-family="'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="500" text-anchor="end" letter-spacing="1.5">LEFT TO RIGHT</text>
+<line x1="360" y1="410" x2="373" y2="410" stroke="#08717C" stroke-width="3" stroke-linecap="round"  marker-end="url(#arr)"/>
+<rect x="94" y="292" width="260" height="234" rx="18" fill="#FFFFFF" stroke="#D8E4E8" stroke-width="1.8" filter="url(#shadow)"/>
+<rect x="110" y="304" width="58" height="33" rx="16" fill="#EDF6F6" stroke="none" stroke-width="1" />
+<text x="139" y="327" fill="#08717C" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" >01</text>
+<rect x="300" y="313" width="25" height="4" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="224.0" cy="390" r="40" fill="#EAF5F4" stroke="#D5E8E7" stroke-width="1.6" />
+<rect x="206" y="367" width="33" height="42" rx="3" fill="none" stroke="#08717C" stroke-width="3" />
+<line x1="213" y1="380" x2="232" y2="380" stroke="#08717C" stroke-width="2" stroke-linecap="round"  />
+<line x1="213" y1="390" x2="232" y2="390" stroke="#08717C" stroke-width="2" stroke-linecap="round"  />
+<path d="M213 401 l7 7 12 -15" fill="none" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+<text x="224.0" y="477" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" >Agreement</text>
+<line x1="648" y1="410" x2="661" y2="410" stroke="#08717C" stroke-width="3" stroke-linecap="round"  marker-end="url(#arr)"/>
+<rect x="382" y="292" width="260" height="234" rx="18" fill="#FFFFFF" stroke="#D8E4E8" stroke-width="1.8" filter="url(#shadow)"/>
+<rect x="398" y="304" width="58" height="33" rx="16" fill="#EDF6F6" stroke="none" stroke-width="1" />
+<text x="427" y="327" fill="#08717C" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" >02</text>
+<rect x="588" y="313" width="25" height="4" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="512.0" cy="390" r="40" fill="#EAF5F4" stroke="#D5E8E7" stroke-width="1.6" />
+<path d="M502 382 v-7 a10 10 0 0 1 20 0 v7" fill="none" stroke="#08717C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="498" y="383" width="28" height="23" rx="4" fill="none" stroke="#08717C" stroke-width="3" />
+<circle cx="512" cy="393" r="2.7" fill="#08717C" stroke="none" stroke-width="1" />
+<line x1="512" y1="396" x2="512" y2="400" stroke="#08717C" stroke-width="2" stroke-linecap="round"  />
+<text x="512.0" y="464" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" >Setup and</text>
+<text x="512.0" y="496" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" >access</text>
+<line x1="936" y1="410" x2="949" y2="410" stroke="#08717C" stroke-width="3" stroke-linecap="round"  marker-end="url(#arr)"/>
+<rect x="670" y="292" width="260" height="234" rx="18" fill="#FFFFFF" stroke="#D8E4E8" stroke-width="1.8" filter="url(#shadow)"/>
+<rect x="686" y="304" width="58" height="33" rx="16" fill="#EDF6F6" stroke="none" stroke-width="1" />
+<text x="715" y="327" fill="#08717C" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" >03</text>
+<rect x="876" y="313" width="25" height="4" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="800.0" cy="390" r="40" fill="#EAF5F4" stroke="#D5E8E7" stroke-width="1.6" />
+<path d="M784 403 l12 -31 20 19 -32 12 z" fill="none" stroke="#08717C" stroke-width="2.9" stroke-linecap="round" stroke-linejoin="round" />
+<line x1="796" y1="372" x2="803" y2="394" stroke="#08717C" stroke-width="2.3" stroke-linecap="round"  />
+<text x="800.0" y="477" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" >Guidance</text>
+<line x1="1224" y1="410" x2="1237" y2="410" stroke="#08717C" stroke-width="3" stroke-linecap="round"  marker-end="url(#arr)"/>
+<rect x="958" y="292" width="260" height="234" rx="18" fill="#FFFFFF" stroke="#D8E4E8" stroke-width="1.8" filter="url(#shadow)"/>
+<rect x="974" y="304" width="58" height="33" rx="16" fill="#EDF6F6" stroke="none" stroke-width="1" />
+<text x="1003" y="327" fill="#08717C" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" >04</text>
+<rect x="1164" y="313" width="25" height="4" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="1088.0" cy="390" r="40" fill="#EAF5F4" stroke="#D5E8E7" stroke-width="1.6" />
+<line x1="1074" y1="368" x2="1074" y2="411" stroke="#08717C" stroke-width="3" stroke-linecap="round"  />
+<path d="M1075 372 Q1086 365 1095 372 T1107 372 v21 Q1095 386 1086 393 Q1081 390 1075 393" fill="none" stroke="#08717C" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" />
+<text x="1088.0" y="464" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" >First useful</text>
+<text x="1088.0" y="496" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" >milestone</text>
+<rect x="1246" y="292" width="260" height="234" rx="18" fill="#FFFFFF" stroke="#D8E4E8" stroke-width="1.8" filter="url(#shadow)"/>
+<rect x="1262" y="304" width="58" height="33" rx="16" fill="#EDF6F6" stroke="none" stroke-width="1" />
+<text x="1291" y="327" fill="#08717C" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" >05</text>
+<rect x="1452" y="313" width="25" height="4" rx="2" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="1376.0" cy="390" r="40" fill="#EAF5F4" stroke="#D5E8E7" stroke-width="1.6" />
+<path d="M1359 371 H1394 a7 7 0 0 1 7 7 v20 a7 7 0 0 1 -7 7 h-18 l-11 10 v-10 h-6 a7 7 0 0 1 -7 -7 v-20 a7 7 0 0 1 7 -7 z" fill="none" stroke="#08717C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="1367" cy="388" r="2.7" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="1377" cy="388" r="2.7" fill="#08717C" stroke="none" stroke-width="1" />
+<circle cx="1387" cy="388" r="2.7" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="1376.0" y="477" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" >Check-in</text>
+<text x="94" y="578" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" text-anchor="start" letter-spacing="1.8">RESPONSIBILITY AT EACH STEP</text>
+<text x="1504" y="578" fill="#08717C" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="700" text-anchor="end" letter-spacing="1.0">CONFIRM PER PROJECT</text>
+<rect x="94" y="602" width="260" height="116" rx="15" fill="#EAF4F5" stroke="#CBDDE0" stroke-width="1.5" />
+<circle cx="134" cy="632" r="8" fill="#FFFFFF" stroke="#08717C" stroke-width="2.5" />
+<circle cx="146" cy="632" r="8" fill="#FFFFFF" stroke="#C77926" stroke-width="2.5" />
+<text x="166" y="638" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="1.0">SHARED</text>
+<circle cx="128" cy="665" r="5" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="143" y="671" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Client input</text>
+<rect x="123" y="686" width="10" height="10" rx="2" fill="#C77926" stroke="none" stroke-width="1" />
+<text x="143" y="696" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Provider task</text>
+<rect x="382" y="602" width="260" height="116" rx="15" fill="#EAF4F5" stroke="#CBDDE0" stroke-width="1.5" />
+<circle cx="422" cy="632" r="8" fill="#FFFFFF" stroke="#08717C" stroke-width="2.5" />
+<circle cx="434" cy="632" r="8" fill="#FFFFFF" stroke="#C77926" stroke-width="2.5" />
+<text x="454" y="638" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="1.0">SHARED</text>
+<circle cx="416" cy="665" r="5" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="431" y="671" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Client input</text>
+<rect x="411" y="686" width="10" height="10" rx="2" fill="#C77926" stroke="none" stroke-width="1" />
+<text x="431" y="696" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Provider task</text>
+<rect x="670" y="602" width="260" height="116" rx="15" fill="#EAF4F5" stroke="#CBDDE0" stroke-width="1.5" />
+<rect x="700" y="626" width="18" height="18" rx="4" fill="#C77926" stroke="none" stroke-width="1" />
+<text x="733" y="641" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0.9">PROVIDER TASK</text>
+<rect x="700" y="665" width="11" height="11" rx="2" fill="#C77926" stroke="none" stroke-width="1" />
+<text x="720" y="676" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Provider task</text>
+<rect x="958" y="602" width="260" height="116" rx="15" fill="#EAF4F5" stroke="#CBDDE0" stroke-width="1.5" />
+<circle cx="998" cy="632" r="8" fill="#FFFFFF" stroke="#08717C" stroke-width="2.5" />
+<circle cx="1010" cy="632" r="8" fill="#FFFFFF" stroke="#C77926" stroke-width="2.5" />
+<text x="1030" y="638" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="1.0">SHARED</text>
+<circle cx="992" cy="665" r="5" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="1007" y="671" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Client input</text>
+<rect x="987" y="686" width="10" height="10" rx="2" fill="#C77926" stroke="none" stroke-width="1" />
+<text x="1007" y="696" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Provider task</text>
+<rect x="1246" y="602" width="260" height="116" rx="15" fill="#EAF4F5" stroke="#CBDDE0" stroke-width="1.5" />
+<circle cx="1286" cy="632" r="8" fill="#FFFFFF" stroke="#08717C" stroke-width="2.5" />
+<circle cx="1298" cy="632" r="8" fill="#FFFFFF" stroke="#C77926" stroke-width="2.5" />
+<text x="1318" y="638" fill="#15324B" font-family="'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="1.0">SHARED</text>
+<circle cx="1280" cy="665" r="5" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="1295" y="671" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Client input</text>
+<rect x="1275" y="686" width="10" height="10" rx="2" fill="#C77926" stroke="none" stroke-width="1" />
+<text x="1295" y="696" fill="#18252D" font-family="'DejaVu Sans', Arial, sans-serif" font-size="19" font-weight="600" text-anchor="start" >Provider task</text>
+<rect x="94" y="755" width="1412" height="95" rx="16" fill="#15324B" stroke="none" stroke-width="1" />
+<rect x="94" y="755" width="9" height="95" rx="4" fill="#08717C" stroke="none" stroke-width="1" />
+<text x="128" y="790" fill="#BDE4E4" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="1.6">OPEN REVIEW QUESTION</text>
+<text x="128" y="827" fill="#FFFFFF" font-family="'DejaVu Sans', Arial, sans-serif" font-size="29" font-weight="700" text-anchor="start" >How will we know this was useful?</text>
+<text x="1473" y="824" fill="#D6E6EA" font-family="'DejaVu Sans', Arial, sans-serif" font-size="18" font-weight="500" text-anchor="end" >Measure to be agreed</text>
+<text x="95" y="883" fill="#596C78" font-family="'DejaVu Sans', Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start" >Proposed workflow only: responsibilities, measures and timing depend on each project agreement.</text>
+</svg>

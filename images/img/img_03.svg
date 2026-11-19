@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="imageTitle imageDescription">
+<title id="imageTitle">Choose the question you need answered — four independent service choices</title>
+<desc id="imageDescription">Four independent BGI Solutions service choices, arranged as a staggered decision ladder. SVC-01, Business Growth Intelligence Assessment and Constraint Diagnosis: What is holding us back? SVC-02, Growth Opportunity Discovery and Prioritization: Which opportunity first? SVC-03, Business Growth Strategy and Roadmap Architecture: What is the plan? SVC-04, Enterprise Capability and Growth System Development: What needs to be built or changed? Dotted connectors indicate a possible relationship only, not a required sequence.</desc>
+<defs>
+ <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F9FBFB"/><stop offset="1" stop-color="#F1F6F7"/></linearGradient>
+ <filter id="softShadow" x="-10%" y="-35%" width="120%" height="180%"><feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#15324B" flood-opacity="0.085"/></filter>
+</defs>
+<rect width="1440" height="1080" fill="url(#paper)"/>
+<!-- A restrained geometric motif, separated from the actual service content. -->
+<circle cx="1305" cy="108" r="120" fill="#087F8C" opacity=".035"/>
+<circle cx="1305" cy="108" r="84" fill="none" stroke="#087F8C" stroke-width="2" opacity=".09"/>
+<text x="112" y="76" fill="#08717C" font-family="Carlito, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2.7">SERVICE DECISION GUIDE</text>
+<text x="112" y="142" fill="#15324B" font-family="Carlito, Arial, sans-serif" font-size="53" font-weight="700" letter-spacing="-.6">Choose the question you need answered</text>
+<text x="112" y="192" fill="#486270" font-family="Carlito, Arial, sans-serif" font-size="24">Four independent starting points. Select the one that fits your decision.</text>
+<path d="M112 216 H1328" stroke="#D9E5E9" stroke-width="2"/>
+
+<path d="M 1070 400 C 1084 422, 1126 420, 1140 440" fill="none" stroke="#08717C" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round" opacity=".7"/>
+<path d="M 1140 590 C 1154 612, 1196 610, 1210 630" fill="none" stroke="#08717C" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round" opacity=".7"/>
+<path d="M 1210 780 C 1224 802, 1266 800, 1280 820" fill="none" stroke="#08717C" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round" opacity=".7"/>
+<g aria-label="SVC-01: What is holding us back?; Business Growth Intelligence Assessment &amp; Constraint Diagnosis">
+<rect x="112" y="250" width="1010" height="150" rx="21" fill="#FFFFFF" filter="url(#softShadow)"/>
+<rect x="112" y="250" width="1010" height="150" rx="21" fill="none" stroke="#DDE8EB" stroke-width="2"/>
+<path d="M132 250 h-1 a19 19 0 0 0 -19 19 v112 a19 19 0 0 0 19 19 h1" fill="none" stroke="#08717C" stroke-width="6" opacity=".93"/>
+<rect x="151" y="298" width="126" height="53" rx="12" fill="#E4F3F3"/>
+<text x="214" y="331" font-family="Carlito, Arial, sans-serif" font-weight="700" font-size="24" fill="#086A75" text-anchor="middle">SVC-01</text>
+<text x="316" y="316" font-family="Carlito, Arial, sans-serif" font-weight="700" font-size="32" fill="#15324B">What is holding us back?</text>
+<text x="316" y="359" font-family="Carlito, Arial, sans-serif" font-size="21" fill="#486270">Business Growth Intelligence Assessment &amp; Constraint Diagnosis</text>
+</g>
+<g aria-label="SVC-02: Which opportunity first?; Growth Opportunity Discovery &amp; Prioritization">
+<rect x="182" y="440" width="1010" height="150" rx="21" fill="#FFFFFF" filter="url(#softShadow)"/>
+<rect x="182" y="440" width="1010" height="150" rx="21" fill="none" stroke="#DDE8EB" stroke-width="2"/>
+<path d="M202 440 h-1 a19 19 0 0 0 -19 19 v112 a19 19 0 0 0 19 19 h1" fill="none" stroke="#08717C" stroke-width="6" opacity=".93"/>
+<rect x="221" y="488" width="126" height="53" rx="12" fill="#E4F3F3"/>
+<text x="284" y="521" font-family="Carlito, Arial, sans-serif" font-weight="700" font-size="24" fill="#086A75" text-anchor="middle">SVC-02</text>
+<text x="386" y="506" font-family="Carlito, Arial, sans-serif" font-weight="700" font-size="32" fill="#15324B">Which opportunity first?</text>
+<text x="386" y="549" font-family="Carlito, Arial, sans-serif" font-size="21" fill="#486270">Growth Opportunity Discovery &amp; Prioritization</text>
+</g>
+<g aria-label="SVC-03: What is the plan?; Business Growth Strategy &amp; Roadmap Architecture">
+<rect x="252" y="630" width="1010" height="150" rx="21" fill="#FFFFFF" filter="url(#softShadow)"/>
+<rect x="252" y="630" width="1010" height="150" rx="21" fill="none" stroke="#DDE8EB" stroke-width="2"/>
+<path d="M272 630 h-1 a19 19 0 0 0 -19 19 v112 a19 19 0 0 0 19 19 h1" fill="none" stroke="#08717C" stroke-width="6" opacity=".93"/>
+<rect x="291" y="678" width="126" height="53" rx="12" fill="#E4F3F3"/>
+<text x="354" y="711" font-family="Carlito, Arial, sans-serif" font-weight="700" font-size="24" fill="#086A75" text-anchor="middle">SVC-03</text>
+<text x="456" y="696" font-family="Carlito, Arial, sans-serif" font-weight="700" font-size="32" fill="#15324B">What is the plan?</text>
+<text x="456" y="739" font-family="Carlito, Arial, sans-serif" font-size="21" fill="#486270">Business Growth Strategy &amp; Roadmap Architecture</text>
+</g>
+<g aria-label="SVC-04: What needs to be built or changed?; Enterprise Capability &amp; Growth System Development">
+<rect x="322" y="820" width="1010" height="150" rx="21" fill="#FFFFFF" filter="url(#softShadow)"/>
+<rect x="322" y="820" width="1010" height="150" rx="21" fill="none" stroke="#DDE8EB" stroke-width="2"/>
+<path d="M342 820 h-1 a19 19 0 0 0 -19 19 v112 a19 19 0 0 0 19 19 h1" fill="none" stroke="#08717C" stroke-width="6" opacity=".93"/>
+<rect x="361" y="868" width="126" height="53" rx="12" fill="#E4F3F3"/>
+<text x="424" y="901" font-family="Carlito, Arial, sans-serif" font-weight="700" font-size="24" fill="#086A75" text-anchor="middle">SVC-04</text>
+<text x="526" y="886" font-family="Carlito, Arial, sans-serif" font-weight="700" font-size="32" fill="#15324B">What needs to be built or changed?</text>
+<text x="526" y="929" font-family="Carlito, Arial, sans-serif" font-size="21" fill="#486270">Enterprise Capability &amp; Growth System Development</text>
+</g>
+<g transform="translate(112 1030)">
+<line x1="0" y1="-6" x2="47" y2="-6" stroke="#08717C" stroke-width="3" stroke-dasharray="3 8" stroke-linecap="round"/>
+<text x="64" y="0" fill="#486270" font-family="Carlito, Arial, sans-serif" font-size="20">Related choices, not required steps</text>
+</g>
+<text x="1327" y="1030" font-family="Carlito, Arial, sans-serif" font-size="19" text-anchor="end" fill="#67808C">BGI Solutions · Service family A</text>
+</svg>
