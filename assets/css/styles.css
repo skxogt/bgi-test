@@ -300,6 +300,36 @@ a.chip:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
   .site-header__inner { padding-right: 10px; }
 }
 
+/* ---------- 5b. v4 header: full-width bar, transparent at the top ---------- */
+.site-header { padding-top: 0; background: #fff; border-bottom: 1px solid var(--line); pointer-events: auto; transition: background-color .3s var(--ease), border-color .3s var(--ease); }
+.site-header__inner { height: var(--header-h); padding: 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.nav { margin: 0 auto; }
+.brand .brand__white { display: none; }
+.site-header.is-top { background: transparent; border-bottom-color: transparent; }
+/* Home: white logo and links over the dark hero */
+.site-header--dark-hero.is-top .brand__color { display: none; }
+.site-header--dark-hero.is-top .brand__white { display: block; }
+.site-header--dark-hero.is-top .nav__link { color: #fff; }
+.site-header--dark-hero.is-top .nav__caret { color: rgba(255, 255, 255, .7); }
+.site-header--dark-hero.is-top .nav__link:hover,
+.site-header--dark-hero.is-top .nav__item--mega:hover > .nav__link,
+.site-header--dark-hero.is-top .nav__item--mega:focus-within > .nav__link { background: rgba(255, 255, 255, .14); color: #fff; }
+.site-header--dark-hero.is-top .header-cta { --bg: #fff; --fg: var(--ink); --bd: #fff; color: var(--ink); }
+.site-header--dark-hero.is-top .header-cta:hover { --bg: var(--blue); --bd: var(--blue); color: #fff; }
+.site-header--dark-hero.is-top .mnav > summary { background: #fff; color: var(--ink); }
+/* opening the drop-down at the top makes the bar solid for readability */
+.site-header.is-top:has(.nav__item--mega:hover), .site-header.is-top:has(.nav__item--mega:focus-within) { background: #fff; border-bottom-color: var(--line); }
+.site-header--dark-hero.is-top:has(.nav__item--mega:hover) .brand__color, .site-header--dark-hero.is-top:has(.nav__item--mega:focus-within) .brand__color { display: block; }
+.site-header--dark-hero.is-top:has(.nav__item--mega:hover) .brand__white, .site-header--dark-hero.is-top:has(.nav__item--mega:focus-within) .brand__white { display: none; }
+.site-header--dark-hero.is-top:has(.nav__item--mega:hover) .nav__link, .site-header--dark-hero.is-top:has(.nav__item--mega:focus-within) .nav__link { color: var(--ink); }
+.site-header--dark-hero.is-top:has(.nav__item--mega:hover) .header-cta, .site-header--dark-hero.is-top:has(.nav__item--mega:focus-within) .header-cta { --bg: var(--ink); --fg: #fff; --bd: var(--ink); color: #fff; }
+.site-header__inner { position: static; }
+.mega { left: 0; right: 0; padding-top: 0; }
+.mega__panel { border-radius: 0; border-width: 1px 0; border-top-color: var(--line); padding: 18px max(var(--gutter), calc((100vw - var(--container)) / 2)) 14px; box-shadow: 0 30px 50px -30px rgba(10, 16, 34, .3); }
+.mnav__panel { top: 100%; left: 0; right: 0; border-radius: 0 0 20px 20px; border-width: 1px 0; padding-inline: var(--gutter); }
+.site-header--dark-hero.is-top:has(.nav__item--mega:hover) .nav__caret, .site-header--dark-hero.is-top:has(.nav__item--mega:focus-within) .nav__caret { color: var(--ink-3); }
+.site-header--dark-hero.is-top:has(.nav__item--mega:hover) .nav__item--mega > .nav__link, .site-header--dark-hero.is-top:has(.nav__item--mega:focus-within) .nav__item--mega > .nav__link { background: var(--hover); }
+
 /* ---------- 6. Heroes ---------- */
 .hero { position: relative; padding: clamp(64px, 9vw, 136px) 0 clamp(56px, 7vw, 104px); border-bottom: 1px solid var(--line); isolation: isolate; overflow: hidden; }
 .hero::before { /* faint baseline grid, top-right */

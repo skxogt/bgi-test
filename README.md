@@ -1,6 +1,6 @@
 # BGI Solution website
 
-A static website built with plain HTML and CSS: 35 pages and no build step. The only JavaScript is a small script on the Home page that runs the optional video's pause button.
+A static website built with plain HTML and CSS: 35 pages and no build step. JavaScript is limited to two small scripts: the header that turns solid when you scroll, and the Home video's pause button.
 
 ## This branch: v4 (based on v3)
 
@@ -52,5 +52,6 @@ Team photos go in **`images/team/`**: `dmitriy.jpg` and `masud.jpg` for Leadersh
 - `images/img/`: your images and the Home page video
 - `images/team/`: team photos
 - `assets/img/`: logos (SVG) and icons
-- `assets/js/hero-video.js`: the only script; it runs the video's pause button
+- `assets/js/nav.js`: makes the header transparent at the top and solid when scrolling
+- `assets/js/hero-video.js`: the Home video's pause button
 - `instructions/`: the source content specification
