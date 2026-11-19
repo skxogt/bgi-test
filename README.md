@@ -2,6 +2,15 @@
 
 A static website built with plain HTML and CSS: 35 pages and no build step. The only JavaScript is a small script on the Home page that runs the optional video's pause button.
 
+## This branch: v2
+
+`v2` is a redesign of the same 35 pages and content (the first design is on `main`):
+
+- **Header:** a solid floating bar with neutral hover states, so it looks the same over light, blue and navy sections.
+- **Type and layout:** an editorial system with Inter Tight headlines, Instrument Serif italic accents, a 12-column grid, an 8px spacing scale and numbered sections.
+- **Palette:** warm paper and ink neutrals, BGI navy for depth, and BGI blue as the single accent.
+- **Motion:** CSS-only scroll reveals, a service-area marquee and stacking process cards. All of it switches off for visitors who choose "reduce motion".
+
 ## Open it on your computer
 
 1. On GitHub, click **Code → Download ZIP** and unzip it.
