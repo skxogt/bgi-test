@@ -1342,11 +1342,13 @@ a.chip:hover { border-color: var(--blue-300); color: var(--blue-700); }
   .cta-panel { grid-template-columns: minmax(0, 1fr); align-items: start; }
   .cta-panel .btn-row { justify-content: flex-start; }
   .steps--connected .step::after { display: none; }
-  .hero-home { display: flex; flex-direction: column; min-height: 0; padding-bottom: 0; }
+  .hero-home { display: flex; flex-direction: column; align-items: stretch; min-height: 0; padding-bottom: 0; }
   .hero-home__media {
     order: 2;
     position: relative; inset: auto;
     margin: 48px var(--gutter) 0;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    overflow: hidden;
     -webkit-mask-image: none; mask-image: none;
   }
   .hero-home__media .ph { aspect-ratio: 4 / 5; height: auto; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
@@ -1395,4 +1397,47 @@ a.chip:hover { border-color: var(--blue-300); color: var(--blue-700); }
 @media print {
   .site-header, .site-footer, .cta-band, .btn-row { display: none !important; }
   .section--tint { background: none; }
+}
+
+/* ---------- 13. Home hero video (optional, hero_video) ----------
+   Files go in assets/video/: hero_video.mp4 (H.264) and/or hero_video.webm.
+   The video sits on top of the img_01 still and only fades in once it plays. */
+.hero-video {
+  position: absolute; inset: 0; z-index: 3;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity .8s var(--ease);
+  pointer-events: none;
+}
+.hero-video.is-playing { opacity: 1; }
+.hero-video__toggle {
+  position: absolute; z-index: 4;
+  right: clamp(16px, 3vw, 40px); bottom: clamp(16px, 3vw, 40px);
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: 44px; padding: 10px 16px 10px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, .28);
+  background: rgba(3, 19, 49, .62);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  font: 600 .88rem/1 var(--font-body);
+  cursor: pointer;
+}
+.hero-video__toggle:hover { background: rgba(3, 19, 49, .85); border-color: rgba(255, 255, 255, .6); }
+.hero-video__toggle[hidden] { display: none; }
+.hero-video__icon { position: relative; width: 14px; height: 14px; flex: none; }
+.hero-video__icon::before, .hero-video__icon::after { /* pause bars */
+  content: ""; position: absolute; top: 1px; bottom: 1px; width: 4px; border-radius: 1px; background: currentColor;
+}
+.hero-video__icon::before { left: 2px; }
+.hero-video__icon::after { right: 2px; }
+.is-paused .hero-video__icon::before { /* play triangle */
+  left: 3px; top: 0; bottom: 0; width: 0; border-radius: 0; background: none;
+  border-style: solid; border-width: 7px 0 7px 11px; border-color: transparent transparent transparent currentColor;
+}
+.is-paused .hero-video__icon::after { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-video, .hero-video__toggle { display: none !important; }
 }

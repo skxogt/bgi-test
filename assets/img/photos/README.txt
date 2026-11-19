@@ -22,6 +22,9 @@ img_01  ->  file name: img_01.jpg
 --------------------------------------------
 Page:        Home page (index.html)
 Where:       Large background picture on the right side of the Home page hero. Keep the left part of the photo calm: the headline sits over it.
+             This is also the still image (poster) for the optional Home video
+             in assets/video/: it shows while the video loads, if the video is
+             missing, and for visitors who turn off motion.
 Shape:       21:9 on desktop (about 2520 x 1080 px), 4:5 crop on phones (about 1080 x 1350 px)
 Phone file:  img_01-mobile.jpg (optional)
 Alt text:    Illustrative business planning discussion around a website project.
