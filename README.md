@@ -2,9 +2,15 @@
 
 A static website built with plain HTML and CSS: 35 pages and no build step. The only JavaScript is a small script on the Home page that runs the optional video's pause button.
 
-## This branch: v2
+## This branch: v3 (based on v2)
 
-`v2` is a redesign of the same 35 pages and content (the first design is on `main`):
+`v3` keeps the v2 design and adds:
+
+- A **Get to know us** team section on the About page: Our Team, Leadership (Dmitriy and Masud), Meet the Team and Let's Connect.
+- More image slots: wide images on About, Services, How We Work and the five service-area pages, image cards for the sample projects and guides, and a portrait on Contact.
+- "Sample project" labels in place of the earlier demonstration/fictional notices.
+
+v2 itself (the first design is on `main`):
 
 - **Header:** a solid floating bar with neutral hover states, so it looks the same over light, blue and navy sections.
 - **Type and layout:** an editorial system with Inter Tight headlines, Instrument Serif italic accents, a 12-column grid, an 8px spacing scale and numbered sections.
@@ -18,35 +24,25 @@ A static website built with plain HTML and CSS: 35 pages and no build step. The 
 
 Every page and link works straight from your disk, with or without an internet connection.
 
-## Add your photos
+## Add your images and video
 
-Put the images in **`assets/img/photos/`**, named after their slot:
+All images and the Home page video go in **`images/img/`**, named after their slot id from
+`instructions/BGI_Solutions_Image_Prompts_v1.0.json` (for example `img_05.jpg`, `hero_video.mp4`).
+Team photos go in **`images/team/`**: `team.jpg`, `dmitriy.jpg` and `masud.jpg`.
 
-| File | Where it appears |
-| --- | --- |
-| `img_01.jpg` | Home page, large picture in the top section |
-| `img_02.jpg` | Home page, beside "Find the help you need" |
-| `img_04.jpg` | SVC-01 Business Growth Assessment page |
-| `img_14.jpg` | SVC-18 Website & Growth Asset Factory page |
-
-`.png`, `.jpeg` and `.webp` also work. A matching file replaces its placeholder automatically.
-See `assets/img/photos/README.txt` for sizes, phone crops and suggested alt text.
-
-## Add the Home page video (optional)
-
-Put it in **`assets/video/`** as **`hero_video.mp4`** (H.264). A `hero_video.webm` copy is optional.
-It plays silently in the Home page's top section, with a pause button. `img_01` is its still image:
-that image shows while the video loads, if the video is missing, and for visitors who turn off motion.
-See `assets/video/README.txt`.
+- `.jpg`, `.jpeg`, `.png` and `.webp` all work, upper or lower case.
+- A file with the right name replaces its placeholder automatically. Each placeholder shows the exact path it expects.
+- `images/img/README.txt` lists every slot with its page and recommended size.
 
 ## Folder layout
 
 - `index.html`: Home page
 - `services/`, `work/`, `how-we-work/`, `insights/`, `about/`, `contact/`: the main pages (each folder has an `index.html`)
 - `services/<service-name>/`: the five service areas and the 20 service pages
-- `privacy-policy/`, `terms/`, `accessibility/`: draft policy pages (not yet in effect)
+- `privacy-policy/`, `terms/`, `accessibility/`: policy pages
 - `assets/css/styles.css`: all styling
-- `assets/img/`: logo, icons and the `photos/` folder
-- `assets/video/`: the optional Home page video
+- `images/img/`: your images and the Home page video
+- `images/team/`: team photos
+- `assets/img/`: logo and icons
 - `assets/js/hero-video.js`: the only script; it runs the video's pause button
 - `instructions/`: the source content specification
