@@ -1,8 +1,8 @@
 {
   "schema_id": "bgi-solutions-new-provisional-image-manifest-v1",
-  "version": "1.2",
+  "version": "1.3",
   "created_on": "2026-10-29",
-  "project": "BGI Solutions",
+  "project": "BGI Solution",
   "source_archive": "BGI Website Contents.zip",
   "source_inventory": {
     "total_files": 37,
@@ -48,7 +48,7 @@
           "responsive_composition": "21:9 desktop with 4:5 mobile crop; text sits on the quiet left side."
         }
       ],
-      "visual_intent": "Editorial proposal: realistic small-business planning meeting; anonymous collaborative participants review a neutral website wireframe or written project outline on a desk. People depicted are generic models, not BGI Solutions staff or clients.",
+      "visual_intent": "Editorial proposal: realistic small-business planning meeting; anonymous collaborative participants review a neutral website wireframe or written project outline on a desk. People depicted are generic models, not BGI Solution staff or clients.",
       "generation_prompt": "Ultra-realistic editorial photograph for a premium but approachable business consulting and website production website. A small diverse group of adult business professionals in a contemporary, neutral workspace quietly reviewing blank website wireframes, notes and a laptop. Natural window light, genuine candid posture, precise materials, credible small-business scale. Keep the left 45 percent visually quiet for separate live headline and buttons; activity to the right. Restrained slate-blue and warm-neutral palette, premium sharpness, believable photographic texture, 24 mm environmental perspective. No legible writing, logo, claimed location, awards or metrics. People are conceptual models, not actual BGI personnel or customers.",
       "negative_prompt": "No fake BGI branded shirts, no recognizable company logos, no fabricated testimonials or charts, no legible AI text, no oversaturated stock-photo posing, no distorted hands or computer interfaces, no invented US office identity.",
       "alt_text_proposal": "Illustrative business planning discussion around a website project.",
@@ -82,7 +82,7 @@
         }
       ],
       "visual_intent": "Editorial proposal: clear compositional preview of unbranded, illustrative website and business-research materials; precise family labels must be live HTML or SVG, not baked into this image.",
-      "generation_prompt": "Photorealistic premium desktop still life showing a generic tablet or laptop with clean blank website sections, a simple printed roadmap, customer interview notes without legible text, and restrained blue-grey stationery. Emphasize actual materials and thoughtful content production rather than invented dashboards. Medium-angle composition with balanced negative space and realistic paper texture. A conceptual business service visual for BGI Solutions; no claims of completed client work.",
+      "generation_prompt": "Photorealistic premium desktop still life showing a generic tablet or laptop with clean blank website sections, a simple printed roadmap, customer interview notes without legible text, and restrained blue-grey stationery. Emphasize actual materials and thoughtful content production rather than invented dashboards. Medium-angle composition with balanced negative space and realistic paper texture. A conceptual business service visual for BGI Solution; no claims of completed client work.",
       "negative_prompt": "No real client logos, no analytics results, no exact chart labels, no fake generated text, no clutter, no unrealistic device screens, no unlicensed third-party UI.",
       "alt_text_proposal": "Illustrative website planning and business research materials.",
       "rights_review": "pending",
@@ -606,7 +606,7 @@
           "kind": "photo",
           "route": "/about/",
           "position": "band",
-          "alt_text": "Five icons representing the connected areas of BGI Solutions services.",
+          "alt_text": "Five icons representing the connected areas of BGI Solution services.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
       ]
@@ -621,7 +621,7 @@
           "kind": "photo",
           "route": "/services/",
           "position": "band",
-          "alt_text": "Five panels representing BGI Solutions service areas, from research to AI.",
+          "alt_text": "Five panels representing BGI Solution service areas, from research to AI.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
       ]
@@ -1642,28 +1642,26 @@
   },
   "team_assets": [
     {
-      "id": "team",
-      "page": "/about/",
-      "slot": "Our Team photo (12-person collage)",
-      "planned_path": "images/team/team.<jpg|jpeg|png|webp>",
-      "alt_text": "The BGI Solutions team.",
-      "display": "Shown whole (not cropped) on a white card."
-    },
-    {
       "id": "dmitriy",
       "page": "/about/",
       "slot": "Leadership: Dmitriy, Founder",
       "planned_path": "images/team/dmitriy.<ext> (dimitry / dmitry also accepted)",
-      "alt_text": "Dmitriy, Founder of BGI Solutions.",
-      "display": "4:5 portrait, cropped from the top."
+      "alt_text": "Dmitriy, Founder of BGI Solution."
     },
     {
       "id": "masud",
       "page": "/about/",
       "slot": "Leadership: Masud, Operations Lead",
       "planned_path": "images/team/masud.<ext>",
-      "alt_text": "Masud, Operations Lead at BGI Solutions.",
-      "display": "4:5 portrait, cropped from the top."
+      "alt_text": "Masud, Operations Lead at BGI Solution."
+    },
+    {
+      "id": "members",
+      "page": "/about/",
+      "slot": "Meet the Team grid",
+      "planned_path": "images/team/members/member-01.jpg ... member-12.jpg (any file in that folder is shown, in name order)",
+      "source": "Edited from images/team/originals/ (img8-img22): blue backdrop replaced with #F6F5F1, shirts recoloured black, matched 4:5 crops at 720x900.",
+      "alt_text": "BGI Solution team member."
     }
   ]
 }

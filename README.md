@@ -1,8 +1,15 @@
-# BGI Solutions website
+# BGI Solution website
 
 A static website built with plain HTML and CSS: 35 pages and no build step. The only JavaScript is a small script on the Home page that runs the optional video's pause button.
 
-## This branch: v3 (based on v2)
+## This branch: v4 (based on v3)
+
+`v4` keeps the v3 design and content, and adds:
+
+- The name **BGI Solution** across the site, with the new SVG logos (colour in the header, white in the footer) and a matching browser-tab icon.
+- A **Meet the Team** grid of 12 team photos on the About page, edited to a matching off-white background and black shirts.
+
+### v3 (based on v2)
 
 `v3` keeps the v2 design and adds:
 
@@ -29,7 +36,7 @@ Every page and link works straight from your disk, with or without an internet c
 
 All images and the Home page video go in **`images/img/`**, named after their slot id from
 `instructions/BGI_Solutions_Image_Prompts_v1.0.json` (for example `img_05.jpg`, `hero_video.mp4`).
-Team photos go in **`images/team/`**: `team.jpg`, `dmitriy.jpg` and `masud.jpg`.
+Team photos go in **`images/team/`**: `dmitriy.jpg` and `masud.jpg` for Leadership, and the Meet the Team photos in `images/team/members/` (shown in file-name order).
 
 - `.jpg`, `.jpeg`, `.png`, `.webp` and `.svg` all work, upper or lower case. If a slot has both a photo and an `.svg`, the photo is shown.
 - A file with the right name replaces its placeholder automatically. Each placeholder shows the exact path it expects.
@@ -44,6 +51,6 @@ Team photos go in **`images/team/`**: `team.jpg`, `dmitriy.jpg` and `masud.jpg`.
 - `assets/css/styles.css`: all styling
 - `images/img/`: your images and the Home page video
 - `images/team/`: team photos
-- `assets/img/`: logo and icons
+- `assets/img/`: logos (SVG) and icons
 - `assets/js/hero-video.js`: the only script; it runs the video's pause button
 - `instructions/`: the source content specification

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   BGI Solutions — website stylesheet (v3)
+   BGI Solution — website stylesheet (v4)
    Plain CSS, no build step. Fonts are embedded so the site works offline
    and when opened straight from disk.
 
@@ -911,7 +911,7 @@ a.chip:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
 .footer__list a { color: #b4c0d8; text-decoration: none; line-height: 1.4; background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size .35s var(--ease), color .2s var(--ease); }
 .footer__list a:hover { color: #fff; background-size: 100% 1px; }
 .footer__tag { font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; padding: 2px 6px; margin-left: 8px; border-radius: 5px; border: 1px solid rgba(255, 255, 255, .18); color: #8f9dba; vertical-align: 2px; }
-.footer__word { display: block; margin: 0 0 -.06em; font: 700 min(14.2vw, 13.4rem)/.82 var(--f-display); letter-spacing: -.05em; white-space: nowrap; color: transparent; background: linear-gradient(180deg, rgba(255, 255, 255, .16), rgba(255, 255, 255, .02) 85%); -webkit-background-clip: text; background-clip: text; user-select: none; }
+.footer__word { display: block; margin: 0 0 -.06em; font: 700 min(17.9vw, 16.4rem)/.82 var(--f-display); letter-spacing: -.05em; white-space: nowrap; color: transparent; background: linear-gradient(180deg, rgba(255, 255, 255, .16), rgba(255, 255, 255, .02) 85%); -webkit-background-clip: text; background-clip: text; user-select: none; }
 .footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding-block: var(--s5); border-top: 1px solid rgba(255, 255, 255, .12); font-size: .84rem; color: #7182a3; }
 
 /* ---------- 21b. v3: image cards, team, connect, contact image ---------- */
@@ -939,6 +939,10 @@ a.chip:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
 .leader h4 .accent { color: var(--blue); }
 .leader__role { font: 600 var(--fs-label)/1.2 var(--f-display); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); white-space: nowrap; }
 .team-photo { grid-column: 4 / -1; margin: 0; }
+.members { grid-column: 4 / -1; list-style: none; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: clamp(10px, 1.2vw, 18px); }
+.member { position: relative; overflow: hidden; border-radius: var(--r); background: var(--paper); }
+.member img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; transition: transform .8s var(--ease-out); }
+.member:hover img { transform: scale(1.04); }
 .team-photo { padding: clamp(16px, 2.4vw, 36px); background: #fff; border: 1px solid var(--line); border-radius: var(--r-xl); }
 
 .connect {
@@ -1000,7 +1004,7 @@ a.chip:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
   @supports (animation-timeline: view()) {
     .section__head, .split, .faq-layout, .card, .tile, .module, .step, .feature, .fammap__item, .faq details,
     .timeline__item, .table-wrap, .family-block__head, .checklist--cards li, .form-card, .contact-aside, .media-band .ph,
-    .cta-panel, .footer__cta, .leader, .team-photo, .connect, .team__label, .diagram-fig, .gallery__item {
+    .cta-panel, .footer__cta, .leader, .team-photo, .members, .connect, .team__label, .diagram-fig, .gallery__item {
       animation: reveal linear both;
       animation-timeline: view();
       animation-range: entry 0% entry 55%;
@@ -1047,7 +1051,8 @@ a.chip:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
   .fammap-layout .fammap, .fammap-layout > .ph { grid-column: 1 / -1; position: static; }
   .fammap-layout > .ph { margin-top: var(--s6); }
   .contact-layout > .form-card, .contact-layout > .contact-aside { grid-column: 1 / -1; }
-  .team__label, .leaders, .team-photo { grid-column: 1 / -1; }
+  .team__label, .leaders, .team-photo, .members { grid-column: 1 / -1; }
+  .members { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .gallery__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .hero__aside > .ph { margin: 0; max-width: 420px; }
   .contact-aside { margin-top: var(--s7); }
@@ -1094,6 +1099,7 @@ a.chip:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
   .compare td::before { content: attr(data-label); display: block; margin-bottom: 2px; font: 600 .7rem/1.3 var(--f-display); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
   .pillars__cols span { min-height: 76px; font-size: .8rem; }
   .leaders { grid-template-columns: minmax(0, 1fr); }
+  .members { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .gallery__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gallery__cap { font-size: .85rem; }
   .diagram-fig figcaption { font-size: .95rem; }

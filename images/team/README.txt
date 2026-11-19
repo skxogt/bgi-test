@@ -1,16 +1,22 @@
 TEAM PHOTOS  (About page, "Get to know us")
 ============================================
 
-Put these in THIS folder:  images/team/
-
-  team.jpg      Meet the Team: the group / collage photo. Shown whole (wide, about 2.4:1).
-  dmitriy.jpg   Leadership: Dmitriy, Founder. Portrait, 4:5 (e.g. 1080 x 1350 px).
+Leadership (this folder):
+  dmitriy.jpg   Dmitriy, Founder. Portrait, 4:5 (e.g. 1080 x 1350 px).
                 (dimitry.jpg or dmitry.jpg also work)
-  masud.jpg     Leadership: Masud, Operations Lead. Portrait, 4:5.
+  masud.jpg     Masud, Operations Lead. Portrait, 4:5. Not added yet.
+  Any of .jpg .jpeg .png .webp works. Portraits are cropped from the top.
 
-Any of .jpg .jpeg .png .webp .svg works, upper or lower case.
-Portraits are cropped from the top, so keep heads near the top of the frame.
+Meet the Team:  members/
+  member-01.jpg ... member-12.jpg are shown as a grid, in file-name order.
+  They are edited copies of the photos in originals/ (img8 ... img22):
+  blue backdrop replaced with off-white (#F6F5F1), shirts recoloured black,
+  and cropped to the same 4:5 framing (720 x 900 px).
 
-The team.png and dmitriy.jpg here now are small preview copies (320 px and
-213 px wide). Replace them with full-resolution photos (at least 1600 px wide
-for the team photo, 1080 px wide for portraits) so they look sharp.
+  To add someone: add member-13.jpg (4:5, head near the top).
+  To remove someone: delete their file. To reorder: rename the files.
+
+originals/       The untouched photos as uploaded. Not shown on the site.
+team.png         The earlier collage. No longer shown (replaced by the grid).
+dmitriy.jpg is a small preview copy (213 px wide): replace it with the
+full-size photo for a sharp result.
