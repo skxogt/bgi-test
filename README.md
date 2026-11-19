@@ -19,8 +19,9 @@ v2 itself (the first design is on `main`):
 
 ## Open it on your computer
 
-1. On GitHub, click **Code → Download ZIP** and unzip it.
-2. Open the unzipped folder and double-click **`index.html`**.
+1. On GitHub, **switch to the branch you want first** (the branch menu at the top left of the file list). The ZIP contains only the branch that is selected, and the default is `main`, the first version of the site. Your images are on `v3`.
+2. Click **Code → Download ZIP** and unzip it. In Windows, right-click the ZIP and choose **Extract All**; opening it without extracting won't work.
+3. Open the unzipped folder and double-click **`index.html`**.
 
 Every page and link works straight from your disk, with or without an internet connection.
 
