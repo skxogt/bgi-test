@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="diagramTitle diagramDesc">
+<title id="diagramTitle">AI readiness gateway: five checks before considering a pilot</title>
+<desc id="diagramDesc">A five-gate checklist: Is the task clear? Is the data suitable and permitted? Are security and privacy risks understood? Who reviews the output? What would a small test prove? At each gate, a dashed connector leads to Pause or revise the idea. Only after approval should a pilot be considered.</desc>
+<defs>
+  <marker id="forward" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 Z" fill="#08717C"/>
+  </marker>
+  <filter id="shadow" x="-10%" y="-20%" width="120%" height="160%">
+    <feDropShadow dx="0" dy="5" stdDeviation="11" flood-color="#15324B" flood-opacity=".055"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="1440" height="1080" fill="#F7F9FA"/>
+<path d="M108 80 H1332" fill="none" stroke="#DEE8ED" stroke-width="2"/>
+<rect x="108" y="99" width="102" height="30" rx="15" fill="#E5F1F2"/>
+<text x="159" y="119" fill="#08717C" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="15" text-anchor="middle">SVC-19</text>
+<text x="227" y="120" fill="#546874" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" letter-spacing="2" font-size="16">AI READINESS &amp; GROWTH ENABLEMENT</text>
+<text x="108" y="185" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="49">Check before choosing AI</text>
+<text x="110" y="224" fill="#546874" font-family="Arial,DejaVu Sans,sans-serif" font-size="21">Five decision gates • suitability, permission, risk, and human oversight</text>
+
+<rect x="130" y="251" width="820" height="91" rx="15" fill="#FFFFFF" stroke="#D4E1E7" stroke-width="2" filter="url(#shadow)"/>
+<path d="M131 269 L131 324" fill="none" stroke="#08717C" stroke-width="5" stroke-linecap="round"/>
+<circle cx="181" cy="296.5" r="25" fill="#15324B"/>
+<text x="181" y="305.5" text-anchor="middle" fill="#FFFFFF" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700">01</text>
+<text x="235" y="282" fill="#08717C" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="16" letter-spacing="1.25">TASK CLARITY</text>
+<text x="235" y="319" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="29">Is the task clear?</text>
+<path d="M958 296.5 H1030" fill="none" stroke="#B16B22" stroke-width="2.4" stroke-dasharray="7 8"/>
+<circle cx="1030" cy="296.5" r="5.5" fill="#FFFFFF" stroke="#B16B22" stroke-width="2.5"/>
+<path d="M540 345 L540 354" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#forward)"/>
+<rect x="130" y="364" width="820" height="91" rx="15" fill="#FFFFFF" stroke="#D4E1E7" stroke-width="2" filter="url(#shadow)"/>
+<path d="M131 382 L131 437" fill="none" stroke="#08717C" stroke-width="5" stroke-linecap="round"/>
+<circle cx="181" cy="409.5" r="25" fill="#15324B"/>
+<text x="181" y="418.5" text-anchor="middle" fill="#FFFFFF" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700">02</text>
+<text x="235" y="395" fill="#08717C" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="16" letter-spacing="1.25">DATA &amp; ACCESS</text>
+<text x="235" y="432" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="29">Is the data suitable and permitted?</text>
+<path d="M958 409.5 H1030" fill="none" stroke="#B16B22" stroke-width="2.4" stroke-dasharray="7 8"/>
+<circle cx="1030" cy="409.5" r="5.5" fill="#FFFFFF" stroke="#B16B22" stroke-width="2.5"/>
+<path d="M540 458 L540 467" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#forward)"/>
+<rect x="130" y="477" width="820" height="91" rx="15" fill="#FFFFFF" stroke="#D4E1E7" stroke-width="2" filter="url(#shadow)"/>
+<path d="M131 495 L131 550" fill="none" stroke="#08717C" stroke-width="5" stroke-linecap="round"/>
+<circle cx="181" cy="522.5" r="25" fill="#15324B"/>
+<text x="181" y="531.5" text-anchor="middle" fill="#FFFFFF" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700">03</text>
+<text x="235" y="508" fill="#08717C" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="16" letter-spacing="1.25">SECURITY &amp; PRIVACY</text>
+<text x="235" y="545" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="29">Are security and privacy risks understood?</text>
+<path d="M958 522.5 H1030" fill="none" stroke="#B16B22" stroke-width="2.4" stroke-dasharray="7 8"/>
+<circle cx="1030" cy="522.5" r="5.5" fill="#FFFFFF" stroke="#B16B22" stroke-width="2.5"/>
+<path d="M540 571 L540 580" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#forward)"/>
+<rect x="130" y="590" width="820" height="91" rx="15" fill="#FFFFFF" stroke="#D4E1E7" stroke-width="2" filter="url(#shadow)"/>
+<path d="M131 608 L131 663" fill="none" stroke="#08717C" stroke-width="5" stroke-linecap="round"/>
+<circle cx="181" cy="635.5" r="25" fill="#15324B"/>
+<text x="181" y="644.5" text-anchor="middle" fill="#FFFFFF" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700">04</text>
+<text x="235" y="621" fill="#08717C" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="16" letter-spacing="1.25">HUMAN REVIEW</text>
+<text x="235" y="658" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="29">Who reviews the output?</text>
+<path d="M958 635.5 H1030" fill="none" stroke="#B16B22" stroke-width="2.4" stroke-dasharray="7 8"/>
+<circle cx="1030" cy="635.5" r="5.5" fill="#FFFFFF" stroke="#B16B22" stroke-width="2.5"/>
+<path d="M540 684 L540 693" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#forward)"/>
+<rect x="130" y="703" width="820" height="91" rx="15" fill="#FFFFFF" stroke="#D4E1E7" stroke-width="2" filter="url(#shadow)"/>
+<path d="M131 721 L131 776" fill="none" stroke="#08717C" stroke-width="5" stroke-linecap="round"/>
+<circle cx="181" cy="748.5" r="25" fill="#15324B"/>
+<text x="181" y="757.5" text-anchor="middle" fill="#FFFFFF" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="700">05</text>
+<text x="235" y="734" fill="#08717C" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="16" letter-spacing="1.25">TEST CRITERIA</text>
+<text x="235" y="771" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="29">What would a small test prove?</text>
+<path d="M958 748.5 H1030" fill="none" stroke="#B16B22" stroke-width="2.4" stroke-dasharray="7 8"/>
+<circle cx="1030" cy="748.5" r="5.5" fill="#FFFFFF" stroke="#B16B22" stroke-width="2.5"/>
+<path d="M1030 296.5 V748.5" fill="none" stroke="#B16B22" stroke-width="2.6" stroke-dasharray="8 10"/>
+<path d="M1030 548 H1080" fill="none" stroke="#B16B22" stroke-width="2.6" stroke-dasharray="8 9"/>
+<rect x="1080" y="463" width="253" height="170" rx="16" fill="#FFF5E9" stroke="#D5A46E" stroke-width="2"/>
+<text x="1105" y="495" fill="#B16B22" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="15" letter-spacing="1.2">AT ANY GATE</text>
+<text x="1105" y="531" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="25">Pause or</text>
+<text x="1105" y="560" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-weight="700" font-size="25">revise the idea</text>
+<text x="1105" y="594" fill="#546874" font-family="Arial,DejaVu Sans,sans-serif" font-size="16">Revisit inputs, risks,</text>
+<text x="1105" y="615" fill="#546874" font-family="Arial,DejaVu Sans,sans-serif" font-size="16">or the proposed task.</text>
+<path d="M540 797 V828" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#forward)"/>
+<rect x="246" y="844" width="590" height="82" rx="17" fill="#E8F3F3" stroke="#9CC8C9" stroke-width="2"/>
+<circle cx="291" cy="885" r="19" fill="#08717C"/>
+<path d="M284 885 H298 M293 879 L299 885 L293 891" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<text x="327" y="879" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-size="26" font-weight="700">Consider a pilot only</text>
+<text x="327" y="907" fill="#15324B" font-family="Arial,DejaVu Sans,sans-serif" font-size="26" font-weight="700">after approval</text>
+<path d="M108 959 H1332" fill="none" stroke="#DEE8ED" stroke-width="2"/>
+<path d="M111 990 H175" fill="none" stroke="#08717C" stroke-width="3" marker-end="url(#forward)"/>
+<text x="190" y="996" fill="#546874" font-family="Arial,DejaVu Sans,sans-serif" font-size="17">Continue to next check</text>
+<path d="M510 990 H576" fill="none" stroke="#B16B22" stroke-width="2.5" stroke-dasharray="7 7"/>
+<text x="592" y="996" fill="#546874" font-family="Arial,DejaVu Sans,sans-serif" font-size="17">Option to pause or revise</text>
+<text x="1327" y="996" text-anchor="end" fill="#546874" font-family="Arial,DejaVu Sans,sans-serif" font-size="15">Illustrative framework · Not a certification</text>
+</svg>

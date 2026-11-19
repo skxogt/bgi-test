@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="diagram-title diagram-desc">
+  <title id="diagram-title">Possible website and business asset outputs, reviewed before handover</title>
+  <desc id="diagram-desc">An agreed brief branches to three separately scoped options: Website pages, Sales and conversion materials, or Guides or reusable assets. Selected outputs pass through a shared Review, accessibility and permissions check before an approved handover package. Formats and ownership are agreed in scope.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F8FA"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15324B"/>
+      <stop offset="1" stop-color="#214A64"/>
+    </linearGradient>
+    <linearGradient id="review" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2FAFA"/>
+      <stop offset="1" stop-color="#EAF5F6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="13" flood-color="#15324B" flood-opacity="0.09"/>
+    </filter>
+    <marker id="arrow-teal" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1 1 L9 5.5 L1 10" fill="none" stroke="#08717C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <pattern id="gridDots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1.2" fill="#C7D7DE" opacity="0.4"/>
+    </pattern>
+    <style>
+      .type { font-family: Inter, Arial, Helvetica, sans-serif; }
+      .ink { fill: #15324B; }
+      .muted { fill: #596C76; }
+      .teal { fill: #08717C; }
+      .branch { fill: none; stroke: #08717C; stroke-width: 3.2; stroke-dasharray: 8 9; stroke-linecap: round; stroke-linejoin: round; }
+      .merge { fill: none; stroke: #8096A3; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Neutral canvas and subtle diagram texture -->
+  <rect x="0" y="0" width="1440" height="1080" fill="url(#back)"/>
+  <rect x="1090" y="65" width="250" height="210" fill="url(#gridDots)" opacity="0.6"/>
+  <circle cx="1270" cy="135" r="150" fill="#E9F3F5" opacity="0.40"/>
+  <path d="M100 203 H1340" fill="none" stroke="#DBE5E9" stroke-width="2"/>
+
+  <!-- Header -->
+  <text class="type teal" x="100" y="91" font-size="21" font-weight="700" letter-spacing="2.4">SVC-18  /  ASSET PRODUCTION MAP</text>
+  <text class="type ink" x="100" y="153" font-size="49" font-weight="750" letter-spacing="-1.1">From agreed brief to handover</text>
+  <text class="type muted" x="101" y="189" font-size="22">Illustrative output options — only the branches agreed in scope are included.</text>
+
+  <!-- Input -->
+  <rect x="520" y="239" width="400" height="105" rx="23" fill="url(#navy)" filter="url(#shadow)"/>
+  <circle cx="571" cy="292" r="24" fill="#FFFFFF" opacity="0.13"/>
+  <path d="M560 280 h18 v23 h-18 z M564 286 h10 M564 292 h10 M564 298 h7" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="type" x="730" y="283" text-anchor="middle" fill="#DDE9ED" font-size="18" font-weight="600" letter-spacing="0.8">STARTING POINT</text>
+  <text class="type" x="730" y="318" text-anchor="middle" fill="#FFFFFF" font-size="33" font-weight="700">Agreed brief</text>
+
+  <!-- Optional fork: branching dotted lines -->
+  <path class="branch" d="M720 344 V373 H285 V439" marker-end="url(#arrow-teal)"/>
+  <path class="branch" d="M720 373 V439" marker-end="url(#arrow-teal)"/>
+  <path class="branch" d="M720 373 H1155 V439" marker-end="url(#arrow-teal)"/>
+  <rect x="100" y="387" width="166" height="38" rx="19" fill="#F0F7F8" stroke="#D2E6E8" stroke-width="1.4"/>
+  <text class="type teal" x="183" y="411" text-anchor="middle" font-size="15" font-weight="650">OPTIONAL OUTPUTS</text>
+
+  <!-- Three equal-weight branch cards -->
+  <rect x="100" y="453" width="370" height="196" rx="20" fill="#FFFFFF" stroke="#D6E2E7" stroke-width="2" filter="url(#shadow)"/>
+  <path d="M120 453 H450" stroke="#087F8C" stroke-width="6" stroke-linecap="round"/>
+  <rect x="125" y="486" width="66" height="62" rx="17" fill="#EAF5F6"/>
+  <rect x="141" y="499" width="34" height="31" rx="3.5" fill="none" stroke="#08717C" stroke-width="2.8"/>
+  <path d="M141 507 H175 M148 516 H159 M148 522 H168" stroke="#08717C" stroke-width="2.4" stroke-linecap="round"/>
+  <text class="type ink" x="211" y="520" font-size="27" font-weight="710">Website pages</text>
+  <text class="type muted" x="211" y="553" font-size="18">Possible deliverable</text>
+  <path d="M127 579 H443" stroke="#E4ECEF" stroke-width="2"/>
+  <text class="type muted" x="128" y="611" font-size="18">Selected only when scoped</text>
+
+  <rect x="535" y="453" width="370" height="196" rx="20" fill="#FFFFFF" stroke="#D6E2E7" stroke-width="2" filter="url(#shadow)"/>
+  <path d="M555 453 H885" stroke="#087F8C" stroke-width="6" stroke-linecap="round"/>
+  <rect x="561" y="485" width="66" height="62" rx="17" fill="#EAF5F6"/>
+  <path d="M581 502 H609 V533 H581 Z M586 511 H602 M586 519 H603 M586 527 H595" fill="none" stroke="#08717C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="type ink" x="647" y="513" font-size="23" font-weight="710">Sales and conversion</text>
+  <text class="type ink" x="647" y="545" font-size="23" font-weight="710">materials</text>
+  <path d="M562 579 H878" stroke="#E4ECEF" stroke-width="2"/>
+  <text class="type muted" x="563" y="611" font-size="18">Selected only when scoped</text>
+
+  <rect x="970" y="453" width="370" height="196" rx="20" fill="#FFFFFF" stroke="#D6E2E7" stroke-width="2" filter="url(#shadow)"/>
+  <path d="M990 453 H1320" stroke="#087F8C" stroke-width="6" stroke-linecap="round"/>
+  <rect x="996" y="485" width="66" height="62" rx="17" fill="#EAF5F6"/>
+  <path d="M1010 506 Q1020 502 1028 506 V532 Q1019 528 1010 532 Z M1028 506 Q1037 502 1048 506 V532 Q1037 528 1028 532 Z M1028 505 V533" fill="none" stroke="#08717C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="type ink" x="1082" y="513" font-size="23" font-weight="710">Guides or reusable</text>
+  <text class="type ink" x="1082" y="545" font-size="23" font-weight="710">assets</text>
+  <path d="M997 579 H1313" stroke="#E4ECEF" stroke-width="2"/>
+  <text class="type muted" x="998" y="611" font-size="18">Selected only when scoped</text>
+
+  <!-- Selected branches combine at shared review gate -->
+  <path class="merge" d="M285 649 V682 H1155 V649"/>
+  <path class="merge" d="M720 649 V718" marker-end="url(#arrow-teal)"/>
+  <rect x="97" y="690" width="299" height="34" rx="17" fill="#F4F8FA"/>
+  <text class="type muted" x="247" y="713" text-anchor="middle" font-size="17" font-weight="650">Only selected work continues</text>
+
+  <!-- Required review gate -->
+  <rect x="409" y="735" width="622" height="117" rx="24" fill="url(#review)" stroke="#08717C" stroke-width="2.6" filter="url(#shadow)"/>
+  <circle cx="468" cy="793" r="33" fill="#08717C"/>
+  <path d="M452 793 L464 804 L484 782" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="type ink" x="746" y="782" text-anchor="middle" font-size="27" font-weight="750">Review / accessibility / permissions</text>
+  <text class="type muted" x="746" y="817" text-anchor="middle" font-size="20">One check before any approved handover</text>
+
+  <!-- Final handover -->
+  <path d="M720 852 V896" fill="none" stroke="#08717C" stroke-width="3.3" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+  <rect x="464" y="907" width="512" height="97" rx="23" fill="url(#navy)" filter="url(#shadow)"/>
+  <text class="type" x="720" y="949" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="750">Approved handover package</text>
+  <text class="type" x="720" y="982" text-anchor="middle" fill="#DDE9ED" font-size="19">Formats and ownership agreed in scope</text>
+</svg>
