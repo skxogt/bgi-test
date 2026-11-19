@@ -1,0 +1,524 @@
+{
+  "schema_id": "bgi-solutions-new-provisional-image-manifest-v1",
+  "version": "1.0",
+  "created_on": "2026-10-29",
+  "project": "BGI Solutions",
+  "source_archive": "BGI Website Contents.zip",
+  "source_inventory": {
+    "total_files": 37,
+    "content_route_documents": 35,
+    "governing_reference_documents": 2,
+    "legacy_image_spec_provided": false,
+    "legacy_json_provided": false
+  },
+  "compatibility_notice": "This is a new proposed JSON structure, not a verified update to the missing legacy manifest. Do not replace a production schema without explicit compatibility review.",
+  "publication_policy": {
+    "all_image_assets_unapproved": true,
+    "no_actual_image_files_in_archive": true,
+    "do_not_generate_new_numbered_ids_without_approval": true,
+    "do_not_claim_generic_people_are_bgi_staff_or_clients": true,
+    "do_not_use_ai_generated_charts_as_factual_business_evidence": true,
+    "final_domain": null
+  },
+  "reserved_asset_ids": [
+    "img_01",
+    "img_02",
+    "img_04",
+    "img_14"
+  ],
+  "explicitly_unapproved_example_ids": [
+    "img_19",
+    "img_20",
+    "img_23"
+  ],
+  "image_assets": [
+    {
+      "id": "img_01",
+      "type": "image",
+      "planned_route": "/",
+      "slot": "Home hero static visual / video poster candidate",
+      "source_reference_status": "retained_in_page_source; approval_unverified",
+      "generation_status": "not_generated",
+      "publication_approved": false,
+      "visual_intent_status": "new_editorial_proposal",
+      "visual_intent": "Editorial proposal: realistic small-business planning meeting; anonymous collaborative participants review a neutral website wireframe or written project outline on a desk. People depicted are generic models, not BGI Solutions staff or clients.",
+      "generation_prompt": "Ultra-realistic editorial photograph for a premium but approachable business consulting and website production website. A small diverse group of adult business professionals in a contemporary, neutral workspace quietly reviewing blank website wireframes, notes and a laptop. Natural window light, genuine candid posture, precise materials, credible small-business scale. Keep the left 45 percent visually quiet for separate live headline and buttons; activity to the right. Restrained slate-blue and warm-neutral palette, premium sharpness, believable photographic texture, 24 mm environmental perspective. No legible writing, logo, claimed location, awards or metrics. People are conceptual models, not actual BGI personnel or customers.",
+      "negative_prompt": "No fake BGI branded shirts, no recognizable company logos, no fabricated testimonials or charts, no legible AI text, no oversaturated stock-photo posing, no distorted hands or computer interfaces, no invented US office identity.",
+      "alt_text_proposal": "Illustrative business planning discussion around a website project.",
+      "responsive_composition": "21:9 desktop with 4:5 mobile crop or dedicated variant; keep content readable without image.",
+      "actual_path": null,
+      "actual_mime_type": null,
+      "actual_width": null,
+      "actual_height": null,
+      "asset_sha256": null,
+      "rights_review": "pending",
+      "owner_approval": "pending",
+      "required_fallback": "Page remains complete with live text when absent"
+    },
+    {
+      "id": "img_02",
+      "type": "image",
+      "planned_route": "/",
+      "slot": "Home service map / illustrative deliverables preview",
+      "source_reference_status": "retained_in_page_source; approval_unverified",
+      "generation_status": "not_generated",
+      "publication_approved": false,
+      "visual_intent_status": "new_editorial_proposal",
+      "visual_intent": "Editorial proposal: clear compositional preview of unbranded, illustrative website and business-research materials; precise family labels must be live HTML or SVG, not baked into this image.",
+      "generation_prompt": "Photorealistic premium desktop still life showing a generic tablet or laptop with clean blank website sections, a simple printed roadmap, customer interview notes without legible text, and restrained blue-grey stationery. Emphasize actual materials and thoughtful content production rather than invented dashboards. Medium-angle composition with balanced negative space and realistic paper texture. A conceptual business service visual for BGI Solutions; no claims of completed client work.",
+      "negative_prompt": "No real client logos, no analytics results, no exact chart labels, no fake generated text, no clutter, no unrealistic device screens, no unlicensed third-party UI.",
+      "alt_text_proposal": "Illustrative website planning and business research materials.",
+      "responsive_composition": "4:3 desktop and 4:5 mobile, crop subject centrally; add service family names only as accessible live text.",
+      "actual_path": null,
+      "actual_mime_type": null,
+      "actual_width": null,
+      "actual_height": null,
+      "asset_sha256": null,
+      "rights_review": "pending",
+      "owner_approval": "pending",
+      "required_fallback": "Page remains complete with live text when absent"
+    },
+    {
+      "id": "img_04",
+      "type": "image",
+      "planned_route": "/services/business-growth-intelligence-assessment-and-constraint-diagnosis/",
+      "slot": "SVC-01 illustrative constraint diagnosis visual",
+      "source_reference_status": "retained_in_page_source; approval_unverified",
+      "generation_status": "not_generated",
+      "publication_approved": false,
+      "visual_intent_status": "new_editorial_proposal",
+      "visual_intent": "Editorial proposal: conceptual assessment work surface; precise symptom, evidence and causal labels must be rendered as HTML/SVG outside generated image.",
+      "generation_prompt": "Ultra-realistic close editorial scene of a consultant reviewing a neutral business process sketch beside printed notes, sticky notes without legible words, and a simple empty relationship-map template. Subtle visual separation of possible symptoms, evidence and causes without numerical results or presented conclusions. Modern understated professional workspace, natural soft daylight, crisp texture, slate-blue and warm-paper palette. Right-weighted or centered practical composition that remains clear as a crop, with space for live overlaid HTML labels if needed.",
+      "negative_prompt": "No factual diagrams with AI-generated writing, no numeric business results, no charts implying measured improvements, no logos, no faces identified as employees, no fabricated diagnosis.",
+      "alt_text_proposal": "Illustrative materials arranged for a business growth assessment.",
+      "responsive_composition": "16:9 desktop, 4:5 mobile crop; build any functional constraint map as live accessible HTML/SVG.",
+      "actual_path": null,
+      "actual_mime_type": null,
+      "actual_width": null,
+      "actual_height": null,
+      "asset_sha256": null,
+      "rights_review": "pending",
+      "owner_approval": "pending",
+      "required_fallback": "Page remains complete with live text when absent"
+    },
+    {
+      "id": "img_14",
+      "type": "image",
+      "planned_route": "/services/website-and-growth-asset-factory/",
+      "slot": "SVC-18 website and growth material previews",
+      "source_reference_status": "retained_in_page_source; approval_unverified",
+      "generation_status": "not_generated",
+      "publication_approved": false,
+      "visual_intent_status": "new_editorial_proposal",
+      "visual_intent": "Editorial proposal: clearly labeled demonstration website device mockup and companion printed business materials; not a real client portfolio.",
+      "generation_prompt": "Ultra-realistic commercial editorial photograph of a premium but simple unbranded sample service-business website on a laptop and mobile phone, accompanied by a generic printed brochure and an organized content brief. Screens contain elegant blank or abstract interface placeholders, no readable copy, reviews, star ratings, logos or claims. Natural studio daylight, accurate device proportions, crisp restrained blue/white neutral palette, tangible finished production feel. Frame as a demonstrative concept, not claimed completed BGI client work.",
+      "negative_prompt": "No fake customer logos or testimonials, no implied client results, no inaccurate legible UI text, no fabricated analytics, no brand impersonation, no deformed screens or hands.",
+      "alt_text_proposal": "Illustrative laptop, phone and printed materials showing a proposed website production project.",
+      "responsive_composition": "16:9 desktop and 4:5 mobile variants; use actual permissioned work screenshots only after replacement and approval.",
+      "actual_path": null,
+      "actual_mime_type": null,
+      "actual_width": null,
+      "actual_height": null,
+      "asset_sha256": null,
+      "rights_review": "pending",
+      "owner_approval": "pending",
+      "required_fallback": "Page remains complete with live text when absent"
+    }
+  ],
+  "hero_video": {
+    "id": "hero_video",
+    "kind": "optional_home_hero_video",
+    "planned_route": "/",
+    "status": "not_provided_or_verified",
+    "actual_path": null,
+    "poster_path": null,
+    "poster_asset_id": null,
+    "publication_approved": false,
+    "required_controls": [
+      "static_poster",
+      "pause",
+      "muted_autoplay_if_used",
+      "playsinline",
+      "reduced_motion_fallback",
+      "playback_failure_fallback"
+    ],
+    "implementation_note": "Never hide headline or contact CTA in video. Validate desktop/laptop and mobile codecs and loading after build."
+  },
+  "routes": [
+    {
+      "canonical_path": "/",
+      "page_name": "Home",
+      "page_type": "main",
+      "assigned_asset_ids": [
+        "img_01",
+        "img_02"
+      ],
+      "unassigned_visual_direction": null,
+      "new_media_id_approval_required": false,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/",
+      "page_name": "Services",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Compact introduction, five-family selector and readable 20-service directory; accessible jump list on mobile.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/work/",
+      "page_name": "Our Work",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Captioned gallery of genuine or clearly marked demonstration assets; stage until authorized examples exist.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/how-we-work/",
+      "page_name": "How We Work",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Process timeline with separate client/business responsibilities and agreed review gates.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/insights/",
+      "page_name": "Insights",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Editorial library grouped by topic, source, author and date; stage empty article destinations.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/about/",
+      "page_name": "About",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Business narrative, actual founder/team details when provided, and authentic rights-cleared photographs only.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/contact/",
+      "page_name": "Contact",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Short labeled form next to practical next-step explanation; disable submission until verified routing and privacy.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/diagnose-prioritize-strategize/",
+      "page_name": "Diagnose, Prioritize & Strategize",
+      "page_type": "family",
+      "family": "A",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Four-question decision comparison with independent service modules; stack comparison cards on mobile.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/market-customer-competitive-intelligence/",
+      "page_name": "Market, Customer & Competitive Intelligence",
+      "page_type": "family",
+      "family": "B",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Research-area index, clear evidence flow and four service modules; readable labels as HTML/SVG.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/visibility-trust-demand-acquisition/",
+      "page_name": "Visibility, Trust, Demand & Acquisition",
+      "page_type": "family",
+      "family": "C",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Distinct customer-discovery-to-decision journey and seven standalone service options; no mandatory sequence.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/customer-value-retention-assets/",
+      "page_name": "Customer Value, Retention & Asset Production",
+      "page_type": "family",
+      "family": "D",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Split customer-lifecycle map and website/materials gallery; distinguish customer programs from SVC-18 production.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/ai-optimization-intelligence/",
+      "page_name": "AI, Optimization & Continuous Intelligence",
+      "page_type": "family",
+      "family": "E",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Two-path decision map separating AI readiness from ongoing optimization; avoid implying deployments.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/business-growth-intelligence-assessment-and-constraint-diagnosis/",
+      "page_name": "Business Growth Intelligence Assessment & Constraint Diagnosis",
+      "page_type": "service",
+      "service_id": "SVC-01",
+      "family": "A",
+      "assigned_asset_ids": [
+        "img_04"
+      ],
+      "unassigned_visual_direction": null,
+      "new_media_id_approval_required": false,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/growth-opportunity-discovery-and-prioritization/",
+      "page_name": "Growth Opportunity Discovery & Prioritization",
+      "page_type": "service",
+      "service_id": "SVC-02",
+      "family": "A",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "An opportunity comparison showing value, confidence and feasibility.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/business-growth-strategy-and-roadmap-architecture/",
+      "page_name": "Business Growth Strategy & Roadmap Architecture",
+      "page_type": "service",
+      "service_id": "SVC-03",
+      "family": "A",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A roadmap with priorities, sequence and review points.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/enterprise-capability-and-growth-system-development/",
+      "page_name": "Enterprise Capability & Growth System Development",
+      "page_type": "service",
+      "service_id": "SVC-04",
+      "family": "A",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A capability blueprint connecting people, processes and technology.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/market-and-customer-intelligence/",
+      "page_name": "Market & Customer Intelligence",
+      "page_type": "service",
+      "service_id": "SVC-05",
+      "family": "B",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A customer profile and buying-decision map.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/competitive-intelligence-and-differentiation-strategy/",
+      "page_name": "Competitive Intelligence & Differentiation Strategy",
+      "page_type": "service",
+      "service_id": "SVC-06",
+      "family": "B",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A competitor comparison with evidence-backed differences.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/local-market-and-geographic-growth-intelligence/",
+      "page_name": "Local Market & Geographic Growth Intelligence",
+      "page_type": "service",
+      "service_id": "SVC-07",
+      "family": "B",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A geographic comparison with explicitly illustrative locations.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/trend-technology-and-business-risk-intelligence/",
+      "page_name": "Trend, Technology & Business Risk Intelligence",
+      "page_type": "service",
+      "service_id": "SVC-08",
+      "family": "B",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A trend and risk matrix with dated signals.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/digital-visibility-and-discoverability-growth/",
+      "page_name": "Digital Visibility & Discoverability Growth",
+      "page_type": "service",
+      "service_id": "SVC-09",
+      "family": "C",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A discovery journey connecting relevant search needs to website content.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/trust-proof-and-reputation-growth-system/",
+      "page_name": "Trust, Proof & Reputation Growth System",
+      "page_type": "service",
+      "service_id": "SVC-10",
+      "family": "C",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "An evidence inventory showing what supports customer trust.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/authority-content-and-intellectual-asset-growth/",
+      "page_name": "Authority, Content & Intellectual Asset Growth",
+      "page_type": "service",
+      "service_id": "SVC-11",
+      "family": "C",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A content library preview organized around customer questions.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/qualified-lead-generation-and-demand-creation-system/",
+      "page_name": "Qualified Lead Generation & Demand Creation System",
+      "page_type": "service",
+      "service_id": "SVC-12",
+      "family": "C",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A demand workflow from audience to qualified inquiry.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/sales-conversion-and-customer-decision-enablement/",
+      "page_name": "Sales Conversion & Customer Decision Enablement",
+      "page_type": "service",
+      "service_id": "SVC-13",
+      "family": "C",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A buying journey highlighting questions and friction points.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/customer-acquisition-and-cac-optimization/",
+      "page_name": "Customer Acquisition & CAC Optimization",
+      "page_type": "service",
+      "service_id": "SVC-14",
+      "family": "C",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "An acquisition-cost breakdown with clearly illustrative values.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/offer-and-value-proposition-optimization/",
+      "page_name": "Offer & Value Proposition Optimization",
+      "page_type": "service",
+      "service_id": "SVC-15",
+      "family": "C",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "An offer comparison showing differences in customer value.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/customer-onboarding-and-time-to-value-optimization/",
+      "page_name": "Customer Onboarding & Time-to-Value Optimization",
+      "page_type": "service",
+      "service_id": "SVC-16",
+      "family": "D",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "An onboarding timeline showing the path to first useful value.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/customer-retention-expansion-and-advocacy-system/",
+      "page_name": "Customer Retention, Expansion & Advocacy System",
+      "page_type": "service",
+      "service_id": "SVC-17",
+      "family": "D",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A customer lifecycle with appropriate follow-up points.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/website-and-growth-asset-factory/",
+      "page_name": "Website & Growth Asset Factory",
+      "page_type": "service",
+      "service_id": "SVC-18",
+      "family": "D",
+      "assigned_asset_ids": [
+        "img_14"
+      ],
+      "unassigned_visual_direction": null,
+      "new_media_id_approval_required": false,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/ai-readiness-and-ai-growth-enablement/",
+      "page_name": "AI Readiness & AI Growth Enablement",
+      "page_type": "service",
+      "service_id": "SVC-19",
+      "family": "E",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A readiness checklist connecting tasks, data and human oversight.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/services/managed-growth-optimization-and-intelligence-service/",
+      "page_name": "Managed Growth Optimization & Intelligence Service",
+      "page_type": "service",
+      "service_id": "SVC-20",
+      "family": "E",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "A review loop showing measures, tests, decisions and learning.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/privacy-policy/",
+      "page_name": "Privacy Policy",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Readable policy hierarchy; release only after site-specific technical inventory and legal/owner approval.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/terms/",
+      "page_name": "Website Terms",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Readable policy hierarchy; release only after real operator identity and owner/legal sign-off.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    },
+    {
+      "canonical_path": "/accessibility/",
+      "page_name": "Accessibility Statement",
+      "page_type": "main",
+      "assigned_asset_ids": [],
+      "unassigned_visual_direction": "Readable accessibility statement; publish only after production tests and verified support channel.",
+      "new_media_id_approval_required": true,
+      "publication_status": "not_verified"
+    }
+  ],
+  "build_validation_rules": [
+    "Each image ID maps to exactly one route unless explicitly authorized as a reusable asset.",
+    "Do not treat proposed paths or generated prompts as evidence of existing files.",
+    "Check real files and exact filename casing before build; verify served URL, media type and response.",
+    "Provide fallback HTML and alt text; test mobile crop and lazy/eager loading.",
+    "For Home hero_video validate playable formats, poster, pause and prefers-reduced-motion behavior.",
+    "Do not publish work examples, staff likenesses, testimonials, certification icons or business results without verified consent and evidence."
+  ]
+}
