@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="svg-title svg-desc">
+<title id="svg-title">Proposed five-step controlled improvement cycle</title>
+<desc id="svg-desc">The clockwise illustrative workflow is Review baseline, Choose a priority, Approve a test, Check evidence, and Decide next action. Owner authorization is required at the test approval step. A dashed return arrow optionally leads back to baseline review if another cycle is agreed. Actual measures and sources are defined per project. No results are claimed.</desc>
+<defs>
+ <filter id="card-shadow" x="-12%" y="-16%" width="128%" height="145%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#15324B" flood-opacity="0.065"/></filter>
+ <marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#08717C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <marker id="arr-soft" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#7897A2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#C8D9DF" opacity="0.45"/></pattern>
+ <style>
+ .type{font-family:Inter,Arial,'DejaVu Sans',sans-serif}
+ .forward{fill:none;stroke:#08717C;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arr)}
+ .return{fill:none;stroke:#7897A2;stroke-width:3.7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:9 11;marker-end:url(#arr-soft)}
+ </style>
+</defs>
+
+<rect width="1600" height="900" fill="#F7F9FA"/>
+<rect width="1600" height="11" fill="#15324B"/>
+<rect x="1220" y="51" width="280" height="170" fill="url(#dots)" opacity="0.6"/>
+<circle cx="1500" cy="95" r="130" fill="#E6F1F3" opacity="0.48"/>
+
+<!-- Clear contextual header; not a claim of actual operational outcomes. -->
+<rect x="120" y="65" width="51" height="5" rx="2.5" fill="#08717C"/>
+<text x="190" y="75" class="type" font-size="17" font-weight="750" letter-spacing="1.45" fill="#15324B">BGI SOLUTIONS  /  SERVICE VISUAL  /  SVC-20</text>
+<text x="120" y="145" class="type" font-size="44" font-weight="760" fill="#15324B">A controlled improvement cycle</text>
+<text x="121" y="187" class="type" font-size="21" fill="#596C78">A proposed process for reviewing evidence, authorizing tests, and deciding the next step.</text>
+<path d="M120 220 H1480" stroke="#D9E4E8" stroke-width="2"/>
+
+<!-- Arrows are drawn beneath cards; the optional return is deliberately dashed. -->
+<path class="forward" d="M490 350 H594"/>
+<path class="forward" d="M995 350 H1099"/>
+<path class="forward" d="M1305 456 V530"/>
+<path class="forward" d="M1101 642 H998"/>
+<path class="return" d="M601 642 H331 Q310 642 310 621 V462"/>
+
+<!-- Five exact, independently described steps in clockwise order. -->
+<g><rect x="120" y="270" width="350" height="165" rx="20" fill="#FFFFFF" stroke="#D6E3E8" stroke-width="2" filter="url(#card-shadow)"/>
+    <rect x="121" y="271" width="348" height="7" rx="3.5" fill="#08717C"/>
+    <rect x="148" y="298" width="55" height="34" rx="17" fill="#E8F3F4"/>
+    <text x="175.5" y="321" text-anchor="middle" class="type" font-size="18" font-weight="750" fill="#08717C">01</text>
+    <text x="219" y="321" class="type" font-size="16" font-weight="700" letter-spacing="1.5" fill="#596C78">UNDERSTAND</text>
+    <text x="148" y="378" class="type" font-size="29" font-weight="750" fill="#15324B">Review baseline</text>
+    <text x="148" y="411" class="type" font-size="18" font-weight="400" fill="#596C78">Define the starting point</text></g>
+<g><rect x="625" y="270" width="350" height="165" rx="20" fill="#FFFFFF" stroke="#D6E3E8" stroke-width="2" filter="url(#card-shadow)"/>
+    <rect x="626" y="271" width="348" height="7" rx="3.5" fill="#08717C"/>
+    <rect x="653" y="298" width="55" height="34" rx="17" fill="#E8F3F4"/>
+    <text x="680.5" y="321" text-anchor="middle" class="type" font-size="18" font-weight="750" fill="#08717C">02</text>
+    <text x="724" y="321" class="type" font-size="16" font-weight="700" letter-spacing="1.5" fill="#596C78">PRIORITIZE</text>
+    <text x="653" y="378" class="type" font-size="29" font-weight="750" fill="#15324B">Choose a priority</text>
+    <text x="653" y="411" class="type" font-size="18" font-weight="400" fill="#596C78">Focus on an agreed concern</text></g>
+<g><rect x="1130" y="270" width="350" height="165" rx="20" fill="#FFFFFF" stroke="#D8B68A" stroke-width="2" filter="url(#card-shadow)"/>
+    <rect x="1131" y="271" width="348" height="7" rx="3.5" fill="#A96C23"/>
+    <rect x="1158" y="298" width="55" height="34" rx="17" fill="#FBF0E3"/>
+    <text x="1185.5" y="321" text-anchor="middle" class="type" font-size="18" font-weight="750" fill="#A96C23">03</text>
+    <text x="1229" y="321" class="type" font-size="16" font-weight="700" letter-spacing="1.5" fill="#596C78">APPROVAL GATE</text>
+    <text x="1158" y="378" class="type" font-size="29" font-weight="750" fill="#15324B">Approve a test</text>
+    <text x="1158" y="411" class="type" font-size="18" font-weight="700" fill="#A96C23">Owner authorization required</text><path d="M1435 309 v-6 a9 9 0 0 0 -18 0 v6 m-4 0 h26 v20 h-26 z" fill="none" stroke="#A96C23" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="1426" cy="319" r="2.2" fill="#A96C23"/></g>
+<g><rect x="1130" y="560" width="350" height="165" rx="20" fill="#FFFFFF" stroke="#D6E3E8" stroke-width="2" filter="url(#card-shadow)"/>
+    <rect x="1131" y="561" width="348" height="7" rx="3.5" fill="#08717C"/>
+    <rect x="1158" y="588" width="55" height="34" rx="17" fill="#E8F3F4"/>
+    <text x="1185.5" y="611" text-anchor="middle" class="type" font-size="18" font-weight="750" fill="#08717C">04</text>
+    <text x="1229" y="611" class="type" font-size="16" font-weight="700" letter-spacing="1.5" fill="#596C78">EVALUATE</text>
+    <text x="1158" y="668" class="type" font-size="29" font-weight="750" fill="#15324B">Check evidence</text>
+    <text x="1158" y="701" class="type" font-size="18" font-weight="400" fill="#596C78">Review agreed observations</text></g>
+<g><rect x="625" y="560" width="350" height="165" rx="20" fill="#FFFFFF" stroke="#D6E3E8" stroke-width="2" filter="url(#card-shadow)"/>
+    <rect x="626" y="561" width="348" height="7" rx="3.5" fill="#08717C"/>
+    <rect x="653" y="588" width="55" height="34" rx="17" fill="#E8F3F4"/>
+    <text x="680.5" y="611" text-anchor="middle" class="type" font-size="18" font-weight="750" fill="#08717C">05</text>
+    <text x="724" y="611" class="type" font-size="16" font-weight="700" letter-spacing="1.5" fill="#596C78">DECIDE</text>
+    <text x="653" y="668" class="type" font-size="29" font-weight="750" fill="#15324B">Decide next action</text>
+    <text x="653" y="701" class="type" font-size="18" font-weight="400" fill="#596C78">Use evidence to guide decisions</text></g>
+
+<!-- This is not a sixth step, just the deliberately optional return route. -->
+<text x="146" y="595" class="type" font-size="18" font-weight="750" letter-spacing="0.8" fill="#08717C">REVISIT</text>
+<text x="146" y="622" class="type" font-size="18" font-weight="750" letter-spacing="0.8" fill="#08717C">WHEN AGREED</text>
+<text x="146" y="704" class="type" font-size="18" fill="#596C78">A new cycle is a decision,</text>
+<text x="146" y="730" class="type" font-size="18" fill="#596C78">not an automatic change.</text>
+
+<!-- Publication-safe scope note and accessible arrow-style legend. -->
+<path d="M121 760 H1480" stroke="#D9E4E8" stroke-width="1.6"/>
+<path d="M120 781 h42" stroke="#08717C" stroke-width="3.6" stroke-linecap="round"/>
+<text x="172" y="788" class="type" font-size="16" fill="#596C78">Proposed order</text>
+<path d="M340 781 h46" stroke="#7897A2" stroke-dasharray="7 8" stroke-width="3.6" stroke-linecap="round"/>
+<text x="398" y="788" class="type" font-size="16" fill="#596C78">Optional return</text>
+
+<rect x="120" y="814" width="1360" height="67" rx="14" fill="#15324B"/>
+<rect x="120" y="814" width="8" height="67" rx="4" fill="#08717C"/>
+<text x="151" y="855" class="type" font-size="23" font-weight="700" fill="#FFFFFF">Actual measures and sources defined per project</text>
+<text x="1454" y="854" text-anchor="end" class="type" font-size="15.7" font-weight="500" fill="#D5E5EB">Illustrative workflow • no outcome claim</text>
+</svg>
