@@ -1,6 +1,6 @@
 {
   "schema_id": "bgi-solutions-new-provisional-image-manifest-v1",
-  "version": "1.1",
+  "version": "1.2",
   "created_on": "2026-10-29",
   "project": "BGI Solutions",
   "source_archive": "BGI Website Contents.zip",
@@ -19,7 +19,7 @@
     "do_not_claim_generic_people_are_bgi_staff_or_clients": true,
     "do_not_use_ai_generated_charts_as_factual_business_evidence": true,
     "final_domain": null,
-    "owner_approved_new_slots": "v1.1: new slots below added at the owner's request (img_19, img_20 and img_23 stay unused as listed above)."
+    "v1_2_note": "v1.2 maps the owner's uploaded image set (img_01-img_65) to the pages each file was made for. Placements are listed per file."
   },
   "reserved_asset_ids": [
     "img_01",
@@ -35,405 +35,1116 @@
   "image_assets": [
     {
       "id": "img_01",
-      "type": "image",
-      "planned_route": "/",
-      "slot": "Home hero static visual / video poster candidate",
-      "source_reference_status": "retained_in_page_source; approval_unverified",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
+      "files": [
+        "img_01.png",
+        "img_01.webp"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/",
+          "position": "hero",
+          "alt_text": "A business professional working on a laptop in a bright office.",
+          "responsive_composition": "21:9 desktop with 4:5 mobile crop; text sits on the quiet left side."
+        }
+      ],
       "visual_intent": "Editorial proposal: realistic small-business planning meeting; anonymous collaborative participants review a neutral website wireframe or written project outline on a desk. People depicted are generic models, not BGI Solutions staff or clients.",
       "generation_prompt": "Ultra-realistic editorial photograph for a premium but approachable business consulting and website production website. A small diverse group of adult business professionals in a contemporary, neutral workspace quietly reviewing blank website wireframes, notes and a laptop. Natural window light, genuine candid posture, precise materials, credible small-business scale. Keep the left 45 percent visually quiet for separate live headline and buttons; activity to the right. Restrained slate-blue and warm-neutral palette, premium sharpness, believable photographic texture, 24 mm environmental perspective. No legible writing, logo, claimed location, awards or metrics. People are conceptual models, not actual BGI personnel or customers.",
       "negative_prompt": "No fake BGI branded shirts, no recognizable company logos, no fabricated testimonials or charts, no legible AI text, no oversaturated stock-photo posing, no distorted hands or computer interfaces, no invented US office identity.",
       "alt_text_proposal": "Illustrative business planning discussion around a website project.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop or dedicated variant; keep content readable without image.",
-      "actual_path": null,
-      "actual_mime_type": null,
-      "actual_width": null,
-      "actual_height": null,
-      "asset_sha256": null,
       "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent",
-      "planned_path": "images/img/img_01.<jpg|jpeg|png|webp>"
+      "owner_approval": "pending"
     },
     {
       "id": "img_02",
-      "type": "image",
-      "planned_route": "/",
-      "slot": "Home service map / illustrative deliverables preview",
-      "source_reference_status": "retained_in_page_source; approval_unverified",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
+      "files": [
+        "img_02.png",
+        "img_02.svg"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/",
+          "position": "family-map",
+          "alt_text": "Three colleagues reviewing work together on a laptop.",
+          "responsive_composition": "4:3 desktop and phones."
+        },
+        {
+          "kind": "diagram",
+          "file": "img_02.svg",
+          "route": "/how-we-work/",
+          "position": "diagram",
+          "title": "Proposed project flow",
+          "alt_text": "Diagram: Proposed project flow Six clear steps, with client input at key decision points.",
+          "width": 1600,
+          "height": 900,
+          "after_section": "A clear path from first conversation to handover"
+        }
+      ],
       "visual_intent": "Editorial proposal: clear compositional preview of unbranded, illustrative website and business-research materials; precise family labels must be live HTML or SVG, not baked into this image.",
       "generation_prompt": "Photorealistic premium desktop still life showing a generic tablet or laptop with clean blank website sections, a simple printed roadmap, customer interview notes without legible text, and restrained blue-grey stationery. Emphasize actual materials and thoughtful content production rather than invented dashboards. Medium-angle composition with balanced negative space and realistic paper texture. A conceptual business service visual for BGI Solutions; no claims of completed client work.",
       "negative_prompt": "No real client logos, no analytics results, no exact chart labels, no fake generated text, no clutter, no unrealistic device screens, no unlicensed third-party UI.",
       "alt_text_proposal": "Illustrative website planning and business research materials.",
-      "responsive_composition": "4:3 desktop and 4:5 mobile, crop subject centrally; add service family names only as accessible live text.",
-      "actual_path": null,
-      "actual_mime_type": null,
-      "actual_width": null,
-      "actual_height": null,
-      "asset_sha256": null,
       "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent",
-      "planned_path": "images/img/img_02.<jpg|jpeg|png|webp>"
+      "owner_approval": "pending"
     },
     {
       "id": "img_03",
-      "type": "image",
-      "planned_route": "/about/",
-      "slot": "About page wide image under the introduction",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Authentic BGI Solutions workspace or team at work; real people only with permission.",
-      "alt_text_proposal": "BGI Solutions team at work.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop; subject centred, calm edges.",
-      "planned_path": "images/img/img_03.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_03.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_03.svg",
+          "route": "/services/diagnose-prioritize-strategize/",
+          "position": "diagram",
+          "title": "Choose the question you need answered",
+          "alt_text": "Diagram: Choose the question you need answered Four independent starting points. Select the one that fits your decision.",
+          "width": 1440,
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "img_04",
-      "type": "image",
-      "planned_route": "/services/business-growth-intelligence-assessment-and-constraint-diagnosis/",
-      "slot": "SVC-01 illustrative constraint diagnosis visual",
-      "source_reference_status": "retained_in_page_source; approval_unverified",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
+      "files": [
+        "img_04.png",
+        "img_04.svg"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/business-growth-intelligence-assessment-and-constraint-diagnosis/",
+          "position": "band",
+          "alt_text": "A planning sketch, notes and laptop on a desk during a business assessment.",
+          "responsive_composition": "16:9 band, 4:3 on phones."
+        },
+        {
+          "kind": "diagram",
+          "file": "img_04.svg",
+          "route": "/services/market-customer-competitive-intelligence/",
+          "position": "diagram",
+          "title": "Four research lenses",
+          "alt_text": "Diagram: Four research lenses Different research questions need different evidence.",
+          "width": 1600,
+          "height": 900
+        }
+      ],
       "visual_intent": "Editorial proposal: conceptual assessment work surface; precise symptom, evidence and causal labels must be rendered as HTML/SVG outside generated image.",
       "generation_prompt": "Ultra-realistic close editorial scene of a consultant reviewing a neutral business process sketch beside printed notes, sticky notes without legible words, and a simple empty relationship-map template. Subtle visual separation of possible symptoms, evidence and causes without numerical results or presented conclusions. Modern understated professional workspace, natural soft daylight, crisp texture, slate-blue and warm-paper palette. Right-weighted or centered practical composition that remains clear as a crop, with space for live overlaid HTML labels if needed.",
       "negative_prompt": "No factual diagrams with AI-generated writing, no numeric business results, no charts implying measured improvements, no logos, no faces identified as employees, no fabricated diagnosis.",
       "alt_text_proposal": "Illustrative materials arranged for a business growth assessment.",
-      "responsive_composition": "16:9 desktop, 4:5 mobile crop; build any functional constraint map as live accessible HTML/SVG.",
-      "actual_path": null,
-      "actual_mime_type": null,
-      "actual_width": null,
-      "actual_height": null,
-      "asset_sha256": null,
       "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent",
-      "planned_path": "images/img/img_04.<jpg|jpeg|png|webp>"
+      "owner_approval": "pending"
     },
     {
       "id": "img_05",
-      "type": "image",
-      "planned_route": "/services/diagnose-prioritize-strategize/",
-      "slot": "Family A hub wide image",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Planning and prioritisation: a team reviewing a roadmap or priorities on a wall or table.",
-      "alt_text_proposal": "Business planning session reviewing growth priorities.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop; subject centred, calm edges.",
-      "planned_path": "images/img/img_05.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_05.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_05.svg",
+          "route": "/services/visibility-trust-demand-acquisition/",
+          "position": "diagram",
+          "title": "From discovery to decision",
+          "alt_text": "Diagram: From discovery to decision Illustrative journey from discovery through confidence and interest to inquiry and decision.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_06",
-      "type": "image",
-      "planned_route": "/services/market-customer-competitive-intelligence/",
-      "slot": "Family B hub wide image",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Research: customer interviews, market notes or a comparison being reviewed.",
-      "alt_text_proposal": "Market and customer research materials under review.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop; subject centred, calm edges.",
-      "planned_path": "images/img/img_06.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_06.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_06.svg",
+          "route": "/services/customer-value-retention-assets/",
+          "position": "diagram",
+          "title": "Two complementary tracks",
+          "alt_text": "Diagram: Two complementary tracks Customer experience after a sale, or practical website and business assets.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_07",
-      "type": "image",
-      "planned_route": "/services/visibility-trust-demand-acquisition/",
-      "slot": "Family C hub wide image",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Customers discovering and choosing a business: search, reviews, a sales conversation.",
-      "alt_text_proposal": "A customer researching a business online.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop; subject centred, calm edges.",
-      "planned_path": "images/img/img_07.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_07.webp"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/work/",
+          "position": "band",
+          "alt_text": "Website and brand materials laid out on a table for review.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
     },
     {
       "id": "img_08",
-      "type": "image",
-      "planned_route": "/services/customer-value-retention-assets/",
-      "slot": "Family D hub wide image",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Customer onboarding and finished website or print materials.",
-      "alt_text_proposal": "Website pages and business materials on a desk.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop; subject centred, calm edges.",
-      "planned_path": "images/img/img_08.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_08.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_08.svg",
+          "route": "/services/ai-optimization-intelligence/",
+          "position": "diagram",
+          "title": "Two different starting points",
+          "alt_text": "Diagram: Two different starting points An AI idea and an existing growth system call for different questions.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_09",
-      "type": "image",
-      "planned_route": "/services/ai-optimization-intelligence/",
-      "slot": "Family E hub wide image",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "A person reviewing an AI-assisted workflow or a results dashboard, human in control.",
-      "alt_text_proposal": "A team reviewing an AI-assisted workflow.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop; subject centred, calm edges.",
-      "planned_path": "images/img/img_09.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_09.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_09.svg",
+          "route": "/services/business-growth-intelligence-assessment-and-constraint-diagnosis/",
+          "position": "diagram",
+          "title": "One symptom. Several possibilities.",
+          "alt_text": "Diagram: One symptom. Several possibilities. Separate the observed problem from hypotheses and evidence still needed.",
+          "width": 1440,
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "img_10",
-      "type": "image",
-      "planned_route": "/how-we-work/",
-      "slot": "How We Work wide image under the introduction",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "A collaborative working session: review of a draft with the client.",
-      "alt_text_proposal": "A project review session with a client.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop; subject centred, calm edges.",
-      "planned_path": "images/img/img_10.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_10.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_10.svg",
+          "route": "/services/growth-opportunity-discovery-and-prioritization/",
+          "position": "diagram",
+          "title": "Prioritize with reasons, not guesses.",
+          "alt_text": "Diagram: Prioritize with reasons, not guesses. Consider value, effort, evidence, and dependencies before choosing where to focus.",
+          "width": 1440,
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "img_11",
-      "type": "image",
-      "planned_route": "/work/",
-      "slot": "Sample project card: service business website",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Laptop and phone showing a clean service-business website.",
-      "alt_text_proposal": "Sample project: a service business website.",
-      "responsive_composition": "4:3 card image, centred subject; also used at 4:3 on phones.",
-      "planned_path": "images/img/img_11.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_11.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_11.svg",
+          "route": "/services/business-growth-strategy-and-roadmap-architecture/",
+          "position": "diagram",
+          "title": "A roadmap built around decisions.",
+          "alt_text": "Diagram: A roadmap built around decisions. Proposed phases connecting goals, priorities, planned work, and a review point.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_12",
-      "type": "image",
-      "planned_route": "/work/",
-      "slot": "Sample project card: business assessment",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Printed assessment, journey map and priority notes on a desk.",
-      "alt_text_proposal": "Sample project: a business assessment.",
-      "responsive_composition": "4:3 card image, centred subject; also used at 4:3 on phones.",
-      "planned_path": "images/img/img_12.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_12.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_12.svg",
+          "route": "/services/enterprise-capability-and-growth-system-development/",
+          "position": "diagram",
+          "title": "Business capability blueprint",
+          "alt_text": "Diagram: Business capability blueprint An illustrative structure for connecting roles, routine work, tools, and review controls.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_13",
-      "type": "image",
-      "planned_route": "/work/",
-      "slot": "Sample project card: sales presentation",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Presentation slides on a screen in a meeting room.",
-      "alt_text_proposal": "Sample project: a sales presentation.",
-      "responsive_composition": "4:3 card image, centred subject; also used at 4:3 on phones.",
-      "planned_path": "images/img/img_13.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_13.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_13.svg",
+          "route": "/services/market-and-customer-intelligence/",
+          "position": "diagram",
+          "title": "Customer questions behind an informed choice",
+          "alt_text": "Diagram: Customer questions behind an informed choice A research hypothesis, not a measured customer journey.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_14",
-      "type": "image",
-      "planned_route": "/services/website-and-growth-asset-factory/",
-      "slot": "SVC-18 website and growth material previews",
-      "source_reference_status": "retained_in_page_source; approval_unverified",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
+      "files": [
+        "img_14.png",
+        "img_14.svg"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/website-and-growth-asset-factory/",
+          "position": "band",
+          "alt_text": "A service-business website shown on a laptop and phone.",
+          "responsive_composition": "16:9 band, 4:3 on phones."
+        },
+        {
+          "kind": "diagram",
+          "file": "img_14.svg",
+          "route": "/services/digital-visibility-and-discoverability-growth/",
+          "position": "diagram",
+          "title": "From discovery to a useful inquiry",
+          "alt_text": "Diagram: From discovery to a useful inquiry A possible path from a customer question to a practical next step.",
+          "width": 1600,
+          "height": 900
+        }
+      ],
       "visual_intent": "Editorial proposal: clearly labeled demonstration website device mockup and companion printed business materials; not a real client portfolio.",
       "generation_prompt": "Ultra-realistic commercial editorial photograph of a premium but simple unbranded sample service-business website on a laptop and mobile phone, accompanied by a generic printed brochure and an organized content brief. Screens contain elegant blank or abstract interface placeholders, no readable copy, reviews, star ratings, logos or claims. Natural studio daylight, accurate device proportions, crisp restrained blue/white neutral palette, tangible finished production feel. Frame as a demonstrative concept, not claimed completed BGI client work.",
       "negative_prompt": "No fake customer logos or testimonials, no implied client results, no inaccurate legible UI text, no fabricated analytics, no brand impersonation, no deformed screens or hands.",
       "alt_text_proposal": "Illustrative laptop, phone and printed materials showing a proposed website production project.",
-      "responsive_composition": "16:9 desktop and 4:5 mobile variants; use actual permissioned work screenshots only after replacement and approval.",
-      "actual_path": null,
-      "actual_mime_type": null,
-      "actual_width": null,
-      "actual_height": null,
-      "asset_sha256": null,
       "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent",
-      "planned_path": "images/img/img_14.<jpg|jpeg|png|webp>"
+      "owner_approval": "pending"
     },
     {
       "id": "img_15",
-      "type": "image",
-      "planned_route": "/insights/",
-      "slot": "Insights topic cover: why visitors may not contact a business",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Someone browsing a website on a phone, hesitating.",
-      "alt_text_proposal": "Visitor browsing a business website.",
-      "responsive_composition": "4:3 card image, centred subject; also used at 4:3 on phones.",
-      "planned_path": "images/img/img_15.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_15.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_15.svg",
+          "route": "/services/authority-content-and-intellectual-asset-growth/",
+          "position": "diagram",
+          "title": "From one question to useful content",
+          "alt_text": "Diagram: From one question to useful content Each resource needs approved sources, editorial review and permission before publication.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_16",
-      "type": "image",
-      "planned_route": "/insights/",
-      "slot": "Insights topic cover: website project brief",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "A written project brief with wireframes beside it.",
-      "alt_text_proposal": "A website project brief and wireframes.",
-      "responsive_composition": "4:3 card image, centred subject; also used at 4:3 on phones.",
-      "planned_path": "images/img/img_16.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_16.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_16.svg",
+          "route": "/services/qualified-lead-generation-and-demand-creation-system/",
+          "position": "diagram",
+          "title": "From inquiry to a clear next step",
+          "alt_text": "Diagram: From inquiry to a clear next step An inquiry is more useful when the next person knows what it concerns and what should happen next.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_17",
-      "type": "image",
-      "planned_route": "/insights/",
-      "slot": "Insights topic cover: AI pilot",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "A person checking AI-generated drafts before sending.",
-      "alt_text_proposal": "A person reviewing AI-assisted drafts.",
-      "responsive_composition": "4:3 card image, centred subject; also used at 4:3 on phones.",
-      "planned_path": "images/img/img_17.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_17.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_17.svg",
+          "route": "/services/sales-conversion-and-customer-decision-enablement/",
+          "position": "diagram",
+          "title": "Where might customers hesitate?",
+          "alt_text": "Diagram: Where might customers hesitate? People may hesitate because a key question remains unanswered. That is different from a lack of interest.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_18",
-      "type": "image",
-      "planned_route": "/contact/",
-      "slot": "Contact page portrait image beside the introduction",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Welcoming, friendly image: a conversation or a team member at a desk.",
-      "alt_text_proposal": "Talking through a project with BGI Solutions.",
-      "responsive_composition": "4:5 portrait on all screens.",
-      "planned_path": "images/img/img_18.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_18.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_18.svg",
+          "route": "/services/customer-onboarding-and-time-to-value-optimization/",
+          "position": "diagram",
+          "title": "From agreement to first useful value",
+          "alt_text": "Diagram: From agreement to first useful value A proposed onboarding path that makes steps and responsibilities clear.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "id": "img_19",
+      "files": [
+        "img_19.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_19.svg",
+          "route": "/services/customer-retention-expansion-and-advocacy-system/",
+          "position": "diagram",
+          "title": "Helpful follow-up changes over time",
+          "alt_text": "Diagram: Helpful follow-up changes over time Five possible touchpoints across an ongoing customer relationship.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "id": "img_20",
+      "files": [
+        "img_20.webp"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/work/",
+          "position": "card",
+          "alt_text": "Three website pages, each designed for a different visitor journey.",
+          "responsive_composition": "4:3 card image.",
+          "card_title": "A service business website that explains the offer"
+        }
+      ]
     },
     {
       "id": "img_21",
-      "type": "image",
-      "planned_route": "/services/",
-      "slot": "Services overview wide image under the introduction",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Overview of business support work: workshop, research and website production together.",
-      "alt_text_proposal": "BGI Solutions services in practice.",
-      "responsive_composition": "21:9 desktop with 4:5 mobile crop; subject centred, calm edges.",
-      "planned_path": "images/img/img_21.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_21.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_21.svg",
+          "route": "/services/website-and-growth-asset-factory/",
+          "position": "diagram",
+          "title": "From agreed brief to handover",
+          "alt_text": "Diagram: From agreed brief to handover Illustrative output options — only the branches agreed in scope are included.",
+          "width": 1440,
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "img_22",
-      "type": "image",
-      "planned_route": "/",
-      "slot": "Home sample project card: clearer service website",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "A clean service website shown on laptop and phone.",
-      "alt_text_proposal": "Sample project: a clearer service website.",
-      "responsive_composition": "4:3 card image, centred subject; also used at 4:3 on phones.",
-      "planned_path": "images/img/img_22.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_22.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_22.svg",
+          "route": "/services/ai-readiness-and-ai-growth-enablement/",
+          "position": "diagram",
+          "title": "Check before choosing AI",
+          "alt_text": "Diagram: Check before choosing AI Five decision gates: suitability, permitted data, risks, human review and test criteria.",
+          "width": 1440,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "img_23",
+      "files": [
+        "img_23.svg"
+      ],
+      "placements": [
+        {
+          "kind": "diagram",
+          "file": "img_23.svg",
+          "route": "/services/managed-growth-optimization-and-intelligence-service/",
+          "position": "diagram",
+          "title": "A controlled improvement cycle",
+          "alt_text": "Diagram: A controlled improvement cycle A proposed process for reviewing evidence, authorizing tests, and deciding the next step.",
+          "width": 1600,
+          "height": 900
+        }
+      ]
     },
     {
       "id": "img_24",
-      "type": "image",
-      "planned_route": "/",
-      "slot": "Home sample project card: assessment of a growth problem",
-      "source_reference_status": "owner_requested_v1.1",
-      "generation_status": "not_generated",
-      "publication_approved": false,
-      "visual_intent_status": "new_editorial_proposal",
-      "visual_intent": "Inquiry records and notes being reviewed to find a growth problem.",
-      "alt_text_proposal": "Sample project: assessing a growth problem.",
-      "responsive_composition": "4:3 card image, centred subject; also used at 4:3 on phones.",
-      "planned_path": "images/img/img_24.<jpg|jpeg|png|webp>",
-      "actual_path": null,
-      "rights_review": "pending",
-      "owner_approval": "pending",
-      "required_fallback": "Page remains complete with live text when absent"
+      "files": [
+        "img_24.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/",
+          "position": "card",
+          "alt_text": "Printed findings and charts being reviewed at a desk.",
+          "responsive_composition": "4:3 card image.",
+          "card_title": "An assessment of a growth problem"
+        }
+      ]
+    },
+    {
+      "id": "img_25",
+      "files": [
+        "img_25.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/customer-acquisition-and-cac-optimization/",
+          "position": "band",
+          "alt_text": "A customer acquisition plan being worked through at a laptop.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_26",
+      "files": [
+        "img_26.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/local-market-and-geographic-growth-intelligence/",
+          "position": "band",
+          "alt_text": "A geographic growth plan with service areas marked on a map.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_27",
+      "files": [
+        "img_27.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/qualified-lead-generation-and-demand-creation-system/",
+          "position": "band",
+          "alt_text": "Marketing materials and a lead-generation dashboard on a desk.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_28",
+      "files": [
+        "img_28.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/trend-technology-and-business-risk-intelligence/",
+          "position": "band",
+          "alt_text": "Notes on industry trends, emerging technology and business risks beside a laptop.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_29",
+      "files": [
+        "img_29.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/offer-and-value-proposition-optimization/",
+          "position": "band",
+          "alt_text": "A service proposal being reviewed against a value and proof checklist.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_30",
+      "files": [
+        "img_30.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/work/",
+          "position": "card",
+          "alt_text": "Printed customer research and assessment documents.",
+          "responsive_composition": "4:3 card image.",
+          "card_title": "A business assessment that helps organize decisions"
+        }
+      ]
+    },
+    {
+      "id": "img_31",
+      "files": [
+        "img_31.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/about/",
+          "position": "band",
+          "alt_text": "Five icons representing the connected areas of BGI Solutions services.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_32",
+      "files": [
+        "img_32.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/",
+          "position": "band",
+          "alt_text": "Five panels representing BGI Solutions service areas, from research to AI.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_33",
+      "files": [
+        "img_33.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/",
+          "position": "card",
+          "alt_text": "A clean service-business website on desktop and mobile.",
+          "responsive_composition": "4:3 card image.",
+          "card_title": "A clearer service website"
+        }
+      ]
+    },
+    {
+      "id": "img_34",
+      "files": [
+        "img_34.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/work/",
+          "position": "card",
+          "alt_text": "A website proposal presentation, service brochure and planning checklist.",
+          "responsive_composition": "4:3 card image.",
+          "card_title": "A sales presentation with a clearer story"
+        }
+      ]
+    },
+    {
+      "id": "img_35",
+      "files": [
+        "img_35.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/insights/",
+          "position": "card",
+          "alt_text": "A laptop, notebook and blank cards ready for planning.",
+          "responsive_composition": "4:3 card image.",
+          "card_title": "When is an AI pilot worth exploring?"
+        }
+      ]
+    },
+    {
+      "id": "img_36",
+      "files": [
+        "img_36.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a roofing company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Roofing company"
+        }
+      ]
+    },
+    {
+      "id": "img_37",
+      "files": [
+        "img_37.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a heating and cooling company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Heating and cooling company"
+        }
+      ]
+    },
+    {
+      "id": "img_38",
+      "files": [
+        "img_38.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a plumbing company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Plumbing company"
+        }
+      ]
+    },
+    {
+      "id": "img_39",
+      "files": [
+        "img_39.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a home remodeling company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Home remodeling company"
+        }
+      ]
+    },
+    {
+      "id": "img_40",
+      "files": [
+        "img_40.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a electrical contractor.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Electrical contractor"
+        }
+      ]
+    },
+    {
+      "id": "img_41",
+      "files": [
+        "img_41.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a paving and hardscaping company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Paving and hardscaping company"
+        }
+      ]
+    },
+    {
+      "id": "img_42",
+      "files": [
+        "img_42.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a landscaping company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Landscaping company"
+        }
+      ]
+    },
+    {
+      "id": "img_43",
+      "files": [
+        "img_43.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a flooring company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Flooring company"
+        }
+      ]
+    },
+    {
+      "id": "img_44",
+      "files": [
+        "img_44.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a painting company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Painting company"
+        }
+      ]
+    },
+    {
+      "id": "img_45",
+      "files": [
+        "img_45.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a tree care company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Tree care company"
+        }
+      ]
+    },
+    {
+      "id": "img_46",
+      "files": [
+        "img_46.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a pest control company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Pest control company"
+        }
+      ]
+    },
+    {
+      "id": "img_47",
+      "files": [
+        "img_47.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a commercial cleaning company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Commercial cleaning company"
+        }
+      ]
+    },
+    {
+      "id": "img_48",
+      "files": [
+        "img_48.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a moving company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Moving company"
+        }
+      ]
+    },
+    {
+      "id": "img_49",
+      "files": [
+        "img_49.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a auto repair shop.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Auto repair shop"
+        }
+      ]
+    },
+    {
+      "id": "img_50",
+      "files": [
+        "img_50.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a dental practice.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Dental practice"
+        }
+      ]
+    },
+    {
+      "id": "img_51",
+      "files": [
+        "img_51.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a med spa.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Med spa"
+        }
+      ]
+    },
+    {
+      "id": "img_52",
+      "files": [
+        "img_52.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a physical therapy clinic.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Physical therapy clinic"
+        }
+      ]
+    },
+    {
+      "id": "img_53",
+      "files": [
+        "img_53.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a home care provider.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Home care provider"
+        }
+      ]
+    },
+    {
+      "id": "img_54",
+      "files": [
+        "img_54.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a law firm.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Law firm"
+        }
+      ]
+    },
+    {
+      "id": "img_55",
+      "files": [
+        "img_55.png"
+      ],
+      "placements": [
+        {
+          "kind": "website-sample",
+          "route": "/work/",
+          "position": "gallery",
+          "alt_text": "Sample homepage design for a catering company.",
+          "responsive_composition": "16:10 tile, cropped from the top.",
+          "caption": "Catering company"
+        }
+      ]
+    },
+    {
+      "id": "img_56",
+      "files": [
+        "img_56.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/digital-visibility-and-discoverability-growth/",
+          "position": "band",
+          "alt_text": "A website concept presenting online visibility and growth services.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_57",
+      "files": [
+        "img_57.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/growth-opportunity-discovery-and-prioritization/",
+          "position": "band",
+          "alt_text": "Strategy cards and a growth chart weighed side by side.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_58",
+      "files": [
+        "img_58.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/contact/",
+          "position": "hero-aside",
+          "alt_text": "Two people discussing a project on a laptop.",
+          "responsive_composition": "4:3 beside the introduction."
+        }
+      ]
+    },
+    {
+      "id": "img_59",
+      "files": [
+        "img_59.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/business-growth-strategy-and-roadmap-architecture/",
+          "position": "band",
+          "alt_text": "Wooden blocks showing a step-by-step plan from research to results.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_60",
+      "files": [
+        "img_60.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/enterprise-capability-and-growth-system-development/",
+          "position": "band",
+          "alt_text": "Planning tiles for research, goals, process, results and people.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_61",
+      "files": [
+        "img_61.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/insights/",
+          "position": "card",
+          "alt_text": "A website project brief and wireframes being reviewed.",
+          "responsive_composition": "4:3 card image.",
+          "card_title": "What belongs in a useful website project brief"
+        }
+      ]
+    },
+    {
+      "id": "img_62",
+      "files": [
+        "img_62.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/how-we-work/",
+          "position": "band",
+          "alt_text": "Review drafts, a checklist and a project handover binder on a desk.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_63",
+      "files": [
+        "img_63.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/insights/",
+          "position": "card",
+          "alt_text": "A business owner thinking through a decision at a desk.",
+          "responsive_composition": "4:3 card image.",
+          "card_title": "Why interested visitors may not contact a business"
+        }
+      ]
+    },
+    {
+      "id": "img_64",
+      "files": [
+        "img_64.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/insights/",
+          "position": "band",
+          "alt_text": "An Insights page with practical business guides open on a laptop.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
+    },
+    {
+      "id": "img_65",
+      "files": [
+        "img_65.png"
+      ],
+      "placements": [
+        {
+          "kind": "photo",
+          "route": "/services/market-and-customer-intelligence/",
+          "position": "band",
+          "alt_text": "A small team discussing customer findings around a laptop.",
+          "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
+        }
+      ]
     }
   ],
   "hero_video": {
@@ -464,8 +1175,8 @@
       "assigned_asset_ids": [
         "img_01",
         "img_02",
-        "img_22",
-        "img_24"
+        "img_24",
+        "img_33"
       ],
       "unassigned_visual_direction": null,
       "new_media_id_approval_required": false,
@@ -476,7 +1187,7 @@
       "page_name": "Services",
       "page_type": "main",
       "assigned_asset_ids": [
-        "img_21"
+        "img_32"
       ],
       "unassigned_visual_direction": "Compact introduction, five-family selector and readable 20-service directory; accessible jump list on mobile.",
       "new_media_id_approval_required": true,
@@ -487,9 +1198,30 @@
       "page_name": "Our Work",
       "page_type": "main",
       "assigned_asset_ids": [
-        "img_11",
-        "img_12",
-        "img_13"
+        "img_07",
+        "img_20",
+        "img_30",
+        "img_34",
+        "img_36",
+        "img_37",
+        "img_38",
+        "img_39",
+        "img_40",
+        "img_41",
+        "img_42",
+        "img_43",
+        "img_44",
+        "img_45",
+        "img_46",
+        "img_47",
+        "img_48",
+        "img_49",
+        "img_50",
+        "img_51",
+        "img_52",
+        "img_53",
+        "img_54",
+        "img_55"
       ],
       "unassigned_visual_direction": "Captioned gallery of genuine or clearly marked demonstration assets; stage until authorized examples exist.",
       "new_media_id_approval_required": true,
@@ -500,7 +1232,8 @@
       "page_name": "How We Work",
       "page_type": "main",
       "assigned_asset_ids": [
-        "img_10"
+        "img_02",
+        "img_62"
       ],
       "unassigned_visual_direction": "Process timeline with separate client/business responsibilities and agreed review gates.",
       "new_media_id_approval_required": true,
@@ -511,9 +1244,10 @@
       "page_name": "Insights",
       "page_type": "main",
       "assigned_asset_ids": [
-        "img_15",
-        "img_16",
-        "img_17"
+        "img_35",
+        "img_61",
+        "img_63",
+        "img_64"
       ],
       "unassigned_visual_direction": "Editorial library grouped by topic, source, author and date; stage empty article destinations.",
       "new_media_id_approval_required": true,
@@ -524,7 +1258,7 @@
       "page_name": "About",
       "page_type": "main",
       "assigned_asset_ids": [
-        "img_03"
+        "img_31"
       ],
       "unassigned_visual_direction": "Business narrative, actual founder/team details when provided, and authentic rights-cleared photographs only.",
       "new_media_id_approval_required": true,
@@ -535,7 +1269,7 @@
       "page_name": "Contact",
       "page_type": "main",
       "assigned_asset_ids": [
-        "img_18"
+        "img_58"
       ],
       "unassigned_visual_direction": "Short labeled form next to practical next-step explanation; disable submission until verified routing and privacy.",
       "new_media_id_approval_required": true,
@@ -547,7 +1281,7 @@
       "page_type": "family",
       "family": "A",
       "assigned_asset_ids": [
-        "img_05"
+        "img_03"
       ],
       "unassigned_visual_direction": "Four-question decision comparison with independent service modules; stack comparison cards on mobile.",
       "new_media_id_approval_required": true,
@@ -559,7 +1293,7 @@
       "page_type": "family",
       "family": "B",
       "assigned_asset_ids": [
-        "img_06"
+        "img_04"
       ],
       "unassigned_visual_direction": "Research-area index, clear evidence flow and four service modules; readable labels as HTML/SVG.",
       "new_media_id_approval_required": true,
@@ -571,7 +1305,7 @@
       "page_type": "family",
       "family": "C",
       "assigned_asset_ids": [
-        "img_07"
+        "img_05"
       ],
       "unassigned_visual_direction": "Distinct customer-discovery-to-decision journey and seven standalone service options; no mandatory sequence.",
       "new_media_id_approval_required": true,
@@ -583,7 +1317,7 @@
       "page_type": "family",
       "family": "D",
       "assigned_asset_ids": [
-        "img_08"
+        "img_06"
       ],
       "unassigned_visual_direction": "Split customer-lifecycle map and website/materials gallery; distinguish customer programs from SVC-18 production.",
       "new_media_id_approval_required": true,
@@ -595,7 +1329,7 @@
       "page_type": "family",
       "family": "E",
       "assigned_asset_ids": [
-        "img_09"
+        "img_08"
       ],
       "unassigned_visual_direction": "Two-path decision map separating AI readiness from ongoing optimization; avoid implying deployments.",
       "new_media_id_approval_required": true,
@@ -608,7 +1342,8 @@
       "service_id": "SVC-01",
       "family": "A",
       "assigned_asset_ids": [
-        "img_04"
+        "img_04",
+        "img_09"
       ],
       "unassigned_visual_direction": null,
       "new_media_id_approval_required": false,
@@ -620,7 +1355,10 @@
       "page_type": "service",
       "service_id": "SVC-02",
       "family": "A",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_10",
+        "img_57"
+      ],
       "unassigned_visual_direction": "An opportunity comparison showing value, confidence and feasibility.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -631,7 +1369,10 @@
       "page_type": "service",
       "service_id": "SVC-03",
       "family": "A",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_11",
+        "img_59"
+      ],
       "unassigned_visual_direction": "A roadmap with priorities, sequence and review points.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -642,7 +1383,10 @@
       "page_type": "service",
       "service_id": "SVC-04",
       "family": "A",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_12",
+        "img_60"
+      ],
       "unassigned_visual_direction": "A capability blueprint connecting people, processes and technology.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -653,7 +1397,10 @@
       "page_type": "service",
       "service_id": "SVC-05",
       "family": "B",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_13",
+        "img_65"
+      ],
       "unassigned_visual_direction": "A customer profile and buying-decision map.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -675,7 +1422,9 @@
       "page_type": "service",
       "service_id": "SVC-07",
       "family": "B",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_26"
+      ],
       "unassigned_visual_direction": "A geographic comparison with explicitly illustrative locations.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -686,7 +1435,9 @@
       "page_type": "service",
       "service_id": "SVC-08",
       "family": "B",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_28"
+      ],
       "unassigned_visual_direction": "A trend and risk matrix with dated signals.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -697,7 +1448,10 @@
       "page_type": "service",
       "service_id": "SVC-09",
       "family": "C",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_14",
+        "img_56"
+      ],
       "unassigned_visual_direction": "A discovery journey connecting relevant search needs to website content.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -719,7 +1473,9 @@
       "page_type": "service",
       "service_id": "SVC-11",
       "family": "C",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_15"
+      ],
       "unassigned_visual_direction": "A content library preview organized around customer questions.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -730,7 +1486,10 @@
       "page_type": "service",
       "service_id": "SVC-12",
       "family": "C",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_16",
+        "img_27"
+      ],
       "unassigned_visual_direction": "A demand workflow from audience to qualified inquiry.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -741,7 +1500,9 @@
       "page_type": "service",
       "service_id": "SVC-13",
       "family": "C",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_17"
+      ],
       "unassigned_visual_direction": "A buying journey highlighting questions and friction points.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -752,7 +1513,9 @@
       "page_type": "service",
       "service_id": "SVC-14",
       "family": "C",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_25"
+      ],
       "unassigned_visual_direction": "An acquisition-cost breakdown with clearly illustrative values.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -763,7 +1526,9 @@
       "page_type": "service",
       "service_id": "SVC-15",
       "family": "C",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_29"
+      ],
       "unassigned_visual_direction": "An offer comparison showing differences in customer value.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -774,7 +1539,9 @@
       "page_type": "service",
       "service_id": "SVC-16",
       "family": "D",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_18"
+      ],
       "unassigned_visual_direction": "An onboarding timeline showing the path to first useful value.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -785,7 +1552,9 @@
       "page_type": "service",
       "service_id": "SVC-17",
       "family": "D",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_19"
+      ],
       "unassigned_visual_direction": "A customer lifecycle with appropriate follow-up points.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -797,7 +1566,8 @@
       "service_id": "SVC-18",
       "family": "D",
       "assigned_asset_ids": [
-        "img_14"
+        "img_14",
+        "img_21"
       ],
       "unassigned_visual_direction": null,
       "new_media_id_approval_required": false,
@@ -809,7 +1579,9 @@
       "page_type": "service",
       "service_id": "SVC-19",
       "family": "E",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_22"
+      ],
       "unassigned_visual_direction": "A readiness checklist connecting tasks, data and human oversight.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -820,7 +1592,9 @@
       "page_type": "service",
       "service_id": "SVC-20",
       "family": "E",
-      "assigned_asset_ids": [],
+      "assigned_asset_ids": [
+        "img_23"
+      ],
       "unassigned_visual_direction": "A review loop showing measures, tests, decisions and learning.",
       "new_media_id_approval_required": true,
       "publication_status": "not_verified"
@@ -862,8 +1636,8 @@
     "Do not publish work examples, staff likenesses, testimonials, certification icons or business results without verified consent and evidence."
   ],
   "file_locations": {
-    "images": "images/img/<id>.<ext>  (img_01 ... and hero_video). Any of .jpg .jpeg .png .webp (and upper-case) works.",
-    "video": "images/img/hero_video.<ext>  (.mp4 H.264 recommended; .webm or .mov also tried)",
+    "images": "images/img/<id>.<ext>. Photos may be .jpg .jpeg .png or .webp (any case); diagrams are the .svg files listed here.",
+    "video": "images/img/hero_video.<mp4|webm|mov> (MP4 H.264 recommended)",
     "team": "images/team/team.<ext>, images/team/dmitriy.<ext> (dimitry/dmitry also accepted), images/team/masud.<ext>"
   },
   "team_assets": [
