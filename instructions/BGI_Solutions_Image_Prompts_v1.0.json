@@ -1,6 +1,6 @@
 {
   "schema_id": "bgi-solutions-new-provisional-image-manifest-v1",
-  "version": "1.3",
+  "version": "1.4",
   "created_on": "2026-10-29",
   "project": "BGI Solution",
   "source_archive": "BGI Website Contents.zip",
@@ -36,8 +36,7 @@
     {
       "id": "img_01",
       "files": [
-        "img_01.png",
-        "img_01.webp"
+        "img_01.jpg"
       ],
       "placements": [
         {
@@ -53,12 +52,16 @@
       "negative_prompt": "No fake BGI branded shirts, no recognizable company logos, no fabricated testimonials or charts, no legible AI text, no oversaturated stock-photo posing, no distorted hands or computer interfaces, no invented US office identity.",
       "alt_text_proposal": "Illustrative business planning discussion around a website project.",
       "rights_review": "pending",
-      "owner_approval": "pending"
+      "owner_approval": "pending",
+      "originals": [
+        "originals/img_01.png",
+        "originals/img_01.webp"
+      ]
     },
     {
       "id": "img_02",
       "files": [
-        "img_02.png",
+        "img_02.jpg",
         "img_02.svg"
       ],
       "placements": [
@@ -86,7 +89,10 @@
       "negative_prompt": "No real client logos, no analytics results, no exact chart labels, no fake generated text, no clutter, no unrealistic device screens, no unlicensed third-party UI.",
       "alt_text_proposal": "Illustrative website planning and business research materials.",
       "rights_review": "pending",
-      "owner_approval": "pending"
+      "owner_approval": "pending",
+      "originals": [
+        "originals/img_02.png"
+      ]
     },
     {
       "id": "img_03",
@@ -109,7 +115,7 @@
     {
       "id": "img_04",
       "files": [
-        "img_04.png",
+        "img_04.jpg",
         "img_04.svg"
       ],
       "placements": [
@@ -136,7 +142,10 @@
       "negative_prompt": "No factual diagrams with AI-generated writing, no numeric business results, no charts implying measured improvements, no logos, no faces identified as employees, no fabricated diagnosis.",
       "alt_text_proposal": "Illustrative materials arranged for a business growth assessment.",
       "rights_review": "pending",
-      "owner_approval": "pending"
+      "owner_approval": "pending",
+      "originals": [
+        "originals/img_04.png"
+      ]
     },
     {
       "id": "img_05",
@@ -177,7 +186,7 @@
     {
       "id": "img_07",
       "files": [
-        "img_07.webp"
+        "img_07.jpg"
       ],
       "placements": [
         {
@@ -187,6 +196,9 @@
           "alt_text": "Website and brand materials laid out on a table for review.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_07.webp"
       ]
     },
     {
@@ -300,7 +312,7 @@
     {
       "id": "img_14",
       "files": [
-        "img_14.png",
+        "img_14.jpg",
         "img_14.svg"
       ],
       "placements": [
@@ -327,7 +339,10 @@
       "negative_prompt": "No fake customer logos or testimonials, no implied client results, no inaccurate legible UI text, no fabricated analytics, no brand impersonation, no deformed screens or hands.",
       "alt_text_proposal": "Illustrative laptop, phone and printed materials showing a proposed website production project.",
       "rights_review": "pending",
-      "owner_approval": "pending"
+      "owner_approval": "pending",
+      "originals": [
+        "originals/img_14.png"
+      ]
     },
     {
       "id": "img_15",
@@ -422,7 +437,7 @@
     {
       "id": "img_20",
       "files": [
-        "img_20.webp"
+        "img_20.jpg"
       ],
       "placements": [
         {
@@ -433,6 +448,9 @@
           "responsive_composition": "4:3 card image.",
           "card_title": "A service business website that explains the offer"
         }
+      ],
+      "originals": [
+        "originals/img_20.webp"
       ]
     },
     {
@@ -492,7 +510,7 @@
     {
       "id": "img_24",
       "files": [
-        "img_24.png"
+        "img_24.jpg"
       ],
       "placements": [
         {
@@ -503,12 +521,15 @@
           "responsive_composition": "4:3 card image.",
           "card_title": "An assessment of a growth problem"
         }
+      ],
+      "originals": [
+        "originals/img_24.png"
       ]
     },
     {
       "id": "img_25",
       "files": [
-        "img_25.png"
+        "img_25.jpg"
       ],
       "placements": [
         {
@@ -518,12 +539,15 @@
           "alt_text": "A customer acquisition plan being worked through at a laptop.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_25.png"
       ]
     },
     {
       "id": "img_26",
       "files": [
-        "img_26.png"
+        "img_26.jpg"
       ],
       "placements": [
         {
@@ -533,12 +557,15 @@
           "alt_text": "A geographic growth plan with service areas marked on a map.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_26.png"
       ]
     },
     {
       "id": "img_27",
       "files": [
-        "img_27.png"
+        "img_27.jpg"
       ],
       "placements": [
         {
@@ -548,12 +575,15 @@
           "alt_text": "Marketing materials and a lead-generation dashboard on a desk.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_27.png"
       ]
     },
     {
       "id": "img_28",
       "files": [
-        "img_28.png"
+        "img_28.jpg"
       ],
       "placements": [
         {
@@ -563,12 +593,15 @@
           "alt_text": "Notes on industry trends, emerging technology and business risks beside a laptop.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_28.png"
       ]
     },
     {
       "id": "img_29",
       "files": [
-        "img_29.png"
+        "img_29.jpg"
       ],
       "placements": [
         {
@@ -578,12 +611,15 @@
           "alt_text": "A service proposal being reviewed against a value and proof checklist.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_29.png"
       ]
     },
     {
       "id": "img_30",
       "files": [
-        "img_30.png"
+        "img_30.jpg"
       ],
       "placements": [
         {
@@ -594,12 +630,15 @@
           "responsive_composition": "4:3 card image.",
           "card_title": "A business assessment that helps organize decisions"
         }
+      ],
+      "originals": [
+        "originals/img_30.png"
       ]
     },
     {
       "id": "img_31",
       "files": [
-        "img_31.png"
+        "img_31.jpg"
       ],
       "placements": [
         {
@@ -609,12 +648,15 @@
           "alt_text": "Five icons representing the connected areas of BGI Solution services.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_31.png"
       ]
     },
     {
       "id": "img_32",
       "files": [
-        "img_32.png"
+        "img_32.jpg"
       ],
       "placements": [
         {
@@ -624,12 +666,15 @@
           "alt_text": "Five panels representing BGI Solution service areas, from research to AI.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_32.png"
       ]
     },
     {
       "id": "img_33",
       "files": [
-        "img_33.png"
+        "img_33.jpg"
       ],
       "placements": [
         {
@@ -640,12 +685,15 @@
           "responsive_composition": "4:3 card image.",
           "card_title": "A clearer service website"
         }
+      ],
+      "originals": [
+        "originals/img_33.png"
       ]
     },
     {
       "id": "img_34",
       "files": [
-        "img_34.png"
+        "img_34.jpg"
       ],
       "placements": [
         {
@@ -656,12 +704,15 @@
           "responsive_composition": "4:3 card image.",
           "card_title": "A sales presentation with a clearer story"
         }
+      ],
+      "originals": [
+        "originals/img_34.png"
       ]
     },
     {
       "id": "img_35",
       "files": [
-        "img_35.png"
+        "img_35.jpg"
       ],
       "placements": [
         {
@@ -672,332 +723,415 @@
           "responsive_composition": "4:3 card image.",
           "card_title": "When is an AI pilot worth exploring?"
         }
+      ],
+      "originals": [
+        "originals/img_35.png"
       ]
     },
     {
       "id": "img_36",
       "files": [
-        "img_36.png"
+        "img_36.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a roofing company.",
+          "alt_text": "Roofing sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Roofing company"
+          "caption": "Roofing",
+          "url": "https://navajowhite-chamois-723563.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_36.png"
       ]
     },
     {
       "id": "img_37",
       "files": [
-        "img_37.png"
+        "img_37.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a heating and cooling company.",
+          "alt_text": "HVAC sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Heating and cooling company"
+          "caption": "HVAC",
+          "url": "https://moccasin-pig-544695.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_37.png"
       ]
     },
     {
       "id": "img_38",
       "files": [
-        "img_38.png"
+        "img_38.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a plumbing company.",
+          "alt_text": "Plumbing sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Plumbing company"
+          "caption": "Plumbing",
+          "url": "https://moccasin-cattle-194220.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_38.png"
       ]
     },
     {
       "id": "img_39",
       "files": [
-        "img_39.png"
+        "img_39.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a home remodeling company.",
+          "alt_text": "General contracting and remodeling sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Home remodeling company"
+          "caption": "General contracting and remodeling",
+          "url": "https://lavender-pony-366671.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_39.png"
       ]
     },
     {
       "id": "img_40",
       "files": [
-        "img_40.png"
+        "img_40.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a electrical contractor.",
+          "alt_text": "Electrical sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Electrical contractor"
+          "caption": "Electrical",
+          "url": "https://darkgoldenrod-hamster-919147.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_40.png"
       ]
     },
     {
       "id": "img_41",
       "files": [
-        "img_41.png"
+        "img_41.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a paving and hardscaping company.",
+          "alt_text": "Concrete sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Paving and hardscaping company"
+          "caption": "Concrete",
+          "url": "https://midnightblue-yak-842710.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_41.png"
       ]
     },
     {
       "id": "img_42",
       "files": [
-        "img_42.png"
+        "img_42.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a landscaping company.",
+          "alt_text": "Landscaping sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Landscaping company"
+          "caption": "Landscaping",
+          "url": "https://yellow-grouse-104726.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_42.png"
       ]
     },
     {
       "id": "img_43",
       "files": [
-        "img_43.png"
+        "img_43.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a flooring company.",
+          "alt_text": "Flooring sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Flooring company"
+          "caption": "Flooring",
+          "url": "https://silver-mongoose-413670.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_43.png"
       ]
     },
     {
       "id": "img_44",
       "files": [
-        "img_44.png"
+        "img_44.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a painting company.",
+          "alt_text": "Painting sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Painting company"
+          "caption": "Painting",
+          "url": "https://lemonchiffon-ant-817783.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_44.png"
       ]
     },
     {
       "id": "img_45",
       "files": [
-        "img_45.png"
+        "img_45.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a tree care company.",
+          "alt_text": "Tree service sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Tree care company"
+          "caption": "Tree service",
+          "url": "https://whitesmoke-goshawk-804726.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_45.png"
       ]
     },
     {
       "id": "img_46",
       "files": [
-        "img_46.png"
+        "img_46.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a pest control company.",
+          "alt_text": "Pest control sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Pest control company"
+          "caption": "Pest control",
+          "url": "https://green-lark-175902.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_46.png"
       ]
     },
     {
       "id": "img_47",
       "files": [
-        "img_47.png"
+        "img_47.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a commercial cleaning company.",
+          "alt_text": "Cleaning sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Commercial cleaning company"
+          "caption": "Cleaning",
+          "url": "https://mediumpurple-mule-574186.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_47.png"
       ]
     },
     {
       "id": "img_48",
       "files": [
-        "img_48.png"
+        "img_48.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a moving company.",
+          "alt_text": "Moving sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Moving company"
+          "caption": "Moving",
+          "url": "https://lemonchiffon-chimpanzee-513642.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_48.png"
       ]
     },
     {
       "id": "img_49",
       "files": [
-        "img_49.png"
+        "img_49.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a auto repair shop.",
+          "alt_text": "Auto repair sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Auto repair shop"
+          "caption": "Auto repair",
+          "url": "https://mediumorchid-giraffe-876435.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_49.png"
       ]
     },
     {
       "id": "img_50",
       "files": [
-        "img_50.png"
+        "img_50.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a dental practice.",
+          "alt_text": "Dental sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Dental practice"
+          "caption": "Dental",
+          "url": "https://chocolate-snake-332121.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_50.png"
       ]
     },
     {
       "id": "img_51",
       "files": [
-        "img_51.png"
+        "img_51.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a med spa.",
+          "alt_text": "Med spa sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Med spa"
+          "caption": "Med spa",
+          "url": "https://lavender-anteater-534623.hostingersite.com/"
         }
+      ],
+      "originals": [
+        "originals/img_51.png"
       ]
     },
     {
       "id": "img_52",
       "files": [
-        "img_52.png"
+        "img_52.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a physical therapy clinic.",
+          "alt_text": "Chiropractic and physical therapy sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Physical therapy clinic"
+          "caption": "Chiropractic and physical therapy",
+          "url": "https://sienna-jaguar-345538.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_52.png"
       ]
     },
     {
       "id": "img_53",
       "files": [
-        "img_53.png"
+        "img_53.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a home care provider.",
+          "alt_text": "Senior home care sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Home care provider"
+          "caption": "Senior home care",
+          "url": "https://darkslategrey-dogfish-129430.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_53.png"
       ]
     },
     {
       "id": "img_54",
       "files": [
-        "img_54.png"
+        "img_54.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a law firm.",
+          "alt_text": "Legal services sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Law firm"
+          "caption": "Legal services",
+          "url": "https://powderblue-narwhal-124200.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_54.png"
       ]
     },
     {
       "id": "img_55",
       "files": [
-        "img_55.png"
+        "img_55.jpg"
       ],
       "placements": [
         {
           "kind": "website-sample",
           "route": "/work/",
           "position": "gallery",
-          "alt_text": "Sample homepage design for a catering company.",
+          "alt_text": "Catering and events sample website homepage.",
           "responsive_composition": "16:10 tile, cropped from the top.",
-          "caption": "Catering company"
+          "caption": "Catering and events",
+          "url": "https://salmon-viper-791332.hostingersite.com/index.html"
         }
+      ],
+      "originals": [
+        "originals/img_55.png"
       ]
     },
     {
       "id": "img_56",
       "files": [
-        "img_56.png"
+        "img_56.jpg"
       ],
       "placements": [
         {
@@ -1007,12 +1141,15 @@
           "alt_text": "A website concept presenting online visibility and growth services.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_56.png"
       ]
     },
     {
       "id": "img_57",
       "files": [
-        "img_57.png"
+        "img_57.jpg"
       ],
       "placements": [
         {
@@ -1022,12 +1159,15 @@
           "alt_text": "Strategy cards and a growth chart weighed side by side.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_57.png"
       ]
     },
     {
       "id": "img_58",
       "files": [
-        "img_58.png"
+        "img_58.jpg"
       ],
       "placements": [
         {
@@ -1037,12 +1177,15 @@
           "alt_text": "Two people discussing a project on a laptop.",
           "responsive_composition": "4:3 beside the introduction."
         }
+      ],
+      "originals": [
+        "originals/img_58.png"
       ]
     },
     {
       "id": "img_59",
       "files": [
-        "img_59.png"
+        "img_59.jpg"
       ],
       "placements": [
         {
@@ -1052,12 +1195,15 @@
           "alt_text": "Wooden blocks showing a step-by-step plan from research to results.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_59.png"
       ]
     },
     {
       "id": "img_60",
       "files": [
-        "img_60.png"
+        "img_60.jpg"
       ],
       "placements": [
         {
@@ -1067,12 +1213,15 @@
           "alt_text": "Planning tiles for research, goals, process, results and people.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_60.png"
       ]
     },
     {
       "id": "img_61",
       "files": [
-        "img_61.png"
+        "img_61.jpg"
       ],
       "placements": [
         {
@@ -1083,12 +1232,15 @@
           "responsive_composition": "4:3 card image.",
           "card_title": "What belongs in a useful website project brief"
         }
+      ],
+      "originals": [
+        "originals/img_61.png"
       ]
     },
     {
       "id": "img_62",
       "files": [
-        "img_62.png"
+        "img_62.jpg"
       ],
       "placements": [
         {
@@ -1098,12 +1250,15 @@
           "alt_text": "Review drafts, a checklist and a project handover binder on a desk.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_62.png"
       ]
     },
     {
       "id": "img_63",
       "files": [
-        "img_63.png"
+        "img_63.jpg"
       ],
       "placements": [
         {
@@ -1114,12 +1269,15 @@
           "responsive_composition": "4:3 card image.",
           "card_title": "Why interested visitors may not contact a business"
         }
+      ],
+      "originals": [
+        "originals/img_63.png"
       ]
     },
     {
       "id": "img_64",
       "files": [
-        "img_64.png"
+        "img_64.jpg"
       ],
       "placements": [
         {
@@ -1129,12 +1287,15 @@
           "alt_text": "An Insights page with practical business guides open on a laptop.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_64.png"
       ]
     },
     {
       "id": "img_65",
       "files": [
-        "img_65.png"
+        "img_65.jpg"
       ],
       "placements": [
         {
@@ -1144,6 +1305,9 @@
           "alt_text": "A small team discussing customer findings around a laptop.",
           "responsive_composition": "21:9 desktop band, 4:3 on phones; cropped from the centre."
         }
+      ],
+      "originals": [
+        "originals/img_65.png"
       ]
     }
   ],

@@ -1003,6 +1003,13 @@ a.chip:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
 .gallery__item .ph__label { left: 10px; bottom: 10px; padding: 8px 10px; font-size: .72rem; }
 .gallery__item .ph__slot { display: none; }
 .gallery__cap { display: flex; gap: 10px; align-items: baseline; padding: 12px 2px 0; font: 600 .95rem/1.3 var(--f-display); color: var(--ink); letter-spacing: -.01em; }
+.gallery__link { display: block; color: inherit; text-decoration: none; border-radius: var(--r); }
+.gallery__go { margin-left: auto; display: inline-flex; align-items: center; gap: 4px; font-size: .8rem; font-weight: 600; color: var(--ink-3); white-space: nowrap; transition: color .2s var(--ease); }
+.gallery__go .icon { width: 14px; height: 14px; transition: transform .3s var(--ease-out); }
+.gallery__link:hover .gallery__go, .gallery__link:focus-visible .gallery__go { color: var(--blue); }
+.gallery__link:hover .gallery__go .icon { transform: translateX(3px); }
+.gallery__link:hover .gallery__name { color: var(--blue); }
+.gallery__link:hover .ph__img { transform: scale(1.05); }
 .gallery__n { font: italic 400 1rem/1 var(--f-serif); color: var(--blue); }
 .section__title > .card__badge { margin-bottom: var(--s4); }
 
@@ -1131,7 +1138,8 @@ a.chip:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
   .leaders { grid-template-columns: minmax(0, 1fr); }
   .members { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .gallery__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .gallery__cap { font-size: .85rem; }
+  .gallery__cap { font-size: .85rem; flex-wrap: wrap; }
+  .gallery__go { margin-left: 0; width: 100%; }
   .diagram-fig figcaption { font-size: .95rem; }
   .leader__meta { flex-direction: column; gap: 6px; }
   .connect { padding: 32px 24px; }
