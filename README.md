@@ -1,6 +1,6 @@
 # BGI Solution website
 
-A static website built with plain HTML and CSS: 35 pages and no build step. JavaScript is limited to two small scripts: the header that turns solid when you scroll, and the Home video's pause button.
+A static website built with plain HTML and CSS: 35 pages and no build step. JavaScript is limited to three small scripts: the header that turns solid when you scroll, the Home video's pause button, and the contact form (it opens an email to hello@bgisolution.com).
 
 ## This branch: v4 (based on v3)
 
@@ -54,4 +54,5 @@ Team photos go in **`images/team/`**: `dmitriy.jpg` and `masud.jpg` for Leadersh
 - `assets/img/`: logos (SVG) and icons
 - `assets/js/nav.js`: makes the header transparent at the top and solid when scrolling
 - `assets/js/hero-video.js`: the Home video's pause button
+- `assets/js/contact.js`: makes the contact form open an email to hello@bgisolution.com
 - `instructions/`: the source content specification
